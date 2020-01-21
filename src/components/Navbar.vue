@@ -1,7 +1,7 @@
 <template>
   <header class="navigation fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand font-tertiary h3" href="home.html"><img src="assets/images/logo.png" alt="Team 13"></a>
+      <a class="navbar-brand font-tertiary h3" href="home.html"><img src="images/logo.png" alt="Team 13"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
               aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -10,10 +10,12 @@
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="home.html">HOME</a>
+<!--            <router-link :to="home" replace><a class="nav-link">HOME</a></router-link>-->
+            <router-link class="nav-link" to="/home" >HOME</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="requirements.html">REQUIREMENTS</a>
+            <router-link class="nav-link" to="/requirements" >REQUIREMENTS</router-link>
+<!--            <a class="nav-link">REQUIREMENTS</a>-->
           </li>
           <li class="nav-item">
             <a class="nav-link" href="research.html">RESEARCH</a>
