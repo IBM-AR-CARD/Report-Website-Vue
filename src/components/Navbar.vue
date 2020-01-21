@@ -10,30 +10,28 @@
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-<!--            <router-link :to="home" replace><a class="nav-link">HOME</a></router-link>-->
-            <router-link class="nav-link" to="/home" >HOME</router-link>
+            <router-link class="nav-link" to="/" >Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/requirements" >REQUIREMENTS</router-link>
-<!--            <a class="nav-link">REQUIREMENTS</a>-->
+            <router-link class="nav-link" to="/requirements" >Requirements</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="research.html">RESEARCH</a>
+            <router-link class="nav-link" to="/research" >Research</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="hci.html">HCI</a>
+            <router-link class="nav-link" to="/hci" >Hci</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="design.html">DESIGN</a>
+            <router-link class="nav-link" to="/design" >Design</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="achievement.html">ACHIEVEMENT</a>
+            <router-link class="nav-link" to="/achievement" >Achievement</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="plan.html">PLAN FOR TERM2</a>
+            <router-link class="nav-link" to="/plan" >Term 2 Plan</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="appendices.html">APPENDICES</a>
+            <router-link class="nav-link" to="/appendices" >Appendices</router-link>
           </li>
         </ul>
       </div>
