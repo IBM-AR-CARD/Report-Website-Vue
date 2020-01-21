@@ -1,5 +1,6 @@
 <template>
     <div>
+        <PageTitle title="Requirements"></PageTitle>
     <!-- project background-->
     <section class="section">
         <div class="container">
@@ -313,8 +314,12 @@
 </template>
 
 <script>
+    import PageTitle from '../components/PageTitle.vue'
     export default {
-        name: "requirements"
+        name: "requirements",
+        components: {
+            PageTitle
+        }
     }
 </script>
 

@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="text-white font-tertiary">Achievement</h1>
+                    <h1 class="text-white font-tertiary">{{title}}</h1>
                 </div>
             </div>
         </div>
@@ -14,7 +14,10 @@
 
 <script>
     export default {
-        name: "PageTitle"
+        name: "PageTitle",
+        props: {
+            title: String
+        }
     }
 </script>
 
