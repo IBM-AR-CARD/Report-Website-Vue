@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <NavBar msg="Welcome to Your Vue.js App"/>
+
   </div>
 </template>
 
