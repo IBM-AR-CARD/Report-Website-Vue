@@ -52,5 +52,9 @@ export default new Router({
             component: appendices,
             name:"appendices"
         },
+        {
+            path: "/index.html",
+            redirect: "/"
+        }
     ]
 })
