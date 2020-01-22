@@ -5,14 +5,26 @@
         <section class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
-                        <h3 class="section-title">Deploy manual</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-
-                            Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+                    <div class="col-lg-10 mx-auto">
+                        <h3 class="section-title">To start the demo...</h3>
+                        <p> 1. Download and install our application. You will have to enable internet and microphone permission for the application.
+                            <br>2. You can now use our application.
+                        </p>
                     </div>
+
+                    <div class="col-lg-10 mx-auto" style="padding-top: 50px;">
+                        <h3 class="section-title">Interface instruction</h3>
+                        <h4>Android application</h4>
+                        <p><br>
+                            Users can scan the QR code on the business card using our application. Once the application is opened, the camera is opened directly.<br><br>
+
+                            If the User slides right, the application presents the list of scan history and favorite cards. Users can search for keywords for the list of business cards.<br><br>
+
+                            If the user slide left, the application presents the setting page of the account. Users can change personal information directly.<br>
+
+                        </p>
+                    </div>
+
                 </div>
                 <!-- bg image -->
                 <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
