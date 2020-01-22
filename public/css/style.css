@@ -32,12 +32,13 @@ p,
   color: #4c4c4c;
   font-size: 17px;
   line-height: 1.8;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Barlow", sans-serif;
+/*"Barlow Condensed"*/
 }
 
 p-lg,
 .paragraph-lg {
-  font-size: 15px;
+  font-size: 22px;
 }
 
 h1,
@@ -292,7 +293,7 @@ a:hover {
 }
 
 .text-light {
-  color: #999999 !important;
+  color: #575757 !important;
 }
 
 .mb-10 {

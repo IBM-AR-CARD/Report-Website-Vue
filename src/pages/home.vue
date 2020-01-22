@@ -20,17 +20,17 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Abstract</h3>
-                    <p class="font-secondary paragraph-lg text-dark">For people who do business with different people,
+                    <p class="font-secondary paragraph-lg text-dark text-left">For people who do business with different people,
                         they receive many business cards everyday. However, it is not very easy to manage them,
                         find the desired card, and extract useful information. Also, the typical business card is not
-                        attractive and unique enough to get other people's attention.<br>Our project is an android and web application
+                        attractive and unique enough to get other people's attention.<br><br>Our project is an android and web application
                         service for people to view and share business cards using AI-powered interactive 3D AR avatar.
                         Users scan a QR code on the business card for triggering the AR avatar using Android app .
                         Then AR figure will announce itself using Watson Speech to Text and give a 10-second overview of
                         the owner of the card.After that, the user (the one who scans the QR code) can choose what details
                         they want to know about the owner of the card.Finally, the AR avatar will offer the user the option
                         of choosing the card as the favorite card. The user can find the list of favorite cards on the favorite
-                        page. Meanwhile, the user can see the scan history on the history page.<br>
+                        page. Meanwhile, the user can see the scan history on the history page.<br><br>
                         For website service, user can update their card details, design their own 3D AR avatar and view scan
                         history and list of favorite cards.
                     </p>

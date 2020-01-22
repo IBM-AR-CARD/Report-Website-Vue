@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-lg-10 mx-auto">
                         <h3 class="section-title">To start the demo...</h3>
-                        <p> 1. Download and install our application. You will have to enable internet and microphone permission for the application.
+                        <p> 1. Download and install our application. You will have to enable internet and microphone permission for the application.<br>
                             <br>2. You can now use our application.
                         </p>
                     </div>
