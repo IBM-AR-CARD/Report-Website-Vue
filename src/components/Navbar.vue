@@ -24,7 +24,7 @@
             <router-link class="nav-link" to="/hci" >Hci</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/design" >Design</router-link>
+            <router-link class="nav-link" to="/design" >Prototype</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/achievement" >Achievement</router-link>
