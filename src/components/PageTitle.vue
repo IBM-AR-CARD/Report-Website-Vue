@@ -22,5 +22,13 @@
 </script>
 
 <style scoped>
-
+    @media (max-width: 1372px){
+        .page-title{
+            padding: 170px 20px 50px;
+        }
+        .text-white{
+            font-size: 50px;
+            overflow: scroll;
+        }
+    }
 </style>
