@@ -9,10 +9,10 @@ VERSION:	Versoin Number
 -------------------------------------------------------------------*/
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:700&display=swap");
 @font-face {
-  font-family: 'BwNistaInt-xBd';
+  font-family: "BwNistaInt-xBd";
   src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
   font-style: normal;
   font-display: swap;
@@ -26,59 +26,74 @@ body {
   color: #4c4c4c;
 }
 
-p, .paragraph {
+p,
+.paragraph {
   font-weight: 400;
   color: #4c4c4c;
   font-size: 17px;
   line-height: 1.8;
-  font-family: 'Barlow Condensed', sans-serif;;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
-p-lg, .paragraph-lg {
+p-lg,
+.paragraph-lg {
   font-size: 15px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 60px;
 }
 
-@media (max-width: 991px) {
-  h1, .h1 {
+@media (max-width: 1372px) {
+  h1,
+  .h1 {
     font-size: 65px;
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 60px;
 }
 
-@media (max-width: 991px) {
-  h2, .h2 {
+@media (max-width: 1372px) {
+  h2,
+  .h2 {
     font-size: 50px;
   }
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 40px;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 22px;
   font-weight: 700;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 18px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 14px;
 }
 
@@ -93,7 +108,7 @@ h6, .h6 {
   border: 0;
   position: relative;
   z-index: 1;
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 
 .btn:focus {
@@ -128,7 +143,8 @@ h6, .h6 {
   background: #542cb7;
 }
 
-.btn-primary.focus, .btn-primary.active {
+.btn-primary.focus,
+.btn-primary.active {
   background: #542cb7 !important;
   box-shadow: none !important;
 }
@@ -139,7 +155,8 @@ h6, .h6 {
   font-weight: bold;
 }
 
-.btn-transparent:active, .btn-transparent:hover {
+.btn-transparent:active,
+.btn-transparent:hover {
   color: #41228e;
 }
 
@@ -193,7 +210,7 @@ a,
 button,
 select {
   cursor: pointer;
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 
 a:focus,
@@ -237,13 +254,13 @@ a:hover {
 
 .overlay::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
   background: #000;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .outline-0 {
@@ -331,7 +348,7 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: "Barlow Condensed", sans-serif !important;
 }
 
 .font-tertiary {
@@ -386,7 +403,7 @@ a:hover {
   color: transparent;
   border-radius: 10px;
   overflow: hidden;
-  transition: .2s ease;
+  transition: 0.2s ease;
   border: 0;
 }
 
@@ -426,7 +443,7 @@ textarea.form-control {
 /* /card */
 .navigation {
   padding: 40px 130px;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .navigation.nav-bg {
@@ -434,13 +451,13 @@ textarea.form-control {
   padding: 15px 100px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1372px) {
   .navigation.nav-bg {
     padding: 15px 20px;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1372px) {
   .navigation {
     padding: 20px;
     background: #41228e;
@@ -546,7 +563,8 @@ textarea.form-control {
   height: 100%;
 }
 
-.wave::before, .wave::after {
+.wave::before,
+.wave::after {
   content: "";
   position: absolute;
   width: 800px;
@@ -556,9 +574,9 @@ textarea.form-control {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 45%;
   -webkit-transform: translateX(-50%) rotate(0);
-          transform: translateX(-50%) rotate(0);
+  transform: translateX(-50%) rotate(0);
   -webkit-animation: rotate 6s linear infinite;
-          animation: rotate 6s linear infinite;
+  animation: rotate 6s linear infinite;
   z-index: 10;
 }
 
@@ -566,31 +584,31 @@ textarea.form-control {
   border-radius: 47%;
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-transform: translateX(-50%) rotate(0);
-          transform: translateX(-50%) rotate(0);
+  transform: translateX(-50%) rotate(0);
   -webkit-animation: rotate 10s linear -5s infinite;
-          animation: rotate 10s linear -5s infinite;
+  animation: rotate 10s linear -5s infinite;
   z-index: 20;
 }
 
 @-webkit-keyframes rotate {
   50% {
     -webkit-transform: translateX(-50%) rotate(180deg);
-            transform: translateX(-50%) rotate(180deg);
+    transform: translateX(-50%) rotate(180deg);
   }
   100% {
     -webkit-transform: translateX(-50%) rotate(360deg);
-            transform: translateX(-50%) rotate(360deg);
+    transform: translateX(-50%) rotate(360deg);
   }
 }
 
 @keyframes rotate {
   50% {
     -webkit-transform: translateX(-50%) rotate(180deg);
-            transform: translateX(-50%) rotate(180deg);
+    transform: translateX(-50%) rotate(180deg);
   }
   100% {
     -webkit-transform: translateX(-50%) rotate(360deg);
-            transform: translateX(-50%) rotate(360deg);
+    transform: translateX(-50%) rotate(360deg);
   }
 }
 
@@ -606,7 +624,7 @@ textarea.form-control {
 /* /education */
 /* service */
 .hover-bg-primary {
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .hover-bg-primary:hover {
@@ -618,7 +636,7 @@ textarea.form-control {
 }
 
 .active-bg-primary {
-  transition: .3s ease;
+  transition: 0.3s ease;
   background: #41228e;
 }
 
@@ -627,7 +645,7 @@ textarea.form-control {
 }
 
 .hover-shadow {
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 
 .hover-shadow:hover {
@@ -641,14 +659,14 @@ textarea.form-control {
 }
 
 .hover-wrapper img {
-  transition: .3s ease;
+  transition: 0.3s ease;
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .hover-wrapper:hover img {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .hover-wrapper:hover .hover-overlay {
@@ -666,14 +684,14 @@ textarea.form-control {
   background: rgba(0, 0, 0, 0.3);
   opacity: 0;
   visibility: hidden;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .hover-content {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   left: 0;
   right: 0;
   text-align: center;
@@ -696,7 +714,7 @@ textarea.form-control {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .testimonial-bg-shapes .bg-shape-1 {
@@ -760,7 +778,7 @@ textarea.form-control {
   align-items: center;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1372px) {
   .card-lg {
     flex-direction: column;
   }
@@ -800,7 +818,7 @@ blockquote {
   margin-top: -230px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1372px) {
   .drag-lg-top {
     margin-top: 0;
   }
@@ -828,7 +846,7 @@ blockquote {
   left: 30%;
   top: 50px;
   -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .page-title-alt .bg-shape-4 {
@@ -888,7 +906,7 @@ blockquote {
   left: 90px;
   bottom: -50px;
   -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .page-title .bg-shape-6 {

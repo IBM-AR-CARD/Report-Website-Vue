@@ -1,7 +1,9 @@
 <template>
   <header class="navigation fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand font-tertiary h3" href="home.html"><img src="images/logo.png" alt="Team 13"></a>
+      <a class="navbar-brand font-tertiary h3" href="home.html">
+        <img src="images/logo.png" style="max-height: 60px;" alt="Team 13">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
               aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
