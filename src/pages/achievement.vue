@@ -22,93 +22,93 @@
                             <th scope="row">1</th>
                             <td>Android application that can scan QR code on the business card and 'projects' an AR avatar onto a business card.</td>
                             <td>Must</td>
-                            <td>Completed</td>
-                            <td></td>
+                            <td>✅</td>
+                            <td>Henry, John</td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>Cloud service that enables generated cards and to have cards that can evolve as a person's CV does over time</td>
+                            <td>The AR avatar can announce itself using Watson Speech to Text and give a 10-second overview of the owner of the card.</td>
                             <td>Must</td>
-                            <td>Completed</td>
-                            <td></td>
+                            <td>✅</td>
+                            <td>John</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td>Web service that allows app users to update their card details add additional information such as avatar information and set schedules for the card details to change.</td>
-                            <td>Must</td>
-                            <td>Completed</td>
-                            <td></td>
+                            <td>Search feature in the history page and favorite page</td>
+                           <td>Must</td>
+                            <td>❌</td>
+                            <td>John, Jiayi</td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
-                            <td>The AR avatar can announce itself using Watson Speech to Text and give a 10-second overview of the owner of the card.</td>
+                            <td>User(the one who scan the QR code) can start a conversion with the user(the owner of the card) directly using android phone.</td>
                             <td>Must</td>
-                            <td>Completed</td>
-                            <td></td>
+                            <td>✅</td>
+                            <td>John</td>
                         </tr>
                         <tr>
                             <th scope="row">5</th>
-                            <td>The AR avatar can offer the user(the one who is viewing the AR) the option of a. Listening to a more detailed work history b.listening to interests and hobbies c.listening to a more detailed education history(this could be Donne using Watson Speech)</td>
+                            <td>The AR avatar can respond to different questions the user asks</td>
                             <td>Must</td>
-                            <td>Completed</td>
-                            <td></td>
+                            <td>✅</td>
+                            <td>Henry, John</td>
                         </tr>
                         <tr>
                             <th scope="row">6</th>
                             <td>The AR avatar can offer the user the option of setting the card as favorite.</td>
                             <td>Must</td>
-                            <td>Completed</td>
-                            <td></td>
+                            <td>❌</td>
+                            <td>Henry, John</td>
                         </tr>
                         <tr>
                             <th scope="row">7</th>
                             <td>The Android application and web can see the list of business cards that users set it as favorite.</td>
                             <td>Must</td>
-                            <td>Completed</td>
-                            <td></td>
+                            <td>❌</td>
+                            <td>Jiayi, John</td>
                         </tr>
                         <tr>
                             <th scope="row">8</th>
                             <td>The Android application and web can see the list of business cards that the user has already scanned</td>
                             <td>Should</td>
-                            <td>Completed</td>
-                            <td></td>
+                            <td>✅</td>
+                            <td>Henry, John</td>
                         </tr>
                         <tr>
                             <th scope="row">9</th>
-                            <td>Search feature in the history page and favorite page</td>
+                            <td>Web service that allows app users to update their card details add additional information such as avatar information and set schedules for the card details to change.</td>
                             <td>Should</td>
-                            <td>Completed</td>
-                            <td></td>
+                            <td>❌</td>
+                            <td>Henry, John</td>
                         </tr>
                         <tr>
                             <th scope="row">10</th>
-                            <td>User(the one who scan the QR code) can start a conversion with the user(the owner of the card) directly using android phone.</td>
+                            <td>Cloud service that enables generated cards and to have cards that can evolve as a person's CV does over time</td>
                             <td>Should</td>
-                            <td>Completed</td>
-                            <td></td>
+                            <td>❌</td>
+                            <td>Henry</td>
                         </tr>
                         <tr>
                             <th scope="row">11</th>
                             <td>User(the one who is viewing the AR) can see the personal information about the owner of card directly in the app and website.</td>
                             <td>Could</td>
-                            <td></td>
-                            <td></td>
+                            <td>❌</td>
+                            <td>Jiayi, John</td>
                         </tr>
                         <tr>
                             <th scope="row">12</th>
-                            <td>2.The 10-second overview of the owner of the card can be recorded by the user on the website. User can set which voice they want AR avatar use(Watson Speech to text or user’s voice)</td>
+                            <td>The 10-second overview of the owner of the card can be recorded by the user on the website. User can set which voice they want AR avatar use(Watson Speech to text or user’s voice)</td>
                             <td>Could</td>
-                            <td></td>
-                            <td></td>
+                            <td>❌</td>
+                            <td>Henry</td>
                         </tr>
                         <tr>
                             <th scope="row" colspan="2">Key functionalities</th>
-                            <td colspan="3">% completed</td>
+                            <td colspan="3">70% completed</td>
                         </tr>
                         <tr>
                             <th scope="row" colspan="2">Optional functionalities</th>
-                            <td colspan="3">% completed</td>
+                            <td colspan="3">60% completed</td>
                         </tr>
                         </tbody>
                     </table>
@@ -134,18 +134,28 @@
                         <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td></td>
-                            <td></td>
+                            <td>Screen will blink when change unity status</td>
+                            <td>Medium</td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td></td>
-                            <td></td>
+                            <td>Timeout function does not work as expect cause internet request loading forever</td>
+                            <td>High</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td></td>
-                            <td></td>
+                            <td>Speech recognizer crash for no reason</td>
+                            <td>Very High</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>When dialog pop to upper page it will pop multiple times</td>
+                            <td>Low</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Unity cannot run in background</td>
+                            <td>Medium</td>
                         </tr>
                         </tbody>
                     </table>
@@ -171,57 +181,63 @@
                         <tbody>
                         <tr>
                             <th scope="row">Project Partners liaison</th>
-                            <td>%</td>
-                            <td>%</td>
-                            <td>%</td>
+                            <td>50%</td>
+                            <td>25%</td>
+                            <td>25%</td>
                         </tr>
                         <tr>
                             <th scope="row">Requirement analysis</th>
-                            <td>%</td>
-                            <td>%</td>
-                            <td>%</td>
+                            <td>33%</td>
+                            <td>33%</td>
+                            <td>33%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">UI Design</th>
+                            <td>33%</td>
+                            <td>33%</td>
+                            <td>33%</td>
                         </tr>
                         <tr>
                             <th scope="row">Research and Experiments</th>
-                            <td>%</td>
-                            <td>%</td>
-                            <td>%</td>
+                            <td>33%</td>
+                            <td>33%</td>
+                            <td>33%</td>
                         </tr>
                         <tr>
-                            <th scope="row">Coding</th>
-                            <td>%</td>
-                            <td>%</td>
-                            <td>%</td>
+                            <th scope="row">Programming</th>
+                            <td>30%</td>
+                            <td>35%</td>
+                            <td>25%</td>
                         </tr>
                         <tr>
                             <th scope="row">Bi-weekly Reports</th>
-                            <td>%</td>
-                            <td>%</td>
-                            <td>%</td>
+                            <td>33%</td>
+                            <td>33%</td>
+                            <td>33%</td>
                         </tr>
                         <tr>
                             <th scope="row">Report Website</th>
-                            <td>%</td>
-                            <td>%</td>
-                            <td>%</td>
+                            <td>35%</td>
+                            <td>30%</td>
+                            <td>35%</td>
                         </tr>
                         <tr>
                             <th scope="row">Video Editing</th>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td>0%</td>
+                            <td>50%</td>
+                            <td>25%</td>
+                            <td>25%</td>
                         </tr>
                         <tr>
                             <th scope="row">Overall Contribution</th>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td>0%</td>
+                            <td>33%</td>
+                            <td>33%</td>
+                            <td>33%</td>
                         </tr>
                         <tr>
                             <th scope="row">Main Roles</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>Project Partner liaison, UI designer, researcher, programmer, report editor</td>
+                            <td>UI designer, researcher, programmer, report editor</td>
+                            <td>UI designer, researcher, report editor, tester</td>
                         </tr>
                         </tbody>
                     </table>
