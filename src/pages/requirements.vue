@@ -7,8 +7,10 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Project background</h3>
+                    <div class="text-left">
                     <p>Networking and attending social events are essential for the businessman, people are looking for jobs and HR. It is vital for them to order tons of business cards and receive a lot from others. Data from the internet shows most people are going to need at least 1000 business cards per year at a minimum. It is not very easy to manage them, find the desired card, and extract useful information. Also, when you need to update personal information on the card, the only solution is to throw all old business cards and order a new one. This is wasteful and troublesome because the new business card cannot finish printing simultaneously. Plus, the typical business card is not attractive and unique enough to get other people's attention.</p>
                     <p>To overcome these issues, our client requires an Android app with a service that runs on an Android phone system that 'projects' an AR avatar onto a business card. It should have an associated cloud service to enable generated cards and to have cards that can evolve as a person's CV does over time.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -21,8 +23,10 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Requirement gathering</h3>
+                    <div class="text-left">
                     <p>Except for the requirement about how to getting in touch with the owner of the card, other requirements from our client are full of detailed. Hence we only need to discover the feature helping the user to manage card they have already scanned and find the desired card easily. Hence we gathered requirements about that through short interviews with potential users of our applications. Finally, we decided to add a favorite page and a history page, and the user can search for keywords on each page.</p>
                     <p>For web service, we also add the same features. Based on that, we give the user the option of choosing their own AR image.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -51,8 +55,9 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Project goals</h3>
+                    <div class="text-left">
                     <p>Our goal its to develop an android app with the front-end app using flutter and the 3D AR interface using Unity. The app can scan the QR code and trigger an AR avatar. It has an associate cloud service that uses IBM Cloud to enable generated cards and to have cards that can evolve as a person's CV does over time(we decided to link the LinkedIn profile and our user account).The database we use in there is SQL. Meanwhile, there is a website that users can update their personal details shown on the business cards and choose their own AR avatar. It builds by Koa and NodeJS. Users can see the details of business cards they set as favorite, and they have already scanned by the android app.</p>
-
+                    </div>
                 </div>
             </div>
         </div>
