@@ -20,19 +20,11 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Abstract</h3>
-                    <p class="font-secondary paragraph-lg text-dark text-left">For people who do business with different people,
-                        they receive many business cards everyday. However, it is not very easy to manage them,
-                        find the desired card, and extract useful information. Also, the typical business card is not
-                        attractive and unique enough to get other people's attention.<br><br>Our project is an android and web application
-                        service for people to view and share business cards using AI-powered interactive 3D AR avatar.
-                        Users scan a QR code on the business card for triggering the AR avatar using Android app .
-                        Then AR figure will announce itself using Watson Speech to Text and give a 10-second overview of
-                        the owner of the card.After that, the user (the one who scans the QR code) can choose what details
-                        they want to know about the owner of the card.Finally, the AR avatar will offer the user the option
-                        of choosing the card as the favorite card. The user can find the list of favorite cards on the favorite
-                        page. Meanwhile, the user can see the scan history on the history page.<br><br>
-                        For website service, user can update their card details, design their own 3D AR avatar and view scan
-                        history and list of favorite cards.
+                    <p class="font-secondary paragraph-lg text-dark text-left">Business cards is very common and popular in all kinds of situations. People receive and send many business cards during events like networking. However, they are not easy to manage, people tends to lose the physical cards, and it is very limited for others to extract useful information about the owner. The typical business card is also not attractive and unique enough to get other people's attention.
+                        <br><br>
+                        Our project provides android and web application service for people to view and share business cards using AI-powered interactive 3D AR avatar. Users can simply scan a QR code on the physical business card to trigger the AR avatar using Android app, which will introduce itself using Watson Speech to Text and give a 10-second overview of the owner of the card. The user (the one who scans the QR code) can just speak using natural language to ask the avatar what details they want to know about the owner of the card, even creating interactive dialogs. User can store the card and avatar into their favourite card list for easy searching. The business card will also get stored in their history instantly when they scan the QR code.
+                        <br><br>
+                        User can make their own AR business card either in the app or in our web user dashboard. They can update their card details, design their own 3D AR avatar and easily view scan history and list of favourite cards everywhere without the app.
                     </p>
                 </div>
             </div>
@@ -82,8 +74,8 @@
                         <div class="mr-lg-5 mr-3">
                         </div>
                         <div>
-                            <h4>Watson Assitant and Watson Speech to Text</h4>
-                            <p class="mb-0 text-light">use Watson Speech to Text and offer the user the opton of listening to more detalied info (using Watson Assitant) </p>
+                            <h4>Watson Assistant and Watson Speech to Text</h4>
+                            <p class="mb-0 text-light">users can use natural language to ask the avatar anything they want to know about the card owner</p>
                         </div>
                     </div>
                 </div>
@@ -118,16 +110,16 @@
                         <div class="card-body text-center px-4 py-5">
                             <i class="ti-palette icon mb-5 d-inline-block"></i>
                             <h4 class="mb-4">John Zhang</h4>
-                            <p>Developer</p>
+                            <p>UI designer, Programmer</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4 mb-md-0">
-                    <div class="card active-bg-primary hover-shadow shadow">
+                    <div class="card hover-shadow shadow">
                         <div class="card-body text-center px-4 py-5">
                             <i class="ti-vector icon mb-5 d-inline-block"></i>
                             <h4 class="mb-4">Henry Zhang</h4>
-                            <p>Team Leader, Developer</p>
+                            <p>Team Leader, Programmer</p>
                         </div>
                     </div>
                 </div>
@@ -136,7 +128,7 @@
                         <div class="card-body text-center px-4 py-5">
                             <i class="ti-panel icon mb-5 d-inline-block"></i>
                             <h4 class="mb-4">Jiayi Chen</h4>
-                            <p>Developer</p>
+                            <p>UI designer, Researcher</p>
                         </div>
                     </div>
                 </div>
