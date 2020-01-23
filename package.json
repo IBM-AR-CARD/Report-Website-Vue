@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "buildDev": "vue-cli-service build --mode development",
-    "deploy": "git add dist -f && yarn build && git subtree push --prefix dist origin gh-pages"
+    "predeploy": "yarn build && git add dist -f && git add . && git commit -m 'Update build' && git push",
+    "deploy": "yarn predeploy && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "core-js": "^3.4.4",
