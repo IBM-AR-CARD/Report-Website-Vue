@@ -87,16 +87,16 @@
     <!-- /key features -->
 
     <!-- Intoduction video-->
-    <section class="section">
-        <div class="container">
-            <div class ="row">
-                <div class="col-lg-10 mx-auto text-center">
-                    <h3 class="section-title">Introduction video</h3>
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/r3GGV2TG_vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
+<!--    <section class="section">-->
+<!--        <div class="container">-->
+<!--            <div class ="row">-->
+<!--                <div class="col-lg-10 mx-auto text-center">-->
+<!--                    <h3 class="section-title">Introduction video</h3>-->
+<!--                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/r3GGV2TG_vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
     <!-- /Introduction video-->
     <!-- development team -->
     <section class="section">
