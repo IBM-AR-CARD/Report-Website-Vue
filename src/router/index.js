@@ -11,6 +11,17 @@ import appendices from '../pages/appendices'
 Vue.use(Router);
 
 export default new Router({
+    scrollBehavior (to, from, savedPosition) {
+        return new Promise((resolve) => {
+            setTimeout(() => {
+                if (savedPosition) {
+                    resolve(savedPosition)
+                } else {
+                    resolve({ x: 0, y: 0 })
+                }
+            }, 200)
+        })
+    },
     routes:[
         {
             path: "/",
