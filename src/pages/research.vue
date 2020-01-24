@@ -44,7 +44,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <h3 class="section-title">Research of technology</h3>
+            <h3 class="section-title">Related technologies</h3>
             <div class="text-left">
               <h4>AR capability</h4>
 
