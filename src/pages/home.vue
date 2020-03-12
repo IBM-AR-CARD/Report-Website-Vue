@@ -5,7 +5,7 @@
         <div class="row align-items-center h-100">
           <div class="col-lg-7 col-md-10 col-sm-12">
             <h1 class="hero-section-title wow fadeInUp" data-wow-delay="0.2s">
-              Take your company forward with Appinocks
+              IBM Augmented Reality Business Card Service
             </h1>
             <p class="hero-section-subtitle wow fadeInUp" data-wow-delay="0.3s">
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -15,7 +15,7 @@
           </div>
           <!--// .col //-->
           <div class="col-lg-5 hero-image text-right wow fadeInRight">
-            <img src="img/bg/hero_image.png" alt="Hero image" class="img-fluid img-jump">
+            <img src="images/design/functionality.gif" alt="Hero image" class="img-fluid img-jump">
           </div>
           <!--// .col //-->
         </div>
@@ -45,12 +45,7 @@
           </div>
         </div>
       </div>
-      <!-- bg image -->
-      <img
-        class="img-fluid edu-bg-image w-100"
-        src="images/backgrounds/education-bg.png"
-        alt="bg-image"
-      />
+
     </section>
     <!-- /abstract -->
 
@@ -105,6 +100,12 @@
           </div>
         </div>
       </div>
+      <!-- bg image -->
+      <img
+              class="img-fluid edu-bg-image w-100"
+              src="images/backgrounds/education-bg.png"
+              alt="bg-image"
+      />
     </section>
     <!-- /key features -->
 
