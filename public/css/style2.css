@@ -44,16 +44,16 @@
 /* ---------------------------------------------------------------- */
 /* 01.Base                               
 /* ---------------------------------------------------------------- */
-body {
-	font-size: 16px;
-	font-family: "Roboto", sans-serif;
-	font-weight: 400;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	position: relative;
-	box-sizing: border-box;
-	color: #636b72;
-}
+/*body {*/
+/*	font-size: 16px;*/
+/*	font-family: "Roboto", sans-serif;*/
+/*	font-weight: 400;*/
+/*	overflow-x: hidden;*/
+/*	overflow-y: scroll;*/
+/*	position: relative;*/
+/*	box-sizing: border-box;*/
+/*	color: #636b72;*/
+/*}*/
 ul,
 ol {
 	padding: 0;
@@ -113,37 +113,37 @@ section {
 /* ---------------------------------------------------------------- */
 /* 02.Typography                              
 /* ---------------------------------------------------------------- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: 'Poppins', sans-serif;
-	text-transform: capitalize;
-	font-weight: 600;
-	line-height: 1.5;
-	color: #000;
-	margin: 0;
-}
-h1 {
-	font-size: 3rem;
-}
-h2 {
-	font-size: 2.25rem;
-}
-h3 {
-	font-size: 2rem;
-}
-h4 {
-	font-size: 1.625rem;
-}
-h5 {
-	font-size: 1.375rem;
-}
-h6 {
-	font-size: 1.125rem;
-}
+/*h1,*/
+/*h2,*/
+/*h3,*/
+/*h4,*/
+/*h5,*/
+/*h6 {*/
+/*	font-family: 'Poppins', sans-serif;*/
+/*	text-transform: capitalize;*/
+/*	font-weight: 600;*/
+/*	line-height: 1.5;*/
+/*	color: #000;*/
+/*	margin: 0;*/
+/*}*/
+/*h1 {*/
+/*	font-size: 3rem;*/
+/*}*/
+/*h2 {*/
+/*	font-size: 2.25rem;*/
+/*}*/
+/*h3 {*/
+/*	font-size: 2rem;*/
+/*}*/
+/*h4 {*/
+/*	font-size: 1.625rem;*/
+/*}*/
+/*h5 {*/
+/*	font-size: 1.375rem;*/
+/*}*/
+/*h6 {*/
+/*	font-size: 1.125rem;*/
+/*}*/
 p {
 	margin: 0;
 	line-height: 28px;
@@ -160,36 +160,36 @@ p {
 	text-align: center;
 	margin-bottom: 60px;
 }
-.section-title {
-	text-align: center;
-	position: relative;
-	padding: 0 0 15px;
-	margin-bottom: 15px;
-	font-weight: 600;
-}
-.section-title span {
-	margin-right: 10px;
-	margin-left: 10px;
-	color: #0033CC;
-}
-.section-title::after,
-.section-title::before {
-	position: absolute;
-	content: "";
-	left: 50%;
-	height: 2px;
-	background: #0033CC;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
-}
-.section-title::after {
-	bottom: -5px;
-	width: 30px;
-}
-.section-title::before {
-	bottom: 0;
-	width: 60px;
-}
+/*.section-title {*/
+/*	text-align: center;*/
+/*	position: relative;*/
+/*	padding: 0 0 15px;*/
+/*	margin-bottom: 15px;*/
+/*	font-weight: 600;*/
+/*}*/
+/*.section-title span {*/
+/*	margin-right: 10px;*/
+/*	margin-left: 10px;*/
+/*	color: #0033CC;*/
+/*}*/
+/*.section-title::after,*/
+/*.section-title::before {*/
+/*	position: absolute;*/
+/*	content: "";*/
+/*	left: 50%;*/
+/*	height: 2px;*/
+/*	background: #0033CC;*/
+/*	-webkit-transform: translateX(-50%);*/
+/*	transform: translateX(-50%);*/
+/*}*/
+/*.section-title::after {*/
+/*	bottom: -5px;*/
+/*	width: 30px;*/
+/*}*/
+/*.section-title::before {*/
+/*	bottom: 0;*/
+/*	width: 60px;*/
+/*}*/
 .section-sub-title {
 	text-align: center;
 	font-size: 1.125rem;
@@ -397,7 +397,7 @@ p {
 	-webkit-animation: spinnerLoad 1.2s infinite ease-in-out;
 	animation: spinnerLoad 1.2s infinite ease-in-out;
 }
-	 
+
 /* Transition All Classes */
 .header,
 .scroll-top-btn,
@@ -431,7 +431,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 04.Animaton                                  
+/* 04.Animaton
 /* ---------------------------------------------------------------- */
 @-webkit-keyframes buttonEffectRight {
 	0% {
@@ -591,7 +591,7 @@ p {
 	}
 	50%{
 		opacity: 1;
-	}	
+	}
 	100% {
 		opacity: 0;
 		-webkit-transform: scale(1);
@@ -610,7 +610,7 @@ p {
 	}
 	50%{
 		opacity: 1;
-	}	
+	}
 	100% {
 		opacity: 0;
 		-webkit-transform: scale(1);
@@ -660,7 +660,7 @@ p {
 	60% {
 	    top: -6px;
 	}
-}	 
+}
 @keyframes spinnerLoad {
 	1% {
 		top: -15px;
@@ -704,22 +704,22 @@ p {
 	}
 }
 @-webkit-keyframes spinnerDelay {
-	0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+	0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
 	20% { -webkit-transform: scaleY(1.0) }
-} 
+}
 @keyframes spinnerDelay {
-	0%, 40%, 100% { 
+	0%, 40%, 100% {
 		transform: scaleY(0.4);
 		-webkit-transform: scaleY(0.4);
-	}  
-	20% { 
+	}
+	20% {
 		transform: scaleY(1.0);
 		-webkit-transform: scaleY(1.0);
 	}
 }
 
 /* ---------------------------------------------------------------- */
-/* 05.Header                                   
+/* 05.Header
 /* ---------------------------------------------------------------- */
 .header {
 	position: fixed;
@@ -887,7 +887,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 06.Hero Section                                  
+/* 06.Hero Section
 /* ---------------------------------------------------------------- */
 .hero-section {
 	position: relative;
@@ -979,7 +979,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 07.Services    
+/* 07.Services
 /* ---------------------------------------------------------------- */
 .services-item {
 	padding: 30px;
@@ -1051,7 +1051,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 08.About     
+/* 08.About
 /* ---------------------------------------------------------------- */
 .about {
 	background: #f0f3fc;
@@ -1100,7 +1100,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 09.Features                                  
+/* 09.Features
 /* ---------------------------------------------------------------- */
 .features-list{
 	display: inline-block;
@@ -1192,10 +1192,10 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 10.How it Works                            
+/* 10.How it Works
 /* ---------------------------------------------------------------- */
 .how-it-works-section {
-	position: relative;	
+	position: relative;
 }
 .how-it-works-bg {
 	top: 0;
@@ -1336,7 +1336,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 11.Screenshots                              
+/* 11.Screenshots
 /* ---------------------------------------------------------------- */
 .screenshots-slider {
 	position: relative;
@@ -1398,7 +1398,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 12.Pricing                              
+/* 12.Pricing
 /* ---------------------------------------------------------------- */
 .price-toggle-wrap {
 	text-align: center;
@@ -1543,7 +1543,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 13.Testimonial Section       
+/* 13.Testimonial Section
 /* ---------------------------------------------------------------- */
 .testimonial-section {
 	position: relative;
@@ -1651,7 +1651,7 @@ p {
     height: 8px;
     border-radius: inherit;
     border-color: #fff;
-    background-size: cover;	
+    background-size: cover;
     background: #fff;
     opacity: 0.5;
     margin-right: 0;
@@ -1664,7 +1664,7 @@ p {
 }
 
 /* Testimonial Counters */
-.counters {	
+.counters {
 	padding-top: 100px;
 }
 .counter-icon {
@@ -1735,7 +1735,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 14.Our Team                              
+/* 14.Our Team
 /* ---------------------------------------------------------------- */
 .team-card {
     position: relative;
@@ -1840,7 +1840,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 15.Download Section                             
+/* 15.Download Section
 /* ---------------------------------------------------------------- */
 .download-wrap {
 	position: relative;
@@ -1987,7 +1987,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 16.Latest Blog Section       
+/* 16.Latest Blog Section
 /* ---------------------------------------------------------------- */
 .latest-blog-item {
 	border-radius:10px;
@@ -2117,7 +2117,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 17.Newsletter      
+/* 17.Newsletter
 /* ---------------------------------------------------------------- */
 .newsletter {
 	position: relative;
@@ -2171,7 +2171,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 18.FAQ      
+/* 18.FAQ
 /* ---------------------------------------------------------------- */
 .faq {
 	overflow: visible;
@@ -2305,7 +2305,7 @@ p {
 }
 
 /* ---------------------------------------------------------------- */
-/* 19.Contact Us       
+/* 19.Contact Us
 /* ---------------------------------------------------------------- */
 .form-control {
 	margin-bottom: 30px;
@@ -2352,7 +2352,7 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------------------------- */
-/* 20.Footer                              
+/* 20.Footer
 /* ---------------------------------------------------------------- */
 .footer {
 	background: rgb(0, 14, 56);
@@ -2469,7 +2469,7 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------------------------- */
-/* 21.Breadcrumb                              
+/* 21.Breadcrumb
 /* ---------------------------------------------------------------- */
 .breadcrumb-section {
 	padding: 150px 0;
@@ -2505,7 +2505,7 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------------------------- */
-/* 22.Blog Page                              
+/* 22.Blog Page
 /* ---------------------------------------------------------------- */
 .blog-page-item {
 	margin-bottom: 30px;
@@ -2793,7 +2793,7 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------------------------- */
-/* 23.Home Page Signup                                 
+/* 23.Home Page Signup
 /* ---------------------------------------------------------------- */
 .signup-title {
 	color: #fff;
@@ -2914,7 +2914,7 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------------------------- */
-/* 24.Home Page Parallax Background                                 
+/* 24.Home Page Parallax Background
 /* ---------------------------------------------------------------- */
 .bg-jarallax-overlay {
 	position: relative;
@@ -2935,7 +2935,7 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------------------------- */
-/* 25.Home Page Slider                                 
+/* 25.Home Page Slider
 /* ---------------------------------------------------------------- */
 .hero-slider-wrap {
 	background: initial;
@@ -2954,7 +2954,7 @@ textarea.form-control {
 
 
 /* ---------------------------------------------------------------- */
-/* 26.Intro                              
+/* 26.Intro
 /* ---------------------------------------------------------------- */
 .intro-hero-title span {
 	text-transform: uppercase;
