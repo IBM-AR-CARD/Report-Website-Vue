@@ -1,20 +1,33 @@
 <template>
   <div>
-    <!-- title area -->
-    <section class="hero-area bg-primary" id="parallax">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-11 mx-auto">
-            <h1 class="text-white font-tertiary">
-              ARGUMENTED REALITY
-              <br />BUSINESS CARD SERVICE
+    <section class="hero-section" data-scroll-index="0">
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+          <div class="col-lg-7 col-md-10 col-sm-12">
+            <h1 class="hero-section-title wow fadeInUp" data-wow-delay="0.2s">
+              Take your company forward with Appinocks
             </h1>
-            <h4 class="text-white font-tertiary">TEAM 13</h4>>
+            <p class="hero-section-subtitle wow fadeInUp" data-wow-delay="0.3s">
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            </p>
+            <a href="#" class="default-outline-btn wow fadeInUp" data-wow-delay="0.4s" id="downloadBtn">Get Started<i class="fa fa-angle-right ml-2"></i></a>
+            <a href="https://www.youtube.com/watch?v=yTHTo28hwTQ" class="default-video-btn popup-youtube wow fadeInUp" data-wow-delay="0.5s"><i class="fa fa-play"></i></a>
           </div>
+          <!--// .col //-->
+          <div class="col-lg-5 hero-image text-right wow fadeInRight">
+            <img src="img/bg/hero_image.png" alt="Hero image" class="img-fluid img-jump">
+          </div>
+          <!--// .col //-->
         </div>
+        <!--// .row //-->
       </div>
+      <!--// .container //-->
+      <a href="#" data-scroll-nav="1" class="down-scroll">
+        <i class="fa fa-arrow-down"></i>
+      </a>
+      <!--// .down-scroll //-->
     </section>
-    <!-- /title area -->
+    <!--// Hero Section End  //-->
 
     <!-- abstract -->
     <section class="section">
