@@ -449,43 +449,43 @@ textarea.form-control {
   border: 0;
 }
 
-/* /card */
-.navigation {
-  padding: 40px 130px;
-  transition: 0.3s ease;
-}
+/*!* /card *!*/
+/*.navigation {*/
+/*  padding: 40px 130px;*/
+/*  transition: 0.3s ease;*/
+/*}*/
 
-.navigation.nav-bg {
-  background-color: #0033CC;
-  padding: 15px 100px;
-}
+/*.navigation.nav-bg {*/
+/*  background-color: #0033CC;*/
+/*  padding: 15px 100px;*/
+/*}*/
 
-@media (max-width: 1372px) {
-  .navigation.nav-bg {
-    padding: 15px 20px;
-  }
-}
+/*@media (max-width: 1372px) {*/
+/*  .navigation.nav-bg {*/
+/*    padding: 15px 20px;*/
+/*  }*/
+/*}*/
 
-@media (max-width: 1372px) {
-  .navigation {
-    padding: 20px;
-    background: #0033CC;
-  }
-}
+/*@media (max-width: 1372px) {*/
+/*  .navigation {*/
+/*    padding: 20px;*/
+/*    background: #0033CC;*/
+/*  }*/
+/*}*/
 
 .navbar .nav-item .nav-link {
   font-family: "BwNistaInt-xBd";
   text-transform: uppercase;
-  padding: 15px;
+  /*padding: 15px;*/
 }
 
 .navbar .nav-item.active {
   font-weight: bold;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-}
+/*.navbar-dark .navbar-nav .nav-link {*/
+/*  color: #fff;*/
+/*}*/
 
 .hero-area {
   padding: 300px 0 200px;
