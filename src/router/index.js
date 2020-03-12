@@ -12,6 +12,7 @@ Vue.use(Router);
 
 export default new Router({
     scrollBehavior (to, from, savedPosition) {
+        document.querySelector(".navbar-toggler").setAttribute("aria-expanded", "false");
         return new Promise((resolve) => {
             setTimeout(() => {
                 if (savedPosition) {
