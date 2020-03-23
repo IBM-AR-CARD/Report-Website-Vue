@@ -8,7 +8,8 @@
               IBM Augmented Reality Business Card Service
             </h1>
             <p class="hero-section-subtitle wow fadeInUp" data-wow-delay="0.3s">
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              Team 13 – UCL Computer Science<br>
+              Henry Zhang · Zhiwei Zhang · Jiayi Chen
             </p>
             <a href="#" class="default-outline-btn wow fadeInUp" data-wow-delay="0.4s" id="downloadBtn">Get Started<i class="fa fa-angle-right ml-2"></i></a>
             <a href="https://www.youtube.com/watch?v=yTHTo28hwTQ" class="default-video-btn popup-youtube wow fadeInUp" data-wow-delay="0.5s"><i class="fa fa-play"></i></a>
@@ -28,6 +29,72 @@
       <!--// .down-scroll //-->
     </section>
     <!--// Hero Section End  //-->
+
+    <!--// Services Section Start //-->
+    <section class="services section-padding" data-scroll-index="1" id="services-area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="section-heading">
+              <h2 class="section-title">Best <span>Services</span></h2>
+              <p class="section-sub-title">
+                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+              </p>
+            </div>
+          </div>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.1s">
+            <div class="services-item item-shadow">
+              <div class="services-icon services-blue-icon">
+                <span class="mdi mdi-responsive"></span>
+              </div>
+              <div class="services-body">
+                <h5>Full Responsive</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
+            <div class="services-item item-shadow">
+              <div class="services-icon">
+                <span class="mdi mdi-tune"></span>
+              </div>
+              <div class="services-body">
+                <h5>Easy Customize</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
+            <div class="services-item item-shadow">
+              <div class="services-icon">
+                <span class="mdi mdi-server-security"></span>
+              </div>
+              <div class="services-body">
+                <h5>Extreme Security</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+      </div>
+      <!--// .container //-->
+    </section>
+    <!--// Services Section End //-->
+
 
     <!-- abstract -->
     <section class="section">
