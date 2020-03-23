@@ -1,6 +1,7 @@
 <template>
     <div>
-    <div class="screen_frame">
+    <div style="position: relative;">
+        <img src="../../public/images/phone_frame.png" class="screen_frame">
         <img :src="imgSrc"  alt="image" class="screen_content">
     </div>
     </div>
@@ -17,18 +18,12 @@
 </script>
 
 <style scoped>
-    .screen_frame{
-        position: relative;
-        background: url("../../public/images/phone_frame.png") no-repeat center center;
-        background-size: contain;
-    }
-
     .screen_content{
-        /*position: absolute;*/
+        position: absolute;
         box-sizing: border-box;
-        margin: 60px 0;
-        margin-left: 2%;
-        width: 90%;
-        height: 20%;
+        top: 66px;
+        transform: translateX(-327px);
+        height: auto;
+        max-width:312px;
     }
 </style>
