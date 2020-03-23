@@ -4,6 +4,7 @@
       <div class="container h-100">
         <div class="row align-items-center h-100">
           <div class="col-lg-7 col-md-10 col-sm-12">
+            <img src="images/logos.png" alt="logo image" style="max-width: 300px;padding-bottom: 20px">
             <h1 class="hero-section-title wow fadeInUp" data-wow-delay="0.2s">
               IBM Augmented Reality Business Card Service
             </h1>
@@ -11,12 +12,12 @@
               Team 13 – UCL Computer Science<br>
               Henry Zhang · Zhiwei Zhang · Jiayi Chen
             </p>
-            <a href="#" class="default-outline-btn wow fadeInUp" data-wow-delay="0.4s" id="downloadBtn">Get Started<i class="fa fa-angle-right ml-2"></i></a>
+            <a href="#" class="default-outline-btn wow fadeInUp" data-wow-delay="0.4s" id="downloadBtn">Start Exploring<i class="fa fa-angle-right ml-2"></i></a>
             <a href="https://www.youtube.com/watch?v=yTHTo28hwTQ" class="default-video-btn popup-youtube wow fadeInUp" data-wow-delay="0.5s"><i class="fa fa-play"></i></a>
           </div>
           <!--// .col //-->
           <div class="col-lg-5 hero-image text-right wow fadeInRight">
-            <img src="images/design/functionality.gif" alt="Hero image" class="img-fluid img-jump">
+            <PhoneFrame imgSrc="images/design/functionality.gif" class="img-fluid img-jump"></PhoneFrame>
           </div>
           <!--// .col //-->
         </div>
@@ -230,9 +231,13 @@
 </template>
 
 <script>
-export default {
-  name: "home"
-};
+  import PhoneFrame from '../components/PhoneFrame.vue'
+  export default {
+    name: "home",
+    components: {
+      PhoneFrame
+    }
+  };
 </script>
 
 <style scoped>
