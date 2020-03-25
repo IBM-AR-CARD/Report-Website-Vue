@@ -31,6 +31,75 @@
     </section>
     <!--// Hero Section End  //-->
 
+
+    <!--//  The problem Section Start //-->
+    <section class="services section-padding" data-scroll-index="1" id="services-area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="section-heading">
+              <h2 class="section-title">The <span>Problem</span></h2>
+              <p class="section-sub-title">
+                Business cards are very common during meeting and networking events, it is a quick and easy way for people to exchange their information and contacts. However, people gradually found many problems with the physical cards...
+              </p>
+            </div>
+          </div>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.1s">
+            <div class="services-item item-shadow">
+              <div class="services-icon services-blue-icon">
+                <span class="mdi mdi-alert-circle"></span>
+              </div>
+              <div class="services-body">
+                <h5>Hard to Organize</h5>
+                <p>
+                  People found the physical cards are hard to manage and store, they tend to lose, break or forgot them, and it is very hard to find for a specific card.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
+            <div class="services-item item-shadow">
+              <div class="services-icon">
+                <span class="mdi mdi-alert-circle"></span>
+              </div>
+              <div class="services-body">
+                <h5>Old and Outdated</h5>
+                <p>
+                  Compared to today’s internet-enabled services like LinkedIn, physical business cards are no longer the first choice for businesses.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
+            <div class="services-item item-shadow">
+              <div class="services-icon">
+                <span class="mdi mdi-alert-circle"></span>
+              </div>
+              <div class="services-body">
+                <h5>Limited</h5>
+                <p>
+                  With the small card and traditional designs, it is really hard for those who would like to use a business card to make themselves stand out.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+      </div>
+      <!--// .container //-->
+    </section>
+    <!--// The problem Section End //-->
+
+
+
+
     <section>
       <div class="container">
       <div class="features-row features-row-mt">
@@ -193,70 +262,7 @@
     <!-- /development team -->
 
 
-    <!--// Services Section Start //-->
-    <section class="services section-padding" data-scroll-index="1" id="services-area">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div class="section-heading">
-              <h2 class="section-title">Best <span>Services</span></h2>
-              <p class="section-sub-title">
-                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-              </p>
-            </div>
-          </div>
-          <!--// .col //-->
-        </div>
-        <!--// .row //-->
-        <div class="row align-items-center justify-content-center">
-          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.1s">
-            <div class="services-item item-shadow">
-              <div class="services-icon services-blue-icon">
-                <span class="mdi mdi-responsive"></span>
-              </div>
-              <div class="services-body">
-                <h5>Full Responsive</h5>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--// .col //-->
-          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
-            <div class="services-item item-shadow">
-              <div class="services-icon">
-                <span class="mdi mdi-tune"></span>
-              </div>
-              <div class="services-body">
-                <h5>Easy Customize</h5>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--// .col //-->
-          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
-            <div class="services-item item-shadow">
-              <div class="services-icon">
-                <span class="mdi mdi-server-security"></span>
-              </div>
-              <div class="services-body">
-                <h5>Extreme Security</h5>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--// .col //-->
-        </div>
-        <!--// .row //-->
-      </div>
-      <!--// .container //-->
-    </section>
-    <!--// Services Section End //-->
+
 
   </div>
 </template>
