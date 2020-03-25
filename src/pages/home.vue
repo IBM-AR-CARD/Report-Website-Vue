@@ -165,7 +165,7 @@
                 <li class="d-flex align-items-center">
                   <i class="mdi mdi-face-agent"></i>
                   <div class="features-box">
-                    <h6>Automatic Contact Opener</h6>
+                    <h6>Automatic Contact Switcher</h6>
                     <span>Want to contact the card owner? That's what business cards are used for. Simply ask for email or phone number, the app will automatically open for you!</span>
                   </div>
                 </li>
@@ -234,116 +234,152 @@
       </div>
     </section>
 
-    <!-- key features -->
-    <section class="section position-relative">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h3 class="section-title">Key features</h3>
-          </div>
-          <div class="col-lg-6 col-md-6 mb-80">
-            <div class="d-flex">
-              <div class="mr-lg-5 mr-3"></div>
-              <div>
-                <h4>AR avatar</h4>
-                <p
-                  class="mb-0 text-light"
-                >view and share business cards using AI-powered interactive 3D AR avatar</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 mb-80">
-            <div class="d-flex">
-              <div class="mr-lg-5 mr-3"></div>
-              <div>
-                <h4>History and favorite</h4>
-                <p class="mb-0 text-light">can view scan history and list of favorite cards</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 mb-80">
-            <div class="d-flex">
-              <div class="mr-lg-5 mr-3"></div>
-              <div>
-                <h4>Update details</h4>
-                <p
-                  class="mb-0 text-light"
-                >can update personal details directly using app and website</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 mb-80">
-            <div class="d-flex">
-              <div class="mr-lg-5 mr-3"></div>
-              <div>
-                <h4>Watson Assistant and Watson Speech to Text</h4>
-                <p
-                  class="mb-0 text-light"
-                >users can use natural language to ask the avatar anything they want to know about the card owner</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- bg image -->
-      <img
-              class="img-fluid edu-bg-image w-100"
-              src="images/backgrounds/education-bg.png"
-              alt="bg-image"
-      />
-    </section>
-    <!-- /key features -->
 
-    <!-- Intoduction video-->
-    <!--    <section class="section">-->
-    <!--        <div class="container">-->
-    <!--            <div class ="row">-->
-    <!--                <div class="col-lg-10 mx-auto text-center">-->
-    <!--                    <h3 class="section-title">Introduction video</h3>-->
-    <!--                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/r3GGV2TG_vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </section>-->
-    <!-- /Introduction video-->
-    <!-- development team -->
-    <section class="section">
+    <!--// video Section Start //-->
+    <section id="how-it-works" class="how-it-works-section jarallax bg-gradient-green section-padding" data-jarallax data-speed="0.3s" style="margin-top: 60px;background: #0033CC;">
+      <div class="jarallax-img how-it-works-bg"></div>
       <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h3 class="section-title">Development team</h3>
-          </div>
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card hover-shadow shadow">
-              <div class="card-body text-center px-4 py-5">
-                <i class="ti-palette icon mb-5 d-inline-block"></i>
-                <h4 class="mb-4">John Zhang</h4>
-                <p>UI designer, Programmer</p>
+        <!--// .row //-->
+        <div class="row justify-content-center align-items-center how-it-work-wrap">
+          <div class="col-lg-7 col-md-10 col-sm-12">
+            <div class="how-it-works-inner text-center">
+              <h3 class="text-white">Video Introduction</h3>
+              <p>
+                Vue.js Web Console, IBM Watson Assistant, MongoDB database, would like to learn more? Wonder how it work in action? Watch our video below.
+              </p>
+              <div class="how-it-work-video">
+                <img src="images/bg/how-it-work-image.png" alt="How it work image" class="img-fluid">
+                <a href="https://www.youtube.com/watch?v=yTHTo28hwTQ" class="how-it-works-video-btn popup-youtube"><i class="mdi mdi-play"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card hover-shadow shadow">
-              <div class="card-body text-center px-4 py-5">
-                <i class="ti-vector icon mb-5 d-inline-block"></i>
-                <h4 class="mb-4">Henry Zhang</h4>
-                <p>Team Leader, Programmer</p>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+        <div class="how-it-work-process">
+          <div class="row text-center">
+            <div class="col-lg-3 col-md-6 col-sm-6 how-it-work-item">
+              <div class="how-it-work-number">
+                <a><span>01</span></a>
+              </div>
+              <h6>Team and Background Introduction</h6>
+              <div class="how-it-work-text">
+<!--                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
               </div>
             </div>
-          </div>
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card hover-shadow shadow">
-              <div class="card-body text-center px-4 py-5">
-                <i class="ti-panel icon mb-5 d-inline-block"></i>
-                <h4 class="mb-4">Jiayi Chen</h4>
-                <p>UI designer, Researcher</p>
+            <!--// .col //-->
+            <div class="col-lg-3 col-md-6 col-sm-6 how-it-work-item">
+              <div class="how-it-work-number">
+                <a><span>02</span></a>
+              </div>
+              <h6>Technical Overview</h6>
+              <div class="how-it-work-text">
+<!--                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
               </div>
             </div>
+            <!--// .col //-->
+            <div class="col-lg-3 col-md-6 col-sm-6 how-it-work-item">
+              <div class="how-it-work-number">
+                <a><span>03</span></a>
+              </div>
+              <h6>Demonstration and Code Review</h6>
+              <div class="how-it-work-text">
+<!--                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
+              </div>
+            </div>
+            <!--// .col //-->
+            <div class="col-lg-3 col-md-6 col-sm-6 how-it-work-item">
+              <div class="how-it-work-number">
+                <a><span>04</span></a>
+              </div>
+              <h6>Achievements and Summaries</h6>
+              <div class="how-it-work-text">
+<!--                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
+              </div>
+            </div>
+            <!--// .col //-->
           </div>
+          <!--// .row //-->
         </div>
       </div>
+      <!--// .container //-->
     </section>
-    <!-- /development team -->
+    <!--// video Section End //-->
+
+    <!--// Our Team Section Start //-->
+    <section class="our-team-section section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="section-heading">
+              <h2 class="section-title">Meet Our<span>Team</span></h2>
+              <p class="section-sub-title">
+              </p>
+            </div>
+          </div>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+        <div class="row">
+          <div class="col-md-4 col-sm-12 text-center team-card-margin wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="team-card item-shadow">
+              <div class="team-img">
+                <img src="images/bg/zzh.png" alt="Team image" class="img-fluid">
+                <ul class="team-social">
+                  <li><a href="https://github.com/henryz00"><i class="fab fa-github"></i></a></li>
+<!--                  <li><a href="mailto:henryzhang9802@gmail.com"><i class="fab fa-envelope"></i></a></li>-->
+                </ul>
+              </div>
+              <div class="team-card-content">
+                <h5 class="title">Henry Zhang</h5>
+                <div class="email"><a href="mailto:henry.zhang.18@ucl.ac.uk">henry.zhang.18@ucl.ac.uk</a></div>
+                <span class="desc">Team Leader</span>&nbsp;
+                <span class="desc">Developer</span>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+          <div class="col-md-4 col-sm-12 text-center team-card-margin wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-card item-shadow">
+              <div class="team-img">
+                <img src="images/bg/zzw.jpeg" alt="Team image" class="img-fluid">
+                <ul class="team-social">
+                  <li><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+              <div class="team-card-content">
+                <h5 class="title">John Zhang</h5>
+                <div class="email"><a href="mailto:henry.zhang.18@ucl.ac.uk">henry.zhang.18@ucl.ac.uk</a></div>
+                <span class="desc">UI designer</span>&nbsp;
+                <span class="desc">Developer</span>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+          <div class="col-md-4 col-sm-12 text-center team-card-margin wow fadeInDown" data-wow-delay="0.6s">
+            <div class="team-card item-shadow">
+              <div class="team-img">
+                <img src="images/bg/cjy.jpeg" alt="Team image" class="img-fluid">
+                <ul class="team-social">
+                  <li><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+              <div class="team-card-content">
+                <h5 class="title">Jiayi Chen</h5>
+                <div class="email"><a href="mailto:henry.zhang.18@ucl.ac.uk">henry.zhang.18@ucl.ac.uk</a></div>
+                <span class="desc">UI designer</span>&nbsp;
+                <span class="desc">Researcher</span>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+      </div>
+      <!--// .container //-->
+    </section>
+    <!--// Our Team Section End //-->
+
 
 
 
@@ -362,4 +398,7 @@
 </script>
 
 <style scoped>
+  .email{
+    padding-bottom: 20px;
+  }
 </style>
