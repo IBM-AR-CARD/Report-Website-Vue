@@ -1,6 +1,6 @@
 <template>
     <div>
-    <div style="position: relative;">
+    <div style="position: relative;" :class="doRotate?'rotate':''">
         <img src="../../public/images/phone_frame.png" class="screen_frame">
         <img :src="imgSrc"  alt="image" class="screen_content">
     </div>
@@ -11,7 +11,8 @@
     export default {
         name: "PhoneFrame",
         props: {
-            imgSrc: String
+            imgSrc: String,
+            doRotate: Boolean,
         },
     }
 
@@ -23,7 +24,10 @@
         box-sizing: border-box;
         top: 66px;
         transform: translateX(-327px);
-        height: auto;
-        max-width:312px;
+        height: 555px;
+        width: 312px;
+    }
+    .rotate{
+        transform: rotate(10deg);
     }
 </style>

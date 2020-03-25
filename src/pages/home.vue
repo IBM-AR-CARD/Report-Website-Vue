@@ -56,7 +56,7 @@
               <div class="services-body">
                 <h5>Hard to Organize</h5>
                 <p>
-                  People found the physical cards are hard to manage and store, they tend to lose, break or forgot them, and it is very hard to find for a specific card.
+                  People found the physical cards are hard to manage and store, they tend to lose, break or forget them, it is also very hard to find a specific card.
                 </p>
               </div>
             </div>
@@ -82,7 +82,7 @@
                 <span class="mdi mdi-alert-circle"></span>
               </div>
               <div class="services-body">
-                <h5>Limited</h5>
+                <h5>Limited Information</h5>
                 <p>
                   With the small card and traditional designs, it is really hard for those who would like to use a business card to make themselves stand out.
                 </p>
@@ -97,6 +97,42 @@
     </section>
     <!--// The problem Section End //-->
 
+
+    <!--// Solution Section Start //-->
+    <section class="about section-padding" data-scroll-index="2" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5 col-lg-6 wow fadeInLeft text-left" style="position: relative;">
+            <PhoneFrame imgSrc="images/screenshots/WechatIMG935.jpeg" class="img-fluid img-jump" style="position: absolute;top:0px;left: 110px;" doRotate="true"></PhoneFrame>
+            <div style="transform: translateX(-100px)">
+            <PhoneFrame imgSrc="images/screenshots/WechatIMG928.jpeg" class="img-fluid img-jump"></PhoneFrame></div>
+          </div>
+          <!--// .col //-->
+          <div class="col-md-7 col-lg-6 wow fadeInUp">
+            <div class="about-inner">
+              <span class="section-badge">Our Solution</span>
+              <h3>AI-Powered Interactive AR Business card</h3>
+              <p>
+                With today’s advance in Augmented Reality and conversational AI technologies, we have found a way to utilize and merge these two technologies, adding a brand new experience on top of the physical business cards, providing much more information.               </p>
+            </div>
+            <div class="about-list">
+              <ul>
+                <li><i class="fa fa-check"></i>Users can simply use their phone camera to scan a QR code</li>
+                <li><i class="fa fa-check"></i>A vivid 3D Avatar will be overlayed above the business card</li>
+                <li><i class="fa fa-check"></i>Use natural language to ask the avatar any questions</li>
+              </ul>
+            </div>
+<!--            <a href="#0" class="default-btn">Get Started-->
+<!--              <i class="ml-2 fa fa-angle-right"></i>-->
+<!--            </a>-->
+          </div>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+      </div>
+      <!--// .container //-->
+    </section>
+    <!--// Solution Section End //-->
 
 
 
