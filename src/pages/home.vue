@@ -334,7 +334,7 @@
                 <h5 class="title">Henry Zhang</h5>
                 <div class="email"><a href="mailto:henry.zhang.18@ucl.ac.uk">henry.zhang.18@ucl.ac.uk</a></div>
                 <span class="desc">Team Leader</span>&nbsp;
-                <span class="desc">Developer</span>
+                <span class="desc">Designer, Developer</span>
               </div>
             </div>
           </div>
@@ -361,12 +361,12 @@
               <div class="team-img">
                 <img src="images/bg/cjy.jpeg" alt="Team image" class="img-fluid">
                 <ul class="team-social">
-                  <li><a href="#"><i class="fab fa-github"></i></a></li>
+                  <li><a href="https://github.com/jychen1002"><i class="fab fa-github"></i></a></li>
                 </ul>
               </div>
               <div class="team-card-content">
                 <h5 class="title">Jiayi Chen</h5>
-                <div class="email"><a href="mailto:henry.zhang.18@ucl.ac.uk">henry.zhang.18@ucl.ac.uk</a></div>
+                <div class="email"><a href="mailto:maggiechen201002@gmail.com">maggiechen201002@gmail.com</a></div>
                 <span class="desc">UI designer</span>&nbsp;
                 <span class="desc">Researcher</span>
               </div>

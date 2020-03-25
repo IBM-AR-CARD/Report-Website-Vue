@@ -69,13 +69,13 @@
               <router-link class="nav-link" to="/hci" >Hci</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/design" >Prototype</router-link>
+              <router-link class="nav-link" to="/design" >Design</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/achievement" >Achievement</router-link>
+              <router-link class="nav-link" to="/testing" >Testing</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/plan" >Term 2 Plan</router-link>
+              <router-link class="nav-link" to="/evaluation" >Evaluation</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/appendices" >Appendices</router-link>

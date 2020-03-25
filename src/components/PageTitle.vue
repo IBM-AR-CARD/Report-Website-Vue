@@ -1,6 +1,7 @@
 <template>
   <!-- page title -->
-  <section class="page-title bg-primary position-relative">
+  <section class="page-title bg-primary position-relative jarallax" data-jarallax data-speed="0.3s">
+    <div class="jarallax-img how-it-works-bg"></div>
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">

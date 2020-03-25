@@ -5,8 +5,8 @@ import requirements from '../pages/requirements'
 import research from '../pages/research'
 import hci from '../pages/hci'
 import design from '../pages/design'
-import achievement from '../pages/achievement'
-import plan from '../pages/plan'
+import evaluation from '../pages/evaluation'
+import testing from '../pages/testing'
 import appendices from '../pages/appendices'
 Vue.use(Router);
 
@@ -50,14 +50,14 @@ export default new Router({
             name:"design"
         },
         {
-            path: "/achievement",
-            component: achievement,
-            name:"achievement"
+            path: "/testing",
+            component: testing,
+            name:"tesing"
         },
         {
-            path: "/plan",
-            component: plan,
-            name:"plan"
+            path: "/evaluation",
+            component: evaluation,
+            name:"evaluation"
         },
         {
             path: "/appendices",
