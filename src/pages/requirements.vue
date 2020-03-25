@@ -17,7 +17,28 @@
     </section>
     <!-- /project background-->
 
-    <!-- requirement gathering -->
+        <!-- abstract -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-center">
+                        <h3 class="section-title">Abstract</h3>
+                        <p class="font-secondary paragraph-lg text-dark text-left">
+                            Business cards is very common and popular in all kinds of situations. People receive and send many business cards during events like networking. However, they are not easy to manage, people tends to lose the physical cards, and it is very limited for others to extract useful information about the owner. The typical business card is also not attractive and unique enough to get other people's attention.
+                            <br />
+                            <br />Our project provides android and web application service for people to view and share business cards using AI-powered interactive 3D AR avatar. Users can simply scan a QR code on the physical business card to trigger the AR avatar using Android app, which will introduce itself using Watson Speech to Text and give a 10-second overview of the owner of the card. The user (the one who scans the QR code) can just speak using natural language to ask the avatar what details they want to know about the owner of the card, even creating interactive dialogs. User can store the card and avatar into their favourite card list for easy searching. The business card will also get stored in their history instantly when they scan the QR code.
+                            <br />
+                            <br />User can make their own AR business card either in the app or in our web user dashboard. They can update their card details, design their own 3D AR avatar and easily view scan history and list of favourite cards everywhere without the app.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /abstract -->
+
+
+        <!-- requirement gathering -->
     <section class="section position-relative">
         <div class="container">
             <div class="row">

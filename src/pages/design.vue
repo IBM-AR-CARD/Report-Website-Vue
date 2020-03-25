@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageTitle title="Prototype"></PageTitle>
+    <PageTitle title="Design"></PageTitle>
     <!--System Arthitecture Diagram-->
     <section class="section">
       <div class="container">

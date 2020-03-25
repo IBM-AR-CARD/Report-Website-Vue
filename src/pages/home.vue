@@ -31,91 +31,55 @@
     </section>
     <!--// Hero Section End  //-->
 
-    <!--// Services Section Start //-->
-    <section class="services section-padding" data-scroll-index="1" id="services-area">
+    <section>
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div class="section-heading">
-              <h2 class="section-title">Best <span>Services</span></h2>
-              <p class="section-sub-title">
-                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+      <div class="features-row features-row-mt">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-5 col-lg-5 text-center features-image-order features-image-resp wow slideInLeft">
+            <div class="features-circle"></div>
+            <div class="feature-image-wrap wow zoomIn" data-wow-delay="0.8s">
+              <PhoneFrame imgSrc="images/design/functionality.gif" class="img-fluid img-jump"></PhoneFrame>
+            </div>
+          </div>
+          <!--// .col //-->
+          <div class="col-md-7 col-lg-6 about-content-wrap wow fadeInRight">
+            <div class="features-inner">
+              <span class="section-badge">Key Features</span>
+              <h3>AI-Powered Interactive AR Business card</h3>
+              <p>
+                IBM AR Business Card enables a brand new way to share and view traditional business cards, adding another dimension to representing yourself.
               </p>
-            </div>
-          </div>
-          <!--// .col //-->
-        </div>
-        <!--// .row //-->
-        <div class="row align-items-center justify-content-center">
-          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.1s">
-            <div class="services-item item-shadow">
-              <div class="services-icon services-blue-icon">
-                <span class="mdi mdi-responsive"></span>
-              </div>
-              <div class="services-body">
-                <h5>Full Responsive</h5>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--// .col //-->
-          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
-            <div class="services-item item-shadow">
-              <div class="services-icon">
-                <span class="mdi mdi-tune"></span>
-              </div>
-              <div class="services-body">
-                <h5>Easy Customize</h5>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--// .col //-->
-          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
-            <div class="services-item item-shadow">
-              <div class="services-icon">
-                <span class="mdi mdi-server-security"></span>
-              </div>
-              <div class="services-body">
-                <h5>Extreme Security</h5>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-              </div>
+              <ul class="features-list">
+                <li class="d-flex align-items-center">
+                  <i class="mdi mdi-desktop-mac"></i>
+                  <div class="features-box">
+                    <h6>Vivid AR Avatar</h6>
+                    <span>Using the latest Vuforia engine, you can view a vivid 3D avatar of the card owner on top of the business card easily via any smartphone camera.</span>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="mdi mdi-ruler-square"></i>
+                  <div class="features-box">
+                    <h6>AI-Powered NPL Conversations</h6>
+                    <span>With IBM Watson powered Natural Language Processing, you can directly speak and ask any question to the 3D Avatar, and get a realistic reply instantly.</span>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="mdi mdi-face-agent"></i>
+                  <div class="features-box">
+                    <h6>Automatic Contact Methods</h6>
+                    <span>Want to contact the card owner? That's what business cards are used for. Simply ask for email or phone number, the app will automatically open for you!</span>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
           <!--// .col //-->
         </div>
         <!--// .row //-->
       </div>
-      <!--// .container //-->
-    </section>
-    <!--// Services Section End //-->
-
-
-    <!-- abstract -->
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h3 class="section-title">Abstract</h3>
-            <p class="font-secondary paragraph-lg text-dark text-left">
-              Business cards is very common and popular in all kinds of situations. People receive and send many business cards during events like networking. However, they are not easy to manage, people tends to lose the physical cards, and it is very limited for others to extract useful information about the owner. The typical business card is also not attractive and unique enough to get other people's attention.
-              <br />
-              <br />Our project provides android and web application service for people to view and share business cards using AI-powered interactive 3D AR avatar. Users can simply scan a QR code on the physical business card to trigger the AR avatar using Android app, which will introduce itself using Watson Speech to Text and give a 10-second overview of the owner of the card. The user (the one who scans the QR code) can just speak using natural language to ask the avatar what details they want to know about the owner of the card, even creating interactive dialogs. User can store the card and avatar into their favourite card list for easy searching. The business card will also get stored in their history instantly when they scan the QR code.
-              <br />
-              <br />User can make their own AR business card either in the app or in our web user dashboard. They can update their card details, design their own 3D AR avatar and easily view scan history and list of favourite cards everywhere without the app.
-            </p>
-          </div>
-        </div>
       </div>
-
     </section>
-    <!-- /abstract -->
 
     <!-- key features -->
     <section class="section position-relative">
@@ -227,6 +191,73 @@
       </div>
     </section>
     <!-- /development team -->
+
+
+    <!--// Services Section Start //-->
+    <section class="services section-padding" data-scroll-index="1" id="services-area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="section-heading">
+              <h2 class="section-title">Best <span>Services</span></h2>
+              <p class="section-sub-title">
+                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+              </p>
+            </div>
+          </div>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.1s">
+            <div class="services-item item-shadow">
+              <div class="services-icon services-blue-icon">
+                <span class="mdi mdi-responsive"></span>
+              </div>
+              <div class="services-body">
+                <h5>Full Responsive</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
+            <div class="services-item item-shadow">
+              <div class="services-icon">
+                <span class="mdi mdi-tune"></span>
+              </div>
+              <div class="services-body">
+                <h5>Easy Customize</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+          <div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
+            <div class="services-item item-shadow">
+              <div class="services-icon">
+                <span class="mdi mdi-server-security"></span>
+              </div>
+              <div class="services-body">
+                <h5>Extreme Security</h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+      </div>
+      <!--// .container //-->
+    </section>
+    <!--// Services Section End //-->
+
   </div>
 </template>
 
