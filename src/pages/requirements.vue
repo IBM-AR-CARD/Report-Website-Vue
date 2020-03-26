@@ -48,7 +48,7 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Persona</h3>
-                    <img src="images/persona/image9.png" class="img-responsive" style= "width: 60%;">
+                    <img src="images/persona/image9.png" class="img-responsive item-shadow" style= "width: 90%; box-shadow: #0b0b0b">
                 </div>
             </div>
         </div>
@@ -62,7 +62,9 @@
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Project goals</h3>
                     <div class="text-left">
-                    <p>Our goal its to develop an android app with the front-end app using flutter and the 3D AR interface using Unity. The app can scan the QR code and trigger an AR avatar. It has an associate cloud service that uses IBM Cloud to enable generated cards and to have cards that can evolve as a person's CV does over time(we decided to link the LinkedIn profile and our user account).The database we use in there is SQL. Meanwhile, there is a website that users can update their personal details shown on the business cards and choose their own AR avatar. It builds by Koa and NodeJS. Users can see the details of business cards they set as favorite, and they have already scanned by the android app.</p>
+                        <p>IBM Watson Assistant is a quite matured machine learn conversational chatbot solution, which developers can train them using rules and word matches to program a model for recognizing user input and deciding what to do or reply. Watson Assistant is used commonly in website support chatbot, hotel, restaurant or flight booking systems. However, it hasn’t been experimented much in the field of AR and voice-enabled conversations. Our client would love to see us integrate AR with business cards and also utilizing Watson Assistant.</p>
+                        <br>
+                        <p>Hence our goals are, to make a mobile app that could display the 3D AR figure on top of a business card and precisely tracks the card’s location, rotation etc, making the AR figure realistic, to achieve this, we need to use Unity engine and Vuforia. To store different card detail, user profile and user favourites and browsing histories, we also need data storage and user authentication backend using Node.js, Express and MongoDB. Last but not least, we need to integrate IBM Watson services into our application for Natural Language Processing, and we also need to find a way to connect Watson into our data storage to grab the user profile data.</p>
                     </div>
                 </div>
             </div>
@@ -81,22 +83,29 @@
                     <div class="media border-bottom py-4">
                         <div class="media-body">
                             <h4 class="mt-0">MUST HAVE</h4>
-                            <p>1.Android application that can scan QR code on the business card and 'projects' an AR avatar onto a business card.</p>
-                            <p>2.Cloud service that enables generated cards and to have cards that can evolve as a person's CV does over time.</p>
-                            <p>3.Web service that allows app users to update their card details add additional information such as avatar information and set schedules for the card details to change.</p>
-                            <p>4.The AR avatar can announce itself using Watson Speech to Text and give a 10-second overview of the owner of the card.</p>
-                            <p>5.The AR avatar can offer the user(the one who is viewing the AR) the option of a. Listening to a more detailed work history b.listening to interests and hobbies c.listening to a more detailed education history(this could be Donne using Watson Speech)</p>
-                            <p>6.The AR avatar can offer the user the option of setting the card as favorite.</p>
-                            <p>7.The Android application and web can see the list of business cards that users set it as favorite.</p>
+                            <p>1. Unity Application that can track business card using only phone camera and display 3D model over it using AR.</p>
+                            <p>2. Android application UI that can integrate the unity app using Flutter, and be able to exchange information between flutter and unity.</p>
+                            <p>3. User can scan a QR code to determine the profile or information for a specific business card.</p>
+                            <p>4. 3D models need to have natural idle and talking animations, models needs to be varies for user to choose from.</p>
+                            <p>5. Users can register and login their account, creating their own profile, including details like work experience, education etc.</p>
+                            <p>6. The user can interact with the avatar via microphone using natural language, asking for their details from the card profile.</p>
+                            <p>7. The message should be converted to text via voice recognition, send to Watson Assistant for processing, and determine the desired reply in the backend, and sent back into the front-end, speak out using corresponding gender's TTS of the user's choice.</p>
+                            <p>8. Users can view a list of business cards that has already scanned, e.g. scan history.</p>
+                            <p>9. Users can set or unset a card as favourite, and view all favourite cards in a list.</p>
+                            <p>10. The user can update their profile directly in the app, and the user can upload or change their profile picture using photos from the gallery or using camera.</p>
                         </div>
                     </div>
                 </div>
                 <div class="bg-white p-5 mb-4">
                     <div class="media-body">
                         <h4 class="mt-0">SHOULD HAVE</h4>
-                        <p>1.The Android application and web can see the list of business cards that the user has already scanned</p>
-                        <p>2.Search feature in the history page and favorite page</p>
-                        <p>3.User(the one who scan the QR code) can start a conversion with the user(the owner of the card) directly using android phone.</p>
+                        <p>1. Web-based application which provides the same functions such as registration and profile update, favourite and history list management, for user to view their details anytime even without the app.</p>
+                        <p>2. Search feature in the history page and favorite page</p>
+                        <p>3. Chat bubbles for viewing the conversation history, which can be hidden or displayed</p>
+                        <p>4. User profile page for text represented details of any specific user (e.g. enter from history list)</p>
+                        <p>5. User can ask the avatar for contact details, the app should open automatically (e.g. to compose email, to phone call)</p>
+                        <p>6. The Unity model should be able to look at the camera naturally, making it more engaging</p>
+
                     </div>
                 </div>
             </div>
@@ -104,8 +113,10 @@
                 <div class="media border-bottom py-4">
                     <div class="media-body">
                         <h4 class="mt-0">COULD HAVE</h4>
-                        <p>1.User(the one who is viewing the AR) can see the personal information about the owner of card directly in the app and website.</p>
-                        <p>2.The 10-second overview of the owner of the card can be recorded by the user on the website. User can set which voice they want AR avatar use(Watson Speech to text or user’s voice)</p>
+                        <p>1. Provide more choice and customization of 3D models, this can be done in the web end for more detailed customizes.</p>
+                        <p>2. Provide LinkedIn OAuth abilities, that could parse the user profile directly from LinkedIn.</p>
+                        <p>3. The 10-second overview of the owner of the card can be recorded by the user using their own voice instead of TTS.</p>
+                        <p>4. The user can ask the avatar to dance (as an easter egg).</p>
                     </div>
                 </div>
             </div>
