@@ -52,7 +52,7 @@ export default new Router({
         {
             path: "/testing",
             component: testing,
-            name:"tesing"
+            name:"testing"
         },
         {
             path: "/evaluation",

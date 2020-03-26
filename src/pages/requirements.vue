@@ -1,6 +1,7 @@
 <template>
     <div>
         <PageTitle title="Requirements"></PageTitle>
+
     <!-- project background-->
     <section class="section">
         <div class="container">
@@ -8,8 +9,11 @@
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Project background</h3>
                     <div class="text-left">
-                    <p>Networking and attending social events are essential for the businessman, people are looking for jobs and HR. It is vital for them to order tons of business cards and receive a lot from others. Data from the internet shows most people are going to need at least 1000 business cards per year at a minimum. It is not very easy to manage them, find the desired card, and extract useful information. Also, when you need to update personal information on the card, the only solution is to throw all old business cards and order a new one. This is wasteful and troublesome because the new business card cannot finish printing simultaneously. Plus, the typical business card is not attractive and unique enough to get other people's attention.</p>
-                    <p>To overcome these issues, our client requires an Android app with a service that runs on an Android phone system that 'projects' an AR avatar onto a business card. It should have an associated cloud service to enable generated cards and to have cards that can evolve as a person's CV does over time.</p>
+                        <p>Business cards are very common during any meeting and networking events, it is a quick and easy way for people to exchange their information and contacts. However, many people found physical cards are quite hard to organize, as it tends to lose and being forgotten, and it's very hard to find a specific card from many. It is also limited and outdated to share any useful information compared to today’s internet-enabled services like LinkedIn, making it harder and harder for those who would like to use a business card to showcase themselves and make themselves stand out.</p>
+                        <br>
+                        <p>With today’s advance in Augmented Reality and conversational AI technologies, we have found a way to utilize and merge these two technologies, adding a brand new experience on top of the physical business cards, providing much more information. Our project provides both android and web application service for people to view and share business cards using AI-powered interactive 3D AR avatar. The user can simply use their mobile phone camera to scan a unique QR code on the business card, instantly a vivid 3D Avatar will be overlayed standing above the card in Augmented Reality. Thanks to the powerful IBM Watson AI, the user can use their nature language to directly interact and ask questions with the avatar about anything they would like to know about the owner of the card, even creating interactive dialogs.</p>
+                        <br>
+                        <p>Everyone can register this service with their existing business card design, greatly extends the ability a physical business card can bring. User can make their own AR business card either in the app or in our web user dashboard. They can update their card details, design their own 3D AR avatar and easily view scan history and list of favourite cards everywhere without the app.</p>
                     </div>
                 </div>
             </div>
@@ -17,25 +21,6 @@
     </section>
     <!-- /project background-->
 
-        <!-- abstract -->
-        <section class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
-                        <h3 class="section-title">Abstract</h3>
-                        <p class="font-secondary paragraph-lg text-dark text-left">
-                            Business cards is very common and popular in all kinds of situations. People receive and send many business cards during events like networking. However, they are not easy to manage, people tends to lose the physical cards, and it is very limited for others to extract useful information about the owner. The typical business card is also not attractive and unique enough to get other people's attention.
-                            <br />
-                            <br />Our project provides android and web application service for people to view and share business cards using AI-powered interactive 3D AR avatar. Users can simply scan a QR code on the physical business card to trigger the AR avatar using Android app, which will introduce itself using Watson Speech to Text and give a 10-second overview of the owner of the card. The user (the one who scans the QR code) can just speak using natural language to ask the avatar what details they want to know about the owner of the card, even creating interactive dialogs. User can store the card and avatar into their favourite card list for easy searching. The business card will also get stored in their history instantly when they scan the QR code.
-                            <br />
-                            <br />User can make their own AR business card either in the app or in our web user dashboard. They can update their card details, design their own 3D AR avatar and easily view scan history and list of favourite cards everywhere without the app.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!-- /abstract -->
 
 
         <!-- requirement gathering -->
