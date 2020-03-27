@@ -30,8 +30,9 @@
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Requirement gathering</h3>
                     <div class="text-left">
-                    <p>Except for the requirement about how to getting in touch with the owner of the card, other requirements from our client are full of detailed. Hence we only need to discover the feature helping the user to manage card they have already scanned and find the desired card easily. Hence we gathered requirements about that through short interviews with potential users of our applications. Finally, we decided to add a favorite page and a history page, and the user can search for keywords on each page.</p>
-                    <p>For web service, we also add the same features. Based on that, we give the user the option of choosing their own AR image.</p>
+                        <p>Requirement gathering is quite important for the project. We have conducted several interviews with our client, John McNamara, and prepared questions for the meeting. We have communicated both in person and through email, to gather the basic requirements and needs for the application and for how we should integrate IBM services into our project. Internally, we have then prioritised these requirements, and also conducted research on similar projects, to decide further what we should include. We have then designed our persona to think from user perspective and include anything we have missed. Finally, we have designed a questionnaire to anonymously ask our peers as users, for any more functions they would like to add.</p>
+                        <br>
+                        <p>In the end, we would design and prioritise these information once again, and design them into the MoSCoW list and user case diagrams. We then ask the client for any further suggestions on these, and change part of it if needed. During the complete development process, we would sometimes come back and change some requirements based on the technical possibilities and time.</p>
                     </div>
                 </div>
             </div>
@@ -156,21 +157,22 @@
                         </tr>
                         <tr>
                             <th scope="row">Description</th>
-                            <td>a user wants to see the overview of the owner of the card</td>
+                            <td>a user who would like to view the AR avatar on a physical business card</td>
                         </tr>
                         <tr>
                             <th scope="row">Actor</th>
-                            <td>user who receive a new business card</td>
+                            <td>user who owns a business card with our services's QR code</td>
                         </tr>
                         <tr>
                             <th scope="row">Main flow</th>
                             <td>1.the user opens the application
                                 <br>2.the user scans the QR code on the business card
+                                <br>3.the user point the camera into the card, avatar shows up and introduces
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Result</th>
-                            <td> the application will show the 10-second overview of the owner of the business card</td>
+                            <td> the 3D avatar shows up and introduces, precisely tracks the physical card</td>
                         </tr>
                         </tbody>
                     </table>
@@ -186,23 +188,23 @@
                         </tr>
                         <tr>
                             <th scope="row">Description</th>
-                            <td> a user which scan the QR code wants to know more details about education history, work history and interests.</td>
+                            <td> a user who scanned the QR code wants to know more details about education history, work experiences etc.</td>
                         </tr>
                         <tr>
                             <th scope="row">Actor</th>
-                            <td>user who receive a new business card</td>
+                            <td>user who owns a business card with our services's QR code</td>
                         </tr>
                         <tr>
                             <th scope="row">Main flow</th>
                             <td>1.the user opens the application
-                                <br>2.the user scans the  QR code on the business card
-                                <br>3.the application will show the 10- second overview of the owner oof the business card
-                                <br>4.after that, user can choose what he/she want to know more by saying the option to the application
+                                <br>2.the user scans the QR code on the business card
+                                <br>3.the user point the camera into the card, avatar shows up and introduces
+                                <br>4.the user clicks the mic icon and asks "where did you work"
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Result</th>
-                            <td> the application will show the 10-second overview of the owner of the business card</td></tr>
+                            <td> the avatar will reply naturally using TTS on the question the user asks</td></tr>
                         </tbody>
                     </table>
                     <br>
@@ -226,12 +228,13 @@
                         <tr>
                             <th scope="row">Main flow</th>
                             <td>1.the user opens the application
-                                <br>2.the user slides right.
+                                <br>2.the user swipes right, or clicks the left bottom icon
+                                <br>3.if the user isn't logged in or registered, a prompt will show asking the user to login / register to continue
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Result</th>
-                            <td>the page is split into two parts, one for scan history, the other one is the list of favorite cards. User can switch two lists through press the corresponding icons</td>
+                            <td>the page is split into two tabs, one for scan history, the other one is the list of favorite cards. User can switch two tabs by tap the corresponding tab, or swipe the screen</td>
                         </tr>
                         </tbody>
                     </table>
@@ -247,7 +250,7 @@
                         </tr>
                         <tr>
                             <th scope="row">Description</th>
-                            <td> a user wants to update personal information.</td>
+                            <td> a user wants to update their own AR card profile information.</td>
                         </tr>
                         <tr>
                             <th scope="row">Actor</th>
@@ -256,12 +259,16 @@
                         <tr>
                             <th scope="row">Main flow</th>
                             <td>1.the user opens the application
-                                <br>2.the user slides left
+                                <br>2.the user swipes left, or clicks the right bottom icon
+                                <br>3.if the user isn't logged in or registered, a prompt will show asking the user to login / register to continue
+                                <br>4.the user edits the corresponding fields he/she would like to change
+                                <br>5.the user clicks the profile picture to change, prompt the user to choose a new image from gallery or use camera to take
+                                <br>6.the user clicks save button
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Result</th>
-                            <td>applications shows the setting page.User can change information directly and download their own QR code fo printing business card</td>
+                            <td>new profile details will be updated and synced to the server, new profile picture will be uploaded</td>
                         </tr></tbody>
                     </table>
                     <br>
@@ -276,7 +283,7 @@
                         </tr>
                         <tr>
                             <th scope="row">Description</th>
-                            <td>  a user wants to view scan history and favorite cards using desktop.</td>
+                            <td>  a user wants to view scan history and favorite cards in the browser without the app.</td>
                         </tr>
                         <tr>
                             <th scope="row">Actor</th>
@@ -284,14 +291,14 @@
                         </tr>
                         <tr>
                             <th scope="row">Main flow</th>
-                            <td>1.the user opens the website
+                            <td>1.the user opens the website in the browser
                                 <br>2.the user logs into the account
-                                <br>3.the user choose history and favorite in the menu bar
+                                <br>3.the user selects history or favourite card menu
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Result</th>
-                            <td>user can view the list of history and favorite card.</td></tr>
+                            <td>user can view the list of history and favorite card, or edit the list</td></tr>
                         </tbody>
                     </table>
                     <br>
@@ -306,7 +313,7 @@
                         </tr>
                         <tr>
                             <th scope="row">Description</th>
-                            <td> a user wants to update AR avatar details.</td>
+                            <td> a user wants to update AR avatar details using web</td>
                         </tr>
                         <tr>
                             <th scope="row">Actor</th>
@@ -316,12 +323,12 @@
                             <th scope="row">Main flow</th>
                             <td>1.the user opens the website
                                 <br>2.the user logs into the account
-                                <br>3.the user choose setting in the menu bar
+                                <br>3.the user choose card profile in the site menu
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Result</th>
-                            <td>user can change the setting about AR image direcly.
+                            <td>user can change the profile or upload profile pictures in the browser directly without the app
                             </td></tr>
                         </tbody>
                     </table>
