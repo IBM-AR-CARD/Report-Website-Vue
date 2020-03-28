@@ -33,7 +33,7 @@ jQuery(document).ready(function() {
     appinocks_pricingTab(),
     appinocks_copyrightDynamicYear(),
     appinocks_contactForm(),
-    appinocks_preloader(),
+    // appinocks_preloader(),
     appinocks_scrollIt(),
     new WOW().init();
 });

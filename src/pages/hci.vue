@@ -1,6 +1,6 @@
 <template>
     <div>
-    <PageTitle title="HCI"></PageTitle>
+    <PageTitle title="Human Computer Interaction"></PageTitle>
         <!-- design principle-->
         <section class="section">
             <div class="container">
@@ -56,11 +56,10 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Hand-drawn sketches</h3>
-                    <table><tr>
-                        <td><img src="images/hand-down sketch/1.png" class="img=responsive" style="width:100%"></td>
-                        <td><img src="images/hand-down sketch/2.png" class="img=responsive" style="width:100%"></td>
-                        <td><img src="images/hand-down sketch/3.png" class="img=responsive" style="width:100%"></td>
-                    </tr></table>
+                    <img src="images/sketches/1.png" class="img-responsive" style= "width: 90%;">
+                    <img src="images/sketches/2.png" class="img-responsive" style= "width: 90%;">
+                    <img src="images/sketches/3.png" class="img-responsive" style= "width: 50%;">
+
                 </div>
             </div>
         </div>
@@ -73,16 +72,28 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Prototype</h3>
-                    <table><tr>
-                        <td><img src="images/prototype/1.png" class="img=responsive" style="width:80%"></td>
-                        <td><img src="images/prototype/2.png" class="img=responsive" style="width:80%"></td>
-                        <td><img src="images/prototype/3.png" class="img=responsive" style="width:80%"></td>
-                    </tr></table>
-                    <table><tr>
-                        <td><img src="images/prototype/favourite.png" class="img=responsive" style="width:80%"></td>
-                        <td><img src="images/prototype/history.png" class="img=responsive" style="width:80%"></td>
-                        <td><img src="images/prototype/profile.png" class="img=responsive" style="width:80%"></td>
-                    </tr></table>
+
+                    <carousel perPage="3" navigationEnabled="true">
+                        <slide>
+                            <img src="images/prototype/1.png" class="img-responsive slideImg item-shadow">
+                        </slide>
+                        <slide>
+                            <img src="images/prototype/2.png" class="img-responsive slideImg item-shadow">
+                        </slide>
+                        <slide>
+                            <img src="images/prototype/3.png" class="img-responsive slideImg item-shadow">
+                        </slide>
+                        <slide>
+                            <img src="images/prototype/favourite.png" class="img-responsive slideImg item-shadow">
+                        </slide>
+                        <slide>
+                            <img src="images/prototype/history.png" class="img-responsive slideImg item-shadow">
+                        </slide>
+                        <slide>
+                            <img src="images/prototype/profile.png" class="img-responsive slideImg item-shadow">
+                        </slide>
+                    </carousel>
+                    <!--// .screenshots-slider-wrap //-->
                 </div>
             </div>
         </div>
@@ -94,14 +105,19 @@
 
 <script>
     import PageTitle from '../components/PageTitle.vue'
+    import { Carousel, Slide } from 'vue-carousel';
     export default {
         name: "hci",
         components: {
-            PageTitle
+            PageTitle,
+            Carousel,
+            Slide
         }
     }
 </script>
 
 <style scoped>
-
+    .slideImg{
+        max-height: 500px;
+    }
 </style>

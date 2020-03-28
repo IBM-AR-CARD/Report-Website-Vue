@@ -100,9 +100,38 @@
           <div class="col-lg-10 mx-auto text-center">
             <h3 class="section-title">Related technologies</h3>
             <div class="text-left">
-              <h4>AR capability</h4>
+              <h4>AR Capability</h4>
 
-              <p>Based on our research and advice from clients, we use Unity to handle business card tracking and AR 3D Avatar display.</p>
+                  <div class="services-item item-shadow margin">
+                    <div class="services-body">
+                      <h5>Unity + Vuforia</h5>
+                      <p>
+                        Unity is a cross-platform game engine developed in 2005, it is widely used in both game and VR/AR development, it is relatively very stable and supported by many developers, with a wide selection of libraries. Vuforia is a Unity library that is very mature for AR tracking.
+                        We decided to use Unity as our choice for AR tracking, also because it has very good support for integration with android and web apps.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="services-item item-shadow margin">
+                    <div class="services-body">
+                      <h5>Unreal</h5>
+                      <p>
+                        The Unreal Engine is a game engine developed by Epic Games, first showcased in the 1998 first-person shooter game Unreal. It focuses more on the quality of the 3D rendering. It is mainly designed for demanding applications such as 3A games and filmmaking. It also supports AR. However, due to its
+                        harder requirement on hardware and energy efficiency, we would choose the more widely used cross platform Unity engine over Unreal.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="services-item item-shadow margin" >
+                    <div class="services-body">
+                      <h5>AR Core / AR Kit</h5>
+                      <p>
+                        AR Core and AR Kit are the latest AR framework, designed for mobile devices and specifically for AR applications, developed by Google and Apple. It should have the best support and best experience compared to other library for frameworks.
+                        However, due to their requirement on new Apple or Android devices, and lack of community support as they are relatively new, they haven't been taken into our final consideration.
+                      </p>
+                    </div>
+                  </div>
+
               <br />
               <br />
               <h4>Android App</h4>
@@ -160,10 +189,18 @@
           <div class="col-lg-10 mx-auto text-center">
             <h3 class="section-title">Reference</h3>
             <div class="text-left">
-              <p>
-                [1] Aircards.co. (2020). Augmented Reality Business Cards - Aircards. [online] Available at: https://www.aircards.co/augmented-reality-business-cards [Accessed 21 Jan. 2020].
-                <br />[2] Poplar. (2020). Get your own AR business card. [online] Available at: https://poplar.studio/business-cards/ [Accessed 21 Jan. 2020].
-              </p>
+
+              <p>[1]B. Poetker, &ldquo;A Brief History of Augmented Reality (+Future Trends &amp; Impact),&rdquo; G2.com, 2019. [Online]. Available: https://learn.g2.com/history-of-augmented-reality.<br><br>
+                [2]Blippar, &ldquo;Infographic: History of Augmented Reality - Blog - Blippar,&rdquo; Blippar, 2018. [Online]. Available: https://www.blippar.com/blog/2018/06/08/history-augmented-reality. [Accessed: 28-Mar-2020].<br><br>
+                [3]B. Hofheimer, &ldquo;Virtual Yellow 1st and Ten line debuted on ESPN 15 years ago today,&rdquo; ESPN Front Row, 27-Sep-2013. [Online]. Available: https://www.espnfrontrow.com/2013/09/virtual-yellow-1st-and-ten-line-debuted-on-espn-15-years-ago-today/. [Accessed: 28-Mar-2020].<br><br>
+                [4]jonas, &ldquo;Augmented Business Card,&rdquo; Vimeo, 01-Jan-2009. [Online]. Available: https://vimeo.com/5651466. [Accessed: 28-Mar-2020].<br><br>
+                [5]J. Share, &ldquo;Top 10 Coolest-Looking Augmented Reality Business Card Designs,&rdquo; JobMob, 17-Feb-2010. [Online]. Available: https://jobmob.co.il/blog/augmented-reality-business-card-designs/. [Accessed: 28-Mar-2020].<br><br>
+                [6]M. N. Billinghurst and A. Henrysson, &ldquo;Research Directions in Handheld AR,&rdquo; International Journal of Virtual Reality, vol. 5, no. 2, pp. 51&ndash;58, Jan. 2006.<br><br>
+                [7]Poplar, &ldquo;AR Campaigns On Demand,&rdquo; Poplar. [Online]. Available: https://poplar.studio/. [Accessed: 28-Mar-2020].<br><br>
+                [8]Aircards, &ldquo;Aircards - App-less Augmented Reality Marketing,&rdquo; www.aircards.co. [Online]. Available: https://www.aircards.co/. [Accessed: 28-Mar-2020].<br><br>
+                [9]&ldquo;Vuforia - Engine,&rdquo; Vuforia.com, 2020. [Online]. Available: https://engine.vuforia.com/engine.<br><br>
+                [10]&ldquo;What is the best game engine: is Unreal Engine right for you?,&rdquo; Games Industry, 19-Jan-2020.<br>
+                &#8204;</p>
             </div>
           </div>
         </div>
@@ -187,6 +224,10 @@ export default {
   .products{
     margin: 30px;
     width: 90%;
+  }
+
+  .margin{
+    margin: 30px 0;
   }
 
 </style>

@@ -2,11 +2,15 @@
 [MAIN STYLESHEET]
 
 PROJECT:	Project Name
-VERSION:	Versoin Number
+VERSION:	Version Number
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*OLD COLOUR: #41228e*/
+/*NEW COLOUR: #0033CC*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap");
@@ -136,7 +140,7 @@ h6,
 }
 
 .btn-primary {
-  background: #41228e;
+  background: #0033CC;
   color: #fff;
 }
 
@@ -156,13 +160,13 @@ h6,
 
 .btn-transparent {
   background: transparent;
-  color: #41228e;
+  color: #0033CC;
   font-weight: bold;
 }
 
 .btn-transparent:active,
 .btn-transparent:hover {
-  color: #41228e;
+  color: #0033CC;
 }
 
 body {
@@ -225,11 +229,11 @@ select:focus {
 }
 
 a.text-dark:hover {
-  color: #41228e !important;
+  color: #0033CC !important;
 }
 
 a:hover {
-  color: #41228e;
+  color: #0033CC;
 }
 
 .slick-slide {
@@ -277,7 +281,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #41228e !important;
+  background: #0033CC !important;
 }
 
 .bg-gray {
@@ -285,7 +289,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #41228e !important;
+  color: #0033CC !important;
 }
 
 .text-color {
@@ -422,7 +426,7 @@ a:hover {
 }
 
 .form-control:focus {
-  border-color: #41228e;
+  border-color: #0033CC;
   outline: 0;
   box-shadow: none !important;
 }
@@ -445,43 +449,43 @@ textarea.form-control {
   border: 0;
 }
 
-/* /card */
-.navigation {
-  padding: 40px 130px;
-  transition: 0.3s ease;
-}
+/*!* /card *!*/
+/*.navigation {*/
+/*  padding: 40px 130px;*/
+/*  transition: 0.3s ease;*/
+/*}*/
 
-.navigation.nav-bg {
-  background-color: #41228e;
-  padding: 15px 100px;
-}
+/*.navigation.nav-bg {*/
+/*  background-color: #0033CC;*/
+/*  padding: 15px 100px;*/
+/*}*/
 
-@media (max-width: 1372px) {
-  .navigation.nav-bg {
-    padding: 15px 20px;
-  }
-}
+/*@media (max-width: 1372px) {*/
+/*  .navigation.nav-bg {*/
+/*    padding: 15px 20px;*/
+/*  }*/
+/*}*/
 
-@media (max-width: 1372px) {
-  .navigation {
-    padding: 20px;
-    background: #41228e;
-  }
-}
+/*@media (max-width: 1372px) {*/
+/*  .navigation {*/
+/*    padding: 20px;*/
+/*    background: #0033CC;*/
+/*  }*/
+/*}*/
 
 .navbar .nav-item .nav-link {
   font-family: "BwNistaInt-xBd";
   text-transform: uppercase;
-  padding: 15px;
+  /*padding: 15px;*/
 }
 
 .navbar .nav-item.active {
   font-weight: bold;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-}
+/*.navbar-dark .navbar-nav .nav-link {*/
+/*  color: #fff;*/
+/*}*/
 
 .hero-area {
   padding: 300px 0 200px;
@@ -633,7 +637,7 @@ textarea.form-control {
 }
 
 .hover-bg-primary:hover {
-  background: #41228e;
+  background: #0033CC;
 }
 
 .hover-bg-primary:hover * {
@@ -642,7 +646,7 @@ textarea.form-control {
 
 .active-bg-primary {
   transition: 0.3s ease;
-  background: #41228e;
+  background: #0033CC;
 }
 
 .active-bg-primary * {
@@ -793,7 +797,7 @@ blockquote {
   display: inline-block;
   padding: 10px 20px;
   background: #eaeaea;
-  border-left: 2px solid #41228e;
+  border-left: 2px solid #0033CC;
   font-style: italic;
   font-size: 22px;
 }
