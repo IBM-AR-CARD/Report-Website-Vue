@@ -49,7 +49,7 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Persona</h3>
-                    <img src="images/persona/image9.png" class="img-responsive item-shadow" style= "width: 90%; box-shadow: #0b0b0b">
+                    <img src="images/persona/image9.png" class="img-responsive item-shadow" style= "width: 90%;">
                 </div>
             </div>
         </div>
@@ -131,10 +131,11 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">User Case Diagram</h3>
-                    <table><tr>
-                        <td><img src="images/usercase/3.png" class="img=responsive " width="115%"></td>
-                        <td><img src="images/usercase/4.png" class="img=responsive" width="115%"></td>
-                    </tr></table>
+
+                        <img src="images/usercase/mobile_ucd.png" class="img=responsive" width="100%">
+                        <br><br>
+                        <img src="images/usercase/web_ucd.png" class="img=responsive" width="100%">
+
                 </div>
             </div>
 
