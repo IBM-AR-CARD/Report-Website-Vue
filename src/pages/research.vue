@@ -6,31 +6,85 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <h3 class="section-title">Related projects</h3>
+
+            <h3  class="section-title">Augmented Reality Overview</h3>
             <div class="text-left">
+
               <p>
-                Based on our research, there is no existing application or website, which has the same functionality as us, has been implemented.
-                <br />
-                <br />Several related projects focus on designing unique AR business cards for their clients. They can see the AR image using the smartphone camera app. However, there is no app could manage card they receive and change user's information by themselves
+                Augmented reality technology can be dated back many decades ago, from NASA's ‘Virtual Fixtures’ which helps military personnel to virtually control and guide machinery for training purposes, to overlaying virtual yellow lines on large sport matches broadcasts back in 1990s [1].
+                Entering 2000s, AR technologies have been used more and more in gaming and TV. From around 2005, AR can be seen on mobile devices, such as the AR Tennis, a two-player AR game developed for Nokia phones [2], since then, with the help of iPhone and Android, AR technology is increasingly accelerating alone with research in VR.
+              </p>
+              <div class="row">
+                <div class="col-sm text-center">
+                  <img src="images/research/yellow-line.png" class="products img-responsive item-shadow">
+                  <h6>Yellow line overlayed in broadcasts (1998) [3]</h6>
+                </div>
+
+                <div class="col-sm text-center">
+                  <img src="images/research/AR-Tennis-Application.png" class="products img-responsive item-shadow">
+                  <h6>Nokia AR Tennis (2005) [6]</h6>
+                </div>
+
+                <div class="col-sm text-center">
+                  <img src="images/research/early-ar-card.png" class="products img-responsive item-shadow">
+                  <h6>Early AR Business cards (2009) [4]</h6>
+                </div>
+
+              </div>
+              <br>
+              <p>
+              During our research, we can find the earliest application of AR in business cards [5] in around 2008-2010. At that time the tracking of the card was very limited, there must be a highly visible 2D mark for the camera to locate and track the postion of the card.
+                Also, due to the limitation of mobile phone camera quality and the tracking technology, it is very difficult to make this idea into a mobile application, often result in poor quality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Related projects-->
+
+    <!-- Related projects -->
+    <section class="section position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+
+            <h3 class="section-title">Related Projects</h3>
+            <div class="text-left">
+
+              <p>
+                <br>
+                There are several similar services that provides AR functions which works with existing business card or a pre-define image, however none has provided functions like NLP conversation, user customizable profile features in our project.
+                We have found two most developed project that are related to ours.
               </p>
               <br />
               <br />
               <div class="row">
                 <div class="col-sm text-center">
-                  <h4>POPLAR STUDIO</h4>
+                  <h4>POPLAR STUDIO [7]</h4>
+                  <img src="images/research/poplar.png" class="products img-responsive item-shadow">
                   <p>"Poplar offers easy and affordable AR creation with our AR solutions, including face filters, world lenses, portals, image trackers and mini-games."</p>
                 </div>
                 <div class="col-sm text-center">
-                  <h4>AIRCARDS</h4>
+                  <h4>AIRCARDS [8]</h4>
+                  <img src="images/research/aircards.png" class="products img-responsive item-shadow">
                   <p>"App-less Augmented Reality advertising for brands, marketers & entrepreneurs."</p>
                 </div>
               </div>
               <br />
               <br />
               <p>
-                Both of the example companies design the production of AR for their clients. Clients enter the personal information and the old business card image to customize their AR business cards. The company will update the AR business card image for adding AR technology. Then the client can print directly. [1][2]
+                Polar Studio mainly creates AR campaigns for large cooperation like BBC, Disney etc. They have services that include image tracking, which is similar to our idea for an augmented reality business card,
+                their service usually involves a team of people dedicated to design the campaign for the client, not something a client can do it themselves. Although the end result is usually promising, as it is
+                strictly customized, it is very expensive for this service, and it is very hard to share or reproduce for the mass public.
+                <br><br>
+                Aircards is more close to our idea, however, they are also campaign based, means a user cannot use their service to make one for themselves. They are more consistent with the end product, which is normally business card based,
+                or a physical product that is easy to track. They uses in browser AR technologies, which means no app install is required (we can also achieve this in the future with flutter web). However, the experience is usually limited on playing videos or asking the user to interact with virtual buttons.
                 <br />
-                <br />The similarity of our projects and the example product is that both of us use AR technology in the business card. But they focus on the AR experience and the appearance of the business card, and we are concentrated on making the user's life more convenient.
+                <br />Both project focus more on the AR experience and the appearance of the business card, and mostly campaign based, user lacks the freedom to make a card themselves, and usually expensive to make.
+                Both project also lacks the ability to update profile in real time (presumably very hard after the campaign is released). Most importantly, they lack the key feature our project provides - NLP interaction with the avatar.
+                <br><br>
+                Overall, we have learned many useful insights and ideas on how we should build our AR card, and what we should and shouldn't do with reference to the existing products on the internet.
               </p>
             </div>
           </div>
@@ -130,4 +184,9 @@ export default {
 </script>
 
 <style scoped>
+  .products{
+    margin: 30px;
+    width: 90%;
+  }
+
 </style>
