@@ -28,9 +28,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
-                    <h3 class="section-title">Requirement gathering</h3>
+                    <h3 class="section-title">Requirement Gathering</h3>
                     <div class="text-left">
-                        <p>Requirement gathering is quite important for the project. We have conducted several interviews with our client, John McNamara, and prepared questions for the meeting. We have communicated both in person and through email, to gather the basic requirements and needs for the application and for how we should integrate IBM services into our project. Internally, we have then prioritised these requirements, and also conducted research on similar projects, to decide further what we should include. We have then designed our persona to think from user perspective and include anything we have missed. Finally, we have designed a questionnaire to anonymously ask our peers as users, for any more functions they would like to add.</p>
+                        <p>Requirement gathering is quite important for the project. We have conducted several interviews with our client, John McNamara, and prepared questions for the meeting. We have communicated both in person and through email, to gather the basic requirements and needs for the application and for how we should integrate IBM services into our project. Internally, we have then prioritised these requirements, and also conducted research on similar projects, to decide further what we should include. We have then designed our persona to think from user perspective and include anything we have missed.
+                            Finally, we have designed a questionnaire to anonymously ask our peers as users, for any more functions they would like to add, the we have designed a mock interview and answer based on the information we gathered.</p>
                         <br>
                         <p>In the end, we would design and prioritise these information once again, and design them into the MoSCoW list and user case diagrams. We then ask the client for any further suggestions on these, and change part of it if needed. During the complete development process, we would sometimes come back and change some requirements based on the technical possibilities and time.</p>
                     </div>
@@ -38,9 +39,20 @@
             </div>
         </div>
         <!-- bg image -->
-        <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+        <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/bg-dots.png" alt="bg-image">
     </section>
     <!-- /requirment gathering-->
+
+        <section class="section position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-center">
+                        <h3 class="section-title">Mock Interview (Office Worker)</h3>
+                        <img src="images/requirements/interview.png" class="img-responsive" style= "width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
     <!-- persona -->
@@ -49,7 +61,10 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title">Persona</h3>
-                    <img src="images/persona/image9.png" class="img-responsive item-shadow" style= "width: 90%;">
+                    <img src="images/requirements/persona.png" class="img-responsive item-shadow" style= "width: 90%;">
+                    <div style="padding: 0px 100px;margin-top: 50px">
+                    "Rick is a businessman, who receive many business card each day. However it is difficult to find the certain information from traditional business card and physical business card is easy to lost and damaged. He would like to have a mobile app which help him store  and search information from cards. Also Rick would like to use linkedin to get more detail but not from normal website, He would like to try something new such as AR feature."
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,7 +72,7 @@
     <!-- /persona-->
 
     <!-- project goals-->
-    <section class="section">
+    <section class="section position-relative">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
@@ -69,7 +84,10 @@
                     </div>
                 </div>
             </div>
+
         </div>
+        <!-- bg image -->
+        <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/bg-dots.png" alt="bg-image">
     </section>
     <!-- /project goals-->
 

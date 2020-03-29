@@ -124,6 +124,20 @@
             </div>
         </section>
 
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-center">
+                        <h3 class="section-title">HCI<span>Slides</span></h3>
+
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRFZbaW823W7lLG9MXn9F27Gy7DC-UNrgUWPaUbIG_sSg_v6M5nUfQtG8QGETMtRoZSCH900VSd5Jgc/embed?start=false&loop=true&delayms=60000" frameborder="0" width="100%" height="547" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
     <!-- /prototype -->
         </div>
 </template>
