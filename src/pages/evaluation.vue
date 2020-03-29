@@ -1,11 +1,11 @@
 <template>
     <div>
-        <PageTitle title="Achievement"></PageTitle>
+        <PageTitle title="Evaluation"></PageTitle>
         <section class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-center">
-                        <h3 class="section-title">Achievement table</h3>
+                        <h3 class="section-title">Achievement Table</h3>
                     </div>
                     <table class="table">
                         <thead>
@@ -121,7 +121,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-center">
-                        <h3 class="section-title">A list of known bugs</h3>
+                        <h3 class="section-title">Known<span>Bugs</span></h3>
                     </div>
                     <table class="table">
                         <thead>
@@ -167,7 +167,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-center">
-                        <h3 class="section-title">Individual contribution table</h3>
+                        <h3 class="section-title">Individual Contribution Table</h3>
                     </div>
                     <table class="table">
                         <thead>
@@ -244,6 +244,53 @@
                 </div>
             </div>
         </section>
+
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-left">
+                        <h3 class="section-title">Critical<span>Evaluation</span>of the Project</h3>
+                        <h4>UI / UX</h4>
+                            <p>PLACEHOLDER</p>
+
+                        <h4>Functionality</h4>
+                            <p>PLACEHOLDER</p>
+
+                        <h4>Stability</h4>
+                            <p>PLACEHOLDER</p>
+
+                        <h4>Efficiency</h4>
+                            <p>PLACEHOLDER</p>
+
+                        <h4>Compatibility</h4>
+                            <p>PLACEHOLDER</p>
+
+                        <h4>Maintainability</h4>
+                            <p>PLACEHOLDER</p>
+
+                        <h4>Project Management</h4>
+                            <p>PLACEHOLDER</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-left">
+                        <h3 class="section-title"><span>Future</span>Work</h3>
+                        <p>PLACEHOLDER</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </div>
 </template>
 
@@ -258,5 +305,7 @@
 </script>
 
 <style scoped>
-
+    h4{
+        margin-top: 30px;
+    }
 </style>
