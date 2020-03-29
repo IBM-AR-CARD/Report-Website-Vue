@@ -1,6 +1,71 @@
 <template>
   <div>
     <PageTitle title="Design"></PageTitle>
+
+
+      <!--Implantation of finished functionality-->
+      <section class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-10 mx-auto text-center">
+                      <h3 class="section-title">Feature Implantation</h3>
+
+                      <div class="text-left">
+                          <br />
+                          <br />
+
+                          <h4>Unity</h4>
+                          <p>We have designed a dedicated Unity application, used to handle business card locating and tracking with Vuforia engine, it also handles the 3D AR avatar model rendering,
+                              with more than 10 custom models for users to select. The unity app is integrated within the flutter UI, both communicates by serial messaging signals. Model is programmatically loaded,
+                              as we need to handle different choice of avatar from different requests. Each model has two separate animator controller, which uses script to randomly generate animations. For example,
+                              around 8 different idle animations (rub shoulder etc) will be played when the avatar is idle, to make them more realistic. While talking, different talking gestures will also be randomly played,
+                              mouth animation will also be played, which imitates speak, however, not all of the avatars is able to play the mouth animation, as they have different bone rigs, this should be improved in the future.
+                              <br><br>
+                              <carousel perPage="1" navigationEnabled="true" style="text-align: center">
+                                  <slide v-for="n in 5" v-bind:key="n">
+                                      <img :src="'images/design/implementation/unity'+n+'.png'" class="img-responsive slideImg">
+                                  </slide>
+                              </carousel>
+                              <br>
+                              We have also added head look controller, as the avatar can be viewed from any angle in AR (the user can tilt or rotate the business card as they like), the avatar's head will always
+                              looking straight, which is unnatural. With the head look controller, the avatar will look at the camera like he/she is talking to the user in real life. We have limited the angle of
+                              the head, thus the avatar won't have excessive head motion (e.g. turning all the way to back). However, when playing animations, the head rotation might be imposed by the animation,
+                              causing a little bit of unnatural movements. This should be improved in the future.
+                              <br><br>
+                              Apart form the AR scene, we have later added a non-AR scene, in case user do not wish to hold their camera to be able to talk or interact with the avatar. The scene uses
+                              an open source unity office as background. To make the scene more interactive, we have also added a pan and drag controller, that user can view the avatar in 360 degrees
+                              by using finger to pan the camera.
+                          </p>
+                          <br><br>
+                          <h4>Backend</h4>
+                          <p>In the server-side, we used Node.js and express to build our backend that handles the request from the mobile app, including user registration and authentication, user profile and favourites storage etc. MongoDB is chosen for our database, it’s a NoSQL database that stores data in JSON-like format.
+                              As both Node.js and MongoDB have better support in JSON format during network request, this makes our progress faster and more straightforward than expected. </p>
+                          <br><br>
+                          <h4>Flutter</h4>
+                          <p>We have decided to use flutter in the mobile app frontend, as it's a cross-platform mobile framework backed by Google, which means we can easily design our UI and implement it across Android and iOS in the future. Flutter uses dart as its programming language, which is a client-optimised language for fast mobile development. Flutter uses the latest structural
+                              design pattern MVVM that provide rapid mobile development and has many powerful packages. Additionally, we have also built a web front-end using Vue.js.</p>
+                          <br><br>
+                          <h4>Vue.js</h4>
+                          <p>PLACEHOLDER</p>
+                          <br><br>
+                          <h4>Database</h4>
+                          <p>PLACEHOLDER </p>
+                          <br><br>
+                          <h4>IBM Watson</h4>
+                          <p>We use Watson assistant that utilizes machine learning that can be trained to understand natural human language, we train the assistant instance with common questions our target users might ask, and the instance will be able to recognize any question in different expressions correctly, enables our
+                              system to understand user’s intent and reply with correct answers. </p>
+                      </div>
+                  </div>
+              </div>
+
+
+
+          </div>
+      </section>
+      <!--/Implentation of finished functionality-->
+
+
+
     <!--System Arthitecture Diagram-->
     <section class="section">
       <div class="container">
@@ -66,46 +131,6 @@
 
     <!-- /ER Diagram-->
 
-    <!--Implantation of finished functionality-->
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h3 class="section-title">Feature Implantation</h3>
-
-              <div class="text-left">
-                  <br />
-                  <br />
-
-                  <h4>Unity</h4>
-                  <p>We have designed a dedicated Unity application, used to handle business card locating and tracking with Vuforia engine, it also handles the 3D AR avatar model rendering,
-                      with more than 10 custom models for users to select. The unity app is integrated within the flutter UI, both communicates by serial messaging signals. Model is programmatically loaded,
-                      as we need to handle different choice of avatar from different requests. Each model has two separate animator controller, which uses script to randomly generate animations. For example,
-                      around 8 different idle animations (rub shoulder etc) will be played when the avatar is idle, to make them more realistic. While talking, different talking gestures will also be randomly played,
-                      mouth animation will also be played, which imitates speak, however, not all of the avatars is able to play the mouth animation, as they have different bone rigs, this should be improved in the future.
-                      <br><br>
-                      We have also added head look controller, as the avatar can be viewed from any angle in AR (the user can tilt or rotate the business card as they like), the avatar's head will always
-                      looking straight, which is unnatural. With the head look controller, the avatar will look at the camera like he/she is talking to the user in real life. We have limited the angle of
-                      the head, thus the avatar won't have excessive head motion (e.g. turning all the way to back). However, when playing animations, the head rotation might be imposed by the animation,
-                      causing a little bit of unnatural movements. This should be improved in the future.
-                      <br><br>
-                      Apart form the AR scene, we have later added a non-AR scene, in case user do not wish to hold their camera to be able to talk or interact with the avatar. The scene uses
-                      an open source unity office as background. To make the scene more interactive, we have also added a pan and drag controller, that user can view the avatar in 360 degrees
-                      by using finger to pan the camera.
-                  </p>
-                  <br>
-                  <h4>Backend</h4>
-                  <p>In the server-side, we used Node.js and express to build our backend that handles the request from the mobile app, including user registration and authentication, user profile and favourites storage etc. MongoDB is chosen for our database, it’s a NoSQL database that stores data in JSON-like format.
-                      As both Node.js and MongoDB have better support in JSON format during network request, this makes our progress faster and more straightforward than expected. </p>
-              </div>
-          </div>
-          </div>
-
-
-
-      </div>
-    </section>
-    <!--/Implentation of finished functionality-->
   </div>
 </template>
 
