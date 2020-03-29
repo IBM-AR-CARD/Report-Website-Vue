@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <h3 class="section-title">System Architecture Diagram 1</h3>
+            <h3 class="section-title">System Architecture Diagram</h3>
             <img src="images/design/techarch.png" class="img-responsive" style="width: 100%;" />
           </div>
         </div>
@@ -19,8 +19,18 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <h3 class="section-title">System Architecture Diagram 2</h3>
-            <img src="images/design/architecture.png" class="img-responsive" style="width: 100%;" />
+            <h3 class="section-title">Mobile App Class Diagram</h3>
+            <SvgPanZoom
+                    style="width: 100%; height: 600px; "
+                    :zoomEnabled="true"
+                    :controlIconsEnabled="true"
+                    :fit="true"
+                    :center="true"
+                    :contain="true"
+            >
+              <svg width="100%" height="auto"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/flutter.svg" /></svg>
+            </SvgPanZoom>
+            <br>Use mouse to pan, double tap to zoom.
           </div>
         </div>
       </div>
@@ -83,10 +93,12 @@
 
 <script>
 import PageTitle from "../components/PageTitle.vue";
+import SvgPanZoom from 'vue-svg-pan-zoom';
 export default {
   name: "design",
   components: {
-    PageTitle
+    PageTitle,
+    SvgPanZoom
   }
 };
 </script>
