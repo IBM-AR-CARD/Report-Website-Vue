@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <NavBar msg="Welcome to Your Vue.js App"/>
+    <NavBar/>
     <transition name="fade" mode="out-in">
       <router-view></router-view>
     </transition>
