@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
 
-            <h3  class="section-title">Augmented Reality Overview</h3>
+            <h3  class="section-title">Augmented Reality<span>Overview</span></h3>
             <div class="text-left">
 
               <p>
@@ -98,7 +98,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <h3 class="section-title">Related technologies</h3>
+            <h3 class="section-title">Related<span>Technologies</span></h3>
             <div class="text-left">
               <h4>AR Capability</h4>
 
