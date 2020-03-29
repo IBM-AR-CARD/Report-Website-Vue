@@ -19,28 +19,50 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <h3 class="section-title">Mobile App Class Diagram</h3>
-            <SvgPanZoom
-                    style="width: 100%; height: 600px; "
-                    :zoomEnabled="true"
-                    :controlIconsEnabled="true"
-                    :fit="true"
-                    :center="true"
-                    :contain="true"
-            >
-              <svg width="100%" height="auto"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/flutter.svg" /></svg>
-            </SvgPanZoom>
-            <br>Use mouse to pan, double tap to zoom.
+            <h3 class="section-title">Class Diagrams</h3>
+              <div class="class-diagram">
+                <h4>Mobile App (Flutter)</h4>
+                <SvgPanZoom
+                        style="width: 100%; height: 600px; "
+                        :zoomEnabled="true"
+                        :controlIconsEnabled="true"
+                        :fit="true"
+                        :center="true"
+                        :contain="true"
+                >
+                  <svg width="100%" height="auto"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/flutter.svg" /></svg>
+                </SvgPanZoom>
+                <br>Use mouse to pan, double tap to zoom.
+              </div>
+
+              <hr>
+              <div class="class-diagram">
+                  <h4>Backend App (Node.JS)</h4>
+                  <carousel perPage="1" navigationEnabled="true">
+                      <slide v-for="n in 6" v-bind:key="n">
+                          <img :src="'images/design/node/'+n+'.png'" class="img-responsive slideImg">
+                      </slide>
+                  </carousel>
+                  <SvgPanZoom
+                          style="width: 100%; height: 300px; "
+                          :zoomEnabled="true"
+                          :controlIconsEnabled="true"
+                          :fit="true"
+                          :center="true"
+                          :contain="true"
+                  >
+                      <svg width="100%" height="auto"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/node.svg" /></svg>
+                  </SvgPanZoom>
+                  <br>Use mouse to pan, double tap to zoom.
+              </div>
+
           </div>
         </div>
       </div>
-      <!-- bg image -->
-      <img
-        class="img-fluid edu-bg-image w-100"
-        src="images/backgrounds/education-bg.png"
-        alt="bg-image"
-      />
     </section>
+
+
+
     <!-- /ER Diagram-->
 
     <!--Implantation of finished functionality-->
@@ -94,14 +116,25 @@
 <script>
 import PageTitle from "../components/PageTitle.vue";
 import SvgPanZoom from 'vue-svg-pan-zoom';
+import { Carousel, Slide } from 'vue-carousel';
 export default {
   name: "design",
   components: {
     PageTitle,
-    SvgPanZoom
+    SvgPanZoom,
+    Carousel,
+    Slide
   }
 };
 </script>
 
 <style scoped>
+    .class-diagram{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .slideImg{
+        max-height: 500px;
+        max-width: 100%;
+    }
 </style>
