@@ -42,39 +42,44 @@
                             <div class="media border-bottom py-4">
                                 <div class="media-body">
                                     <h4 class="mt-0">Visibility</h4>
-                                    <p>Considering our primary users and potential user, we design a simple and straightforward interface. Also, we choose blue hue in both application and website, it fit out theme Based on that, we use simple icons to represent the main features.</p>
+                                <p>To make the app easy to use for our primary and potential users, we design a simple and straightforward interface. Because our main feature involves camera, we decide to use a creative layout that focuses the camera page at the centre, instead of using tab menu or hamburger menu in Material Design.
+                                    This design can be found used in apps like Snapchat, Shazam, where their main function is focused in the centre, secondary functions as side pages.
+                                    W use material icons in our navigation, where most people are very familiar with, this also minimises the learning curve to use the app.
+                                </p>
                                 </div>
                             </div>
                         </div>
                         <div class="bg-white p-5 mb-4">
                             <div class="media-body">
-                                <h4 class="mt-0">Feedback</h4>
-                                <p>Users are always unsure whether their business card was recognized or is the system working. The progress indicator is essential. For instance, when the camera scans a card.</p>
+                                <h4 class="mt-0">Mappings</h4>
+                                <p>All pages have clear icons, title texts and simple text instructors to tell user where he/she are and what they can do next.</p>
                             </div>
                         </div>
-                        <div class="bg-gray p-5 mb-4">
-                            <div class="media-body">
-                                <h4 class="mt-0">Mapping</h4>
-                                <p>All pages have clear icons and simple instructors to notice user where he/she are and what they can do.</p>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
 
+
+                <div class="bg-gray p-5 mb-4">
+                    <div class="media-body">
+                        <h4 class="mt-0">Feedback</h4>
+                        <p>Users are always unsure whether their action is acknowledged by the application or not, for example, is the QR code scanned, is the card being tracked successfully. The app feedback is essential, this will be used throughout the app design, we will use prominent colours, that are easily distinguishable from background, and sometimes we will use animation (such as shaking) and phone vibrations to notify the user of any acknowledgement or errors.</p>
+                    </div>
+                </div>
+
+
                 <div class="bg-white p-5 mb-4">
-                    <div class="media border-bottom py-4">
+                    <div class="media py-4">
                         <div class="media-body">
                             <h4 class="mt-0">Affordance</h4>
-                            <p>The new user may not know what they should do when they first use the application. Hence we design lots of indicators in the app. For example, when we open the app, the app will notice that'scan a card to begin' and 'point the camera to the QR code on the business card.' Also, when the user finishes scanning, the app will show 'flip your card and scan the image to view the avatar' to make sure the user can see the AR avatar.</p>
+                            <p>The new user may not know what they should do when they first use the application. Hence, we design many indicators in the app. For example, when we open the app, notices such as 'scan a card to begin' and 'point the camera to the QR code on the business card' are presented prominently, telling user exactly what they should do.</p>
                         </div>
                     </div>
                 </div>
                 <div class="bg-gray p-5 mb-4">
-                    <div class="media border-bottom py-4">
+                    <div class="media py-4">
                         <div class="media-body">
                             <h4 class="mt-0">Consistency</h4>
-                            <p>we use a similar layout and the same hue on all pages. The menu and the icon we used to represent each feature is the same.</p>
+                            <p>We use a consistent layout and the same hue and design on all pages. We keep all the icons for each function the same (such as heart shape or star shape for favourite), ensures the consistency.</p>
                         </div>
                     </div>
                 </div>
