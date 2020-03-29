@@ -101,6 +101,9 @@
                                 <img :src="'images/xd/'+x+'.png'" class="img-responsive slideImg item-shadow">
                             </slide>
                     </carousel>
+                    <br><br>
+                    We have designed all of our interactive prototypes in Adobe XD, designed by ourselves from the sketches. We have refined our design several times based on the requirement changes and
+                    practicality considerations.
                     <!--// .screenshots-slider-wrap //-->
                 </div>
             </div>
