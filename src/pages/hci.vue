@@ -1,6 +1,26 @@
 <template>
     <div>
     <PageTitle title="Human Computer Interaction"></PageTitle>
+
+
+    <!-- hand drawn sketches-->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto text-center">
+                    <h3 class="section-title">Hand-drawn sketches</h3>
+                    <img src="images/sketches/1.png" class="img-responsive" style= "width: 90%;">
+                    <img src="images/sketches/2.png" class="img-responsive" style= "width: 90%;">
+                    <img src="images/sketches/3.png" class="img-responsive" style= "width: 50%;">
+                    <img src="images/sketches/6.png" class="img-responsive" style= "width: 50%;">
+                    <img src="images/sketches/4.png" class="img-responsive" style= "width: 90%;">
+                    <img src="images/sketches/5.png" class="img-responsive" style= "width: 90%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /head drawn sketch -->
+
         <!-- design principle-->
         <section class="section">
             <div class="container">
@@ -47,57 +67,44 @@
                 </div>
 
             </div>
-    </section>
-    <!--/ Design principles-->
+        </section>
+        <!--/ Design principles-->
 
-    <!-- hand drawn sketches-->
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 mx-auto text-center">
-                    <h3 class="section-title">Hand-drawn sketches</h3>
-                    <img src="images/sketches/1.png" class="img-responsive" style= "width: 90%;">
-                    <img src="images/sketches/2.png" class="img-responsive" style= "width: 90%;">
-                    <img src="images/sketches/3.png" class="img-responsive" style= "width: 50%;">
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /head drawn sketch -->
 
     <!-- prototype-->
     <section class="section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
-                    <h3 class="section-title">Prototype</h3>
+                    <h3 class="section-title">Mobile Prototypes</h3>
 
                     <carousel perPage="3" navigationEnabled="true">
-                        <slide>
-                            <img src="images/prototype/1.png" class="img-responsive slideImg item-shadow">
-                        </slide>
-                        <slide>
-                            <img src="images/prototype/2.png" class="img-responsive slideImg item-shadow">
-                        </slide>
-                        <slide>
-                            <img src="images/prototype/3.png" class="img-responsive slideImg item-shadow">
-                        </slide>
-                        <slide>
-                            <img src="images/prototype/favourite.png" class="img-responsive slideImg item-shadow">
-                        </slide>
-                        <slide>
-                            <img src="images/prototype/history.png" class="img-responsive slideImg item-shadow">
-                        </slide>
-                        <slide>
-                            <img src="images/prototype/profile.png" class="img-responsive slideImg item-shadow">
-                        </slide>
+                            <slide v-for="x in 20" v-bind:key="x">
+                                <img :src="'images/xd/'+x+'.png'" class="img-responsive slideImg item-shadow">
+                            </slide>
                     </carousel>
                     <!--// .screenshots-slider-wrap //-->
                 </div>
             </div>
         </div>
     </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-center">
+                        <h3 class="section-title">Web Prototypes</h3>
+
+                        <carousel perPage="1" navigationEnabled="true">
+                            <slide v-for="n in 6" v-bind:key="n">
+                                <img :src="'images/xd/web'+n+'.png'" class="img-responsive slideImg item-shadow">
+                            </slide>
+                        </carousel>
+                        <!--// .screenshots-slider-wrap //-->
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <!-- /prototype -->
         </div>
