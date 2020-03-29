@@ -2,6 +2,105 @@
   <div>
     <PageTitle title="Design"></PageTitle>
 
+    <!--System Arthitecture Diagram-->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <h3 class="section-title">System Architecture Diagram</h3>
+            <img src="images/design/techarch.png" class="img-responsive" style="width: 100%;" />
+              *We have decided to use JWT authentication instead of LinkedIn OAuth, however this can be added in the future.
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /System Arthitecture Diagram-->
+
+      <section class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-10 mx-auto text-center">
+                      <h3 class="section-title">User Chat Sequence Diagram</h3>
+                      <img src="images/design/sequence-chat.png" class="img-responsive" style="width: 100%; margin-left: -100px" />
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-10 mx-auto text-center">
+                      <h3 class="section-title">User Authentication Sequence Diagram</h3>
+                      <img src="images/design/sequence-user.png" class="img-responsive" style="width: 70%;" />
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <section class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-10 mx-auto text-center">
+                      <h3 class="section-title">Data Storage ER Diagram</h3>
+                      <img src="images/design/mongodb.png" class="img-responsive" style="width: 100%;" />
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+
+    <!--ER Diagram-->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <h3 class="section-title">Class Diagrams (Entity Relationship)</h3>
+              <div class="class-diagram">
+                <h4>Mobile App (Flutter)</h4>
+                <SvgPanZoom
+                        style="width: 100%; height: 600px; "
+                        :zoomEnabled="true"
+                        :controlIconsEnabled="true"
+                        :fit="true"
+                        :center="true"
+                        :contain="true"
+                >
+                  <svg width="100%" height="auto"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/flutter.svg" /></svg>
+                </SvgPanZoom>
+                <br>Use mouse to pan, double tap to zoom.
+              </div>
+
+              <hr>
+              <div class="class-diagram">
+                  <h4>Backend App (Node.JS)</h4>
+                  <carousel perPage="1" navigationEnabled="true">
+                      <slide v-for="n in 6" v-bind:key="n">
+                          <img :src="'images/design/node/'+n+'.png'" class="img-responsive slideImg">
+                      </slide>
+                  </carousel>
+                  <SvgPanZoom
+                          style="width: 100%; height: 300px; "
+                          :zoomEnabled="true"
+                          :controlIconsEnabled="true"
+                          :fit="true"
+                          :center="true"
+                          :contain="true"
+                  >
+                      <svg width="100%" height="auto"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/node.svg" /></svg>
+                  </SvgPanZoom>
+                  <br>Use mouse to pan, double tap to zoom.
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /ER Diagram-->
+
+
 
       <!--Implantation of finished functionality-->
       <section class="section">
@@ -66,70 +165,7 @@
 
 
 
-    <!--System Arthitecture Diagram-->
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h3 class="section-title">System Architecture Diagram</h3>
-            <img src="images/design/techarch.png" class="img-responsive" style="width: 100%;" />
-              *We have decided to use JWT authentication instead of LinkedIn OAuth, however this can be added in the future.
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /System Arthitecture Diagram-->
 
-    <!--ER Diagram-->
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h3 class="section-title">Class Diagrams (Entity Relationship)</h3>
-              <div class="class-diagram">
-                <h4>Mobile App (Flutter)</h4>
-                <SvgPanZoom
-                        style="width: 100%; height: 600px; "
-                        :zoomEnabled="true"
-                        :controlIconsEnabled="true"
-                        :fit="true"
-                        :center="true"
-                        :contain="true"
-                >
-                  <svg width="100%" height="auto"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/flutter.svg" /></svg>
-                </SvgPanZoom>
-                <br>Use mouse to pan, double tap to zoom.
-              </div>
-
-              <hr>
-              <div class="class-diagram">
-                  <h4>Backend App (Node.JS)</h4>
-                  <carousel perPage="1" navigationEnabled="true">
-                      <slide v-for="n in 6" v-bind:key="n">
-                          <img :src="'images/design/node/'+n+'.png'" class="img-responsive slideImg">
-                      </slide>
-                  </carousel>
-                  <SvgPanZoom
-                          style="width: 100%; height: 300px; "
-                          :zoomEnabled="true"
-                          :controlIconsEnabled="true"
-                          :fit="true"
-                          :center="true"
-                          :contain="true"
-                  >
-                      <svg width="100%" height="auto"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/node.svg" /></svg>
-                  </SvgPanZoom>
-                  <br>Use mouse to pan, double tap to zoom.
-              </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <!-- /ER Diagram-->
 
   </div>
 </template>
