@@ -41,7 +41,7 @@
 <!--  </header>-->
 
   <header class="header">
-    <div class="container">
+    <div class="container containerHeader">
       <nav class="navbar navbar-expand-lg">
               <router-link class="navbar-brand font-tertiary h3" to="/" >
                 <img src="images/logo.png" style="max-height: 60px;" alt="Team 13">

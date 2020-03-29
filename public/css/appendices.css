@@ -1,0 +1,16 @@
+.footerClass{
+    display: none;
+}
+
+.header{
+    padding: 10px 0 !important;
+}
+
+body{
+    overflow: hidden;
+}
+
+.containerHeader {
+    max-width: 92% !important;
+    padding-right: 90px !important;
+}
