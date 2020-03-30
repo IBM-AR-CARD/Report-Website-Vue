@@ -106,7 +106,7 @@
                     <div class="services-body">
                       <h5>Unity + Vuforia</h5>
                       <p>
-                        Unity is a cross-platform game engine developed in 2005, it is widely used in both game and VR/AR development, it is relatively very stable and supported by many developers, with a wide selection of libraries. Vuforia is a Unity library that is very mature for AR tracking.
+                        Unity is a cross-platform game engine developed in 2005, it is widely used in both game and VR/AR development, it is relatively very stable and supported by many developers, with a wide selection of libraries. Vuforia is a Unity library that is very mature for AR tracking [9].
                         We decided to use Unity as our choice for AR tracking, also because it has very good support for integration with android and web apps.
                       </p>
                     </div>
@@ -116,7 +116,7 @@
                     <div class="services-body">
                       <h5>Unreal</h5>
                       <p>
-                        The Unreal Engine is a game engine developed by Epic Games, first showcased in the 1998 first-person shooter game Unreal. It focuses more on the quality of the 3D rendering. It is mainly designed for demanding applications such as 3A games and filmmaking. It also supports AR. However, due to its
+                        The Unreal Engine is a game engine developed by Epic Games, first showcased in the 1998 first-person shooter game Unreal. It focuses more on the quality of the 3D rendering. It is mainly designed for demanding applications such as 3A games and filmmaking [10]. It also supports AR. However, due to its
                         harder requirement on hardware and energy efficiency, we would choose the more widely used cross platform Unity engine over Unreal.
                       </p>
                     </div>
@@ -126,7 +126,7 @@
                     <div class="services-body">
                       <h5>AR Core / AR Kit</h5>
                       <p>
-                        AR Core and AR Kit are the latest AR framework, designed for mobile devices and specifically for AR applications, developed by Google and Apple. It should have the best support and best experience compared to other library for frameworks.
+                        AR Core and AR Kit are the latest AR framework, designed for mobile devices and specifically for AR applications, developed by Google and Apple [11]. It should have the best support and best experience compared to other library for frameworks.
                         However, due to their requirement on new Apple or Android devices, and lack of community support as they are relatively new, they haven't been taken into our final consideration.
                       </p>
                     </div>
@@ -149,7 +149,7 @@
                 <div class="services-body">
                   <h5>Native development</h5>
                   <p>
-                    Native development is the best choice if we are building a frequently used, or always running app such as instant messaging apps. It has consistent look and feel, better compliance with app store guidelines, and most importantly, unparalleled performance, much faster than hybrid frameworks like React native, and faster than Flutter. However, the downside is that it is quite time consuming to develop compared with flutter or react. Also, it means it is very difficult to design and style the application based on our prototype.
+                    Native development is the best choice if we are building a frequently used, or always running app such as instant messaging apps. It has consistent look and feel, better compliance with app store guidelines, and most importantly, unparalleled performance [12], much faster than hybrid frameworks like React native, and faster than Flutter. However, the downside is that it is quite time consuming to develop compared with flutter or react. Also, it means it is very difficult to design and style the application based on our prototype.
                     <br><br>
                     It also means we need to write two different code base if we would like to deploy our app to both iOS and Android. As our application isn’t performance heavy and used frequently by the users, we decided not go with native development.
                   </p>
@@ -160,7 +160,7 @@
                 <div class="services-body">
                   <h5>Reactive Native</h5>
                   <p>
-                    Reactive Native is an open-source mobile application framework created by Facebook. It uses JavaScript as the programming language. Compared with Dart, react native uses more complicated libraries and code structure, it might slow the progress down considerably even compared with native development, as none of us have learned react before.
+                    Reactive Native is an open-source mobile application framework created by Facebook. It uses JavaScript as the programming language [13]. Compared with Dart, react native uses more complicated libraries and code structure, it might slow the progress down considerably even compared with native development, as none of us have learned react before.
                     <br><br>
                     Additionally, app performance wise, React native has worse performance than flutter and native development because developers need the help of an intermediary bridge for interacting with native components, in contrast Flutter uses low level painting system, which is sometimes even faster than native. Thus, React Native didn’t make into our choice.
                   </p>
@@ -186,7 +186,7 @@
                 <div class="services-body">
                   <h5>React</h5>
                   <p>
-                    React is a JavaScript library for building user interfaces. It is maintained by Facebook. It is component-based, which means you can easily pass rich data through app and keep state out of the DOM because component logic is written in Javascript. If we would, we can choose React and React native both for our mobile and web application, as it only need us to “learn once, write anywhere”. However this still require us to maintain two code bases, as we have decided to use Flutter, we decide to use Vue.js who has better component structure than React, for our web application.
+                    React is a JavaScript library for building user interfaces. It is maintained by Facebook. It is component-based, which means you can easily pass rich data through app and keep state out of the DOM because component logic is written in Javascript [14]. If we would, we can choose React and React native both for our mobile and web application, as it only need us to “learn once, write anywhere”. However this still require us to maintain two code bases, as we have decided to use Flutter, we decide to use Vue.js who has better component structure than React, for our web application.
                   </p>
                 </div>
               </div>
@@ -199,7 +199,7 @@
                 <div class="services-body">
                   <h5>Node.js + Express</h5>
                   <p>
-                    Express.js is an open-source web application framework for Node.js. It is designed for building web applications and APIs. Developers can define routes based on HTTP methods and URLs. It allows developers to create a REST API server. Compared to PHP, it has better performance on request per second because of the asynchronous request handling, which can process concurrent requests at the same time. Node.js is also better at handling JSON, and very easy to integrate with no SQL databases like MongoDB.
+                    Express.js is an open-source web application framework for Node.js. It is designed for building web applications and APIs. Developers can define routes based on HTTP methods and URLs. It allows developers to create a REST API server. Compared to PHP, it has better performance on request per second because of the asynchronous request handling [15], which can process concurrent requests at the same time. Node.js is also better at handling JSON, and very easy to integrate with no SQL databases like MongoDB.
                   </p>
                 </div>
               </div>
@@ -208,7 +208,7 @@
                 <div class="services-body">
                   <h5>PHP</h5>
                   <p>
-                    PHP is an open-source server-side scripting language. It is easier to maintain and stable, used by many as it is also much older than Node.js. Many popular content management systems such as WordPress, Drupal both uses php. However, compared to node, php is not as compatible with no SQL DB as node, and it is also relatively more vulnerable to security problems than newer frameworks.
+                    PHP is an open-source server-side scripting language. It is easier to maintain and stable, used by many as it is also much older than Node.js [15]. Many popular content management systems such as WordPress, Drupal both uses php. However, compared to node, php is not as compatible with no SQL DB as node, and it is also relatively more vulnerable to security problems than newer frameworks.
                   </p>
                 </div>
               </div>
@@ -217,7 +217,7 @@
                 <div class="services-body">
                   <h5>Koa</h5>
                   <p>
-                    Koa is a new web framework designed by the team behind Express. It is a smaller and robust foundation for web applications than other frameworks. However, Koa’s community support is not as strong as Express, as it is even newer than node. Also, it seems that many important features Express has is omitted or simplified.
+                    Koa is a new web framework designed by the team behind Express. It is a smaller and robust foundation for web applications than other frameworks. However, Koa’s community support is not as strong as Express, as it is even newer than node [16]. Also, it seems that many important features Express has is omitted or simplified.
                   </p>
                 </div>
               </div>
@@ -229,7 +229,7 @@
                   <div class="services-body">
                     <h5>MongoDB</h5>
                     <p>
-                      MongoDB is a cross-platform document-oriented database program. It is a NoSQL database that uses JSON-like documents with schemas. We decided to use MongoDB because it provides flexible schema types, and we think Json would be a great way to store and manage individual user profile, and all the web and flutter frontend can handle Json easily.
+                      MongoDB is a cross-platform document-oriented database program. It is a NoSQL database that uses JSON-like documents with schemas. We decided to use MongoDB because it provides flexible schema types [17], and we think Json would be a great way to store and manage individual user profile, and all the web and flutter frontend can handle Json easily.
                     </p>
                   </div>
                 </div>
@@ -238,7 +238,7 @@
                   <div class="services-body">
                     <h5>SQL</h5>
                     <p>
-                      MySQL is the top database choice of many. It is excellent for complex queries. Also, it is restrictive. For example, all of the data must follow the same structure. However, our project doesn’t have complex relations between each table or collections. Therefore we think MongoDB might be better suited for this project than SQL.
+                      MySQL is the top database choice of many. It is excellent for complex queries. Also, it is restrictive. For example, all of the data must follow the same structure [17]. However, our project doesn’t have complex relations between each table or collections. Therefore we think MongoDB might be better suited for this project than SQL.
                     </p>
                   </div>
                 </div>
@@ -247,18 +247,27 @@
 
 
               <h4>AI language processing</h4>
-              <p>We use Watson's Speech to Text as the client's request. Also, we use Watson's assistant to give the user the option of getting more details about the specific area(by keyword detection). For AI processing, we choose to use the IBM cloud.</p>
+              <div class="services-item item-shadow margin">
+                <div class="services-body">
+                  <h5>IBM Watson Assistant</h5>
+                  <p>Watson Assistant is IBM's AI product that lets you build, train, and deploy conversational interactions into any application, device, or channel. It is a quite matured machine learn conversational chatbot solution, which developers can train them using rules and word matches to program a model for recognizing user input and deciding what to do or reply. Watson Assistant is used commonly in website support chatbot, hotel, restaurant or flight booking systems.
+                    In order to process the user's natural language input, we choose Watson assistant for the job.
+                  </p>
+
+                </div>
+              </div>
               <br />
               <br />
 
 
 
-              <h4>Summary of final decision</h4>
+              <h4>Summary of Final Decisions</h4><br>
               <p>
-                For the front-end, we use flutter SDK(Dart) and Unity for Android app and Vue.js for website service.
-                For the back-end, we use node.js for the back-end server,
-                Plus, we use IBM Watson and IBM Cloud for AI language processing.
-                For data store, we use MongoDB.
+                Overall, we have decided to use Flutter as our main frontend framework for mobile development.
+                As we have more than one front-end, we have decided to separate our backend application. We decided to use Javascript for both the
+                web frontend and backend, for easier code management. REST API with Json structure across all of our endpoints.
+                We decided to use Vue.js in the web app frontend, and node.js + express for our backend.
+                We link our backend with IBM Watson Assistant API for AI NLP text processing.
               </p>
             </div>
           </div>
@@ -281,17 +290,25 @@
             <h3 class="section-title">Reference</h3>
             <div class="text-left">
 
-              <p>[1]B. Poetker, &ldquo;A Brief History of Augmented Reality (+Future Trends &amp; Impact),&rdquo; G2.com, 2019. [Online]. Available: https://learn.g2.com/history-of-augmented-reality.<br><br>
-                [2]Blippar, &ldquo;Infographic: History of Augmented Reality - Blog - Blippar,&rdquo; Blippar, 2018. [Online]. Available: https://www.blippar.com/blog/2018/06/08/history-augmented-reality. [Accessed: 28-Mar-2020].<br><br>
-                [3]B. Hofheimer, &ldquo;Virtual Yellow 1st and Ten line debuted on ESPN 15 years ago today,&rdquo; ESPN Front Row, 27-Sep-2013. [Online]. Available: https://www.espnfrontrow.com/2013/09/virtual-yellow-1st-and-ten-line-debuted-on-espn-15-years-ago-today/. [Accessed: 28-Mar-2020].<br><br>
-                [4]jonas, &ldquo;Augmented Business Card,&rdquo; Vimeo, 01-Jan-2009. [Online]. Available: https://vimeo.com/5651466. [Accessed: 28-Mar-2020].<br><br>
-                [5]J. Share, &ldquo;Top 10 Coolest-Looking Augmented Reality Business Card Designs,&rdquo; JobMob, 17-Feb-2010. [Online]. Available: https://jobmob.co.il/blog/augmented-reality-business-card-designs/. [Accessed: 28-Mar-2020].<br><br>
-                [6]M. N. Billinghurst and A. Henrysson, &ldquo;Research Directions in Handheld AR,&rdquo; International Journal of Virtual Reality, vol. 5, no. 2, pp. 51&ndash;58, Jan. 2006.<br><br>
-                [7]Poplar, &ldquo;AR Campaigns On Demand,&rdquo; Poplar. [Online]. Available: https://poplar.studio/. [Accessed: 28-Mar-2020].<br><br>
-                [8]Aircards, &ldquo;Aircards - App-less Augmented Reality Marketing,&rdquo; www.aircards.co. [Online]. Available: https://www.aircards.co/. [Accessed: 28-Mar-2020].<br><br>
-                [9]&ldquo;Vuforia - Engine,&rdquo; Vuforia.com, 2020. [Online]. Available: https://engine.vuforia.com/engine.<br><br>
-                [10]&ldquo;What is the best game engine: is Unreal Engine right for you?,&rdquo; Games Industry, 19-Jan-2020.<br>
-                &#8204;</p>
+              <p>[1]B. Poetker, “A Brief History of Augmented Reality (+Future Trends & Impact),” G2.com, 2019. [Online]. Available: https://learn.g2.com/history-of-augmented-reality.<br><br>
+                [2]Blippar, “Infographic: History of Augmented Reality - Blog - Blippar,” Blippar, 2018. [Online]. Available: https://www.blippar.com/blog/2018/06/08/history-augmented-reality. [Accessed: 28-Mar-2020].<br><br>
+                [3]B. Hofheimer, “Virtual Yellow 1st and Ten line debuted on ESPN 15 years ago today,” ESPN Front Row, 27-Sep-2013. [Online]. Available: https://www.espnfrontrow.com/2013/09/virtual-yellow-1st-and-ten-line-debuted-on-espn-15-years-ago-today/. [Accessed: 28-Mar-2020].<br><br>
+                [4]jonas, “Augmented Business Card,” Vimeo, 01-Jan-2009. [Online]. Available: https://vimeo.com/5651466. [Accessed: 28-Mar-2020].<br><br>
+                [5]J. Share, “Top 10 Coolest-Looking Augmented Reality Business Card Designs,” JobMob, 17-Feb-2010. [Online]. Available: https://jobmob.co.il/blog/augmented-reality-business-card-designs/. [Accessed: 28-Mar-2020].<br><br>
+                [6]M. N. Billinghurst and A. Henrysson, “Research Directions in Handheld AR,” International Journal of Virtual Reality, vol. 5, no. 2, pp. 51–58, Jan. 2006.<br><br>
+                [7]Poplar, “AR Campaigns On Demand,” Poplar. [Online]. Available: https://poplar.studio/. [Accessed: 28-Mar-2020].<br><br>
+                [8]Aircards, “Aircards - App-less Augmented Reality Marketing,” www.aircards.co. [Online]. Available: https://www.aircards.co/. [Accessed: 28-Mar-2020].<br><br>
+                [9]“Vuforia - Engine,” Vuforia.com, 2020. [Online]. Available: https://engine.vuforia.com/engine.<br><br>
+                [10]“What is the best game engine: is Unreal Engine right for you?,” Games Industry, 19-Jan-2020.<br><br>
+                [11]Ilya Dudkin, “Vuforia vs ARKit vs Arcore: Choosing an Augmented Reality SDK,” Skywell Software, 09-Jan-2019. [Online]. Available: https://skywell.software/blog/vuforia-vs-arkit-vs-arcore-choosing-an-augmented-reality-sdk/.<br><br>
+                [12]“Understanding native app development - what you need to know in 2019,” Raygun Blog. [Online]. Available: https://raygun.com/blog/native-app-development/. [Accessed: 30-Mar-2020].<br><br>
+                [13]“React Native,” Wikipedia, 27-Mar-2020. [Online]. Available: https://en.wikipedia.org/wiki/React_Native.<br><br>
+                [14]“Vue vs. React in 2019: Which Framework to Choose and When,” Monterail.com, 2019. [Online]. Available: https://www.monterail.com/blog/vue-vs-react-2019.<br><br>
+                [15]“PHP vs NodeJS comparison and benchmarks,” Thinkmobiles. [Online]. Available: https://thinkmobiles.com/blog/php-vs-nodejs/. [Accessed: 30-Mar-2020].<br><br>
+                [16]“Koa - next generation web framework for node.js,” Koajs.com, 2015. [Online]. Available: https://koajs.com/.<br><br>
+                [17]“MongoDB vs MySQL: A Comparative Study on Databases,” Insights on Latest Software Technologies - Simform Blog, 23-Nov-2017. [Online]. Available: https://www.simform.com/mongodb-vs-mysql-databases/.<br><br>
+                [18]IBM, “Watson Assistant | IBM Cloud,” Watson Assistant | IBM Cloud, 15-Oct-2017. [Online]. Available: https://www.ibm.com/cloud/watson-assistant/.
+                ‌</p>
             </div>
           </div>
         </div>
