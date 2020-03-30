@@ -12,7 +12,7 @@
               Team 13 – UCL Computer Science<br>
               Henry Zhang · Zhiwei Zhang · Jiayi Chen
             </p>
-            <a href="#" class="default-outline-btn wow fadeInUp" data-wow-delay="0.4s" id="downloadBtn">Start Exploring<i class="fa fa-angle-right ml-2"></i></a>
+            <a href="#" class="default-outline-btn wow fadeInUp" data-scroll-nav="1" data-wow-delay="0.5s" id="downloadBtn">Start Exploring<i class="fa fa-angle-right ml-2"></i></a>
             <a href="https://www.youtube.com/watch?v=yTHTo28hwTQ" class="default-video-btn popup-youtube wow fadeInUp" data-wow-delay="0.5s"><i class="fa fa-play"></i></a>
           </div>
           <!--// .col //-->
