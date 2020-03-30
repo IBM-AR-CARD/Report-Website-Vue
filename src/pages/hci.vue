@@ -96,7 +96,7 @@
                 <div class="col-lg-10 mx-auto text-center">
                     <h3 class="section-title"><span>Mobile</span>Prototypes</h3>
 
-                    <carousel perPage="3" navigationEnabled="true">
+                    <carousel :perPage="3" :navigationEnabled="true">
                             <slide v-for="x in 20" v-bind:key="x">
                                 <img :src="'images/xd/'+x+'.png'" class="img-responsive slideImg item-shadow">
                             </slide>
@@ -116,7 +116,7 @@
                     <div class="col-lg-10 mx-auto text-center">
                         <h3 class="section-title">Web<span>Prototypes</span></h3>
 
-                        <carousel perPage="1" navigationEnabled="true">
+                        <carousel :perPage="1" :navigationEnabled="true">
                             <slide v-for="n in 6" v-bind:key="n">
                                 <img :src="'images/xd/web'+n+'.png'" class="img-responsive slideImg item-shadow">
                             </slide>

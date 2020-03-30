@@ -68,7 +68,7 @@
                         :center="true"
                         :contain="true"
                 >
-                  <svg width="100%" height="auto"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/flutter.svg" /></svg>
+                  <svg width="100%" height="600px"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/flutter.svg" /></svg>
                 </SvgPanZoom>
                 <br>Use mouse to pan, double tap to zoom.
               </div>
@@ -76,7 +76,7 @@
               <hr>
               <div class="class-diagram">
                   <h4>Backend App (Node.JS)</h4>
-                  <carousel perPage="1" navigationEnabled="true">
+                  <carousel :perPage="1" :navigationEnabled="true">
                       <slide v-for="n in 6" v-bind:key="n">
                           <img :src="'images/design/node/'+n+'.png'" class="img-responsive slideImg">
                       </slide>
@@ -89,7 +89,7 @@
                           :center="true"
                           :contain="true"
                   >
-                      <svg width="100%" height="auto"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/node.svg" /></svg>
+                      <svg width="100%" height="300px"><image x="0" y="0" width="100%" height="100%" xlink:href="images/design/node.svg" /></svg>
                   </SvgPanZoom>
                   <br>Use mouse to pan, double tap to zoom.
               </div>
@@ -120,7 +120,7 @@
                               around 8 different idle animations (rub shoulder etc) will be played when the avatar is idle, to make them more realistic. While talking, different talking gestures will also be randomly played,
                               mouth animation will also be played, which imitates speak, however, not all of the avatars is able to play the mouth animation, as they have different bone rigs, this should be improved in the future.
                               <br><br>
-                              <carousel perPage="1" navigationEnabled="true" style="text-align: center">
+                              <carousel :perPage="1" :navigationEnabled="true" style="text-align: center">
                                   <slide v-for="n in 5" v-bind:key="n">
                                       <img :src="'images/design/implementation/unity'+n+'.png'" class="img-responsive slideImg">
                                   </slide>

@@ -103,7 +103,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-5 col-lg-6 wow fadeInLeft text-left" style="position: relative;">
-            <PhoneFrame imgSrc="images/screenshots/WechatIMG935.jpeg" class="img-fluid img-jump" style="position: absolute;top:0px;left: 110px;" doRotate="true"></PhoneFrame>
+            <PhoneFrame imgSrc="images/screenshots/WechatIMG935.jpeg" class="img-fluid img-jump" style="position: absolute;top:0px;left: 110px;" :doRotate=true></PhoneFrame>
             <div style="transform: translateX(-100px)">
             <PhoneFrame imgSrc="images/screenshots/WechatIMG928.jpeg" class="img-fluid img-jump"></PhoneFrame></div>
           </div>
