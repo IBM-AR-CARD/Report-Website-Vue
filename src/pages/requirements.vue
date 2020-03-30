@@ -41,7 +41,7 @@
             </div>
         </div>
         <!-- bg image -->
-        <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/bg-dots.png" alt="bg-image">
+        <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image"/>
     </section>
     <!-- /requirment gathering-->
 
@@ -89,7 +89,7 @@
 
         </div>
         <!-- bg image -->
-        <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/bg-dots.png" alt="bg-image">
+        <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image"/>
     </section>
     <!-- /project goals-->
 
@@ -162,7 +162,7 @@
         </div>
     </section>
     <!-- /User Case Diagram-->
-    <section class="section">
+    <section class="section position-relative">
         <div class="container">
             <div class = "row">
                 <div class = "col-lg-10 mx-auto text-center">
@@ -359,6 +359,8 @@
                 </div>
             </div>
         </div>
+        <!-- bg image -->
+        <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image"/>
     </section>
     </div>
 </template>
