@@ -134,34 +134,125 @@
 
               <br />
               <br />
-              <h4>Android App</h4>
-              <p>
-                We use flutter as our app SDK because there are several SDKs that suitable for our project. Hence we decide to use the one we are familiar with. Moreover, the language flutter use is Dart
-                Besides, we use third-party libraries:
-                Vuforia and flutter-unity-widget.
-              </p>
+              <h4>Frontend - Android App</h4>
+              <div class="services-item item-shadow margin">
+                <div class="services-body">
+                  <h5>Flutter</h5>
+                  <p>
+                    Flutter is a cross-platform mobile framework developed by Google, which means we can easily design our UI and implement it across Android and iOS in the future. Flutter uses Dart as its programming language, which is a client-optimised language for fast mobile development. Flutter uses the latest structural design pattern MVVM that provides rapid mobile development and has many powerful packages.
+                    <br><br>Although Flutter is relatively very new, there are very high interactivity of community supports, and there are already lots of useful libraries designed for flutter, this includes Unity support which is important for us. If we can’t find the library we want, we can even bridge Flutter to native APIs.  Thus, we have decided to use flutter in the mobile app frontend, mostly because compared to native development, it saves considerable time and effort.
+                  </p>
+                </div>
+              </div>
+
+              <div class="services-item item-shadow margin">
+                <div class="services-body">
+                  <h5>Native development</h5>
+                  <p>
+                    Native development is the best choice if we are building a frequently used, or always running app such as instant messaging apps. It has consistent look and feel, better compliance with app store guidelines, and most importantly, unparalleled performance, much faster than hybrid frameworks like React native, and faster than Flutter. However, the downside is that it is quite time consuming to develop compared with flutter or react. Also, it means it is very difficult to design and style the application based on our prototype.
+                    <br><br>
+                    It also means we need to write two different code base if we would like to deploy our app to both iOS and Android. As our application isn’t performance heavy and used frequently by the users, we decided not go with native development.
+                  </p>
+                </div>
+              </div>
+
+              <div class="services-item item-shadow margin" >
+                <div class="services-body">
+                  <h5>Reactive Native</h5>
+                  <p>
+                    Reactive Native is an open-source mobile application framework created by Facebook. It uses JavaScript as the programming language. Compared with Dart, react native uses more complicated libraries and code structure, it might slow the progress down considerably even compared with native development, as none of us have learned react before.
+                    <br><br>
+                    Additionally, app performance wise, React native has worse performance than flutter and native development because developers need the help of an intermediary bridge for interacting with native components, in contrast Flutter uses low level painting system, which is sometimes even faster than native. Thus, React Native didn’t make into our choice.
+                  </p>
+                </div>
+              </div>
               <br />
               <br />
-              <h4>Website</h4>
-              <p>
-                We use vue.js to create the front-end of our website service.
-                It is built for user interfaces, which is suitable for our project. Also, there are lots of templates and resources online. It is easy to understand and integrate.
-              </p>
+
+
+
+              <h4>Frontend - Web App</h4>
+              <div class="services-item item-shadow margin">
+                <div class="services-body">
+                  <h5>Vue.js</h5>
+                  <p>
+                    Vue is the front-end framework we choose for the front-end of the website.
+                    Vue.js is an open-source MVV JavaScript framework for building user interfaces. It is easy to integrate with other libraries or existing projects. The default method of styling in Vue is through style tags in single-file components, which means we can get full access to CSS in the same file as the rest of your component code. The reason why we chose Vue is that it has a smoother learning curve compared to React, and some of us had experience with it before.
+                  </p>
+                </div>
+              </div>
+
+              <div class="services-item item-shadow margin">
+                <div class="services-body">
+                  <h5>React</h5>
+                  <p>
+                    React is a JavaScript library for building user interfaces. It is maintained by Facebook. It is component-based, which means you can easily pass rich data through app and keep state out of the DOM because component logic is written in Javascript. If we would, we can choose React and React native both for our mobile and web application, as it only need us to “learn once, write anywhere”. However this still require us to maintain two code bases, as we have decided to use Flutter, we decide to use Vue.js who has better component structure than React, for our web application.
+                  </p>
+                </div>
+              </div>
+
               <br />
               <br />
-              <h4>Text to speech/Keyword detection (AI language processing)</h4>
+              <h4>Back-end Server</h4>
+
+              <div class="services-item item-shadow margin">
+                <div class="services-body">
+                  <h5>Node.js + Express</h5>
+                  <p>
+                    Express.js is an open-source web application framework for Node.js. It is designed for building web applications and APIs. Developers can define routes based on HTTP methods and URLs. It allows developers to create a REST API server. Compared to PHP, it has better performance on request per second because of the asynchronous request handling, which can process concurrent requests at the same time. Node.js is also better at handling JSON, and very easy to integrate with no SQL databases like MongoDB.
+                  </p>
+                </div>
+              </div>
+
+              <div class="services-item item-shadow margin">
+                <div class="services-body">
+                  <h5>PHP</h5>
+                  <p>
+                    PHP is an open-source server-side scripting language. It is easier to maintain and stable, used by many as it is also much older than Node.js. Many popular content management systems such as WordPress, Drupal both uses php. However, compared to node, php is not as compatible with no SQL DB as node, and it is also relatively more vulnerable to security problems than newer frameworks.
+                  </p>
+                </div>
+              </div>
+
+              <div class="services-item item-shadow margin" >
+                <div class="services-body">
+                  <h5>Koa</h5>
+                  <p>
+                    Koa is a new web framework designed by the team behind Express. It is a smaller and robust foundation for web applications than other frameworks. However, Koa’s community support is not as strong as Express, as it is even newer than node. Also, it seems that many important features Express has is omitted or simplified.
+                  </p>
+                </div>
+              </div>
+              <br />
+              <br />
+
+              <h4>Database</h4>
+                <div class="services-item item-shadow margin">
+                  <div class="services-body">
+                    <h5>MongoDB</h5>
+                    <p>
+                      MongoDB is a cross-platform document-oriented database program. It is a NoSQL database that uses JSON-like documents with schemas. We decided to use MongoDB because it provides flexible schema types, and we think Json would be a great way to store and manage individual user profile, and all the web and flutter frontend can handle Json easily.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="services-item item-shadow margin">
+                  <div class="services-body">
+                    <h5>SQL</h5>
+                    <p>
+                      MySQL is the top database choice of many. It is excellent for complex queries. Also, it is restrictive. For example, all of the data must follow the same structure. However, our project doesn’t have complex relations between each table or collections. Therefore we think MongoDB might be better suited for this project than SQL.
+                    </p>
+                  </div>
+                </div>
+              <br />
+              <br />
+
+
+              <h4>AI language processing</h4>
               <p>We use Watson's Speech to Text as the client's request. Also, we use Watson's assistant to give the user the option of getting more details about the specific area(by keyword detection). For AI processing, we choose to use the IBM cloud.</p>
               <br />
               <br />
 
-              <h4>Storage of data</h4>
-              <p>Initially, we choose MySQL for our datastore. However, with more in-depth research, we found that the NoSQL database is more suitable for us. Then we decide to use MongoDB as our database. MongoDB is a cross-platform document-oriented database.It is document-oriented. Besides, it is built for the cloud. We need to use the IBM cloud for our back-end.</p>
-              <br />
-              <br />
-              <h4>Back-end server</h4>
-              <p>The server framework we use is the Express. It is a web application framework for Node.js.It is designed for building web applications and APIs. Using Express.js can decrease the line of code you need to write compared with plain Node.js.</p>
-              <br />
-              <br />
+
+
               <h4>Summary of final decision</h4>
               <p>
                 For the front-end, we use flutter SDK(Dart) and Unity for Android app and Vue.js for website service.
@@ -222,12 +313,18 @@ export default {
 
 <style scoped>
   .products{
-    margin: 30px;
+    margin: 30px 0;
     width: 90%;
   }
 
   .margin{
     margin: 30px 0;
+  }
+
+  h4{
+    text-align: center;
+    /*padding-left: 30px;*/
+
   }
 
 </style>

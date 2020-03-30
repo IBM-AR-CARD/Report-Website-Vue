@@ -143,7 +143,7 @@
           <div class="col-md-7 col-lg-6 about-content-wrap wow fadeInLeft">
             <div class="features-inner">
               <span class="section-badge">Key Features</span>
-              <h3>Voice based NPL AR Avatar</h3>
+              <h3>Voice based NLP AR Avatar</h3>
               <p>
                 IBM AR Business Card enables a brand new way to share and view traditional business cards, adding another dimension to representing yourself.
               </p>
@@ -158,7 +158,7 @@
                 <li class="d-flex align-items-center">
                   <i class="mdi mdi-ruler-square"></i>
                   <div class="features-box">
-                    <h6>AI-Powered NPL Conversations</h6>
+                    <h6>AI-Powered NLP Conversations</h6>
                     <span>With IBM Watson powered Natural Language Processing, you can directly speak and ask any question to the 3D Avatar, and get a realistic reply instantly.</span>
                   </div>
                 </li>
