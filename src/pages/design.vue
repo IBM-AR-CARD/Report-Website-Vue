@@ -136,21 +136,79 @@
                               by using finger to pan the camera.
                           </p>
                           <br><br>
-                          <h4>Backend</h4>
+                          <h4>Backend + Database</h4>
                           <p>In the server-side, we used Node.js and express to build our backend that handles the request from the mobile app, including user registration and authentication, user profile and favourites storage etc. MongoDB is chosen for our database, it’s a NoSQL database that stores data in JSON-like format.
                               As both Node.js and MongoDB have better support in JSON format during network request, this makes our progress faster and more straightforward than expected. </p>
+                          <br><br>
+                          <carousel :perPage="1" :navigationEnabled="true" style="text-align: center">
+                              <slide v-for="n in 12" v-bind:key="n">
+                                  <img :src="'images/design/implementation/backend'+n+'.png'" class="img-responsive slideImg">
+                              </slide>
+                          </carousel>
+                          <br>
+                          We have hosted our backend on Azure B1s virtual machine at a cost of £6.42 per month, provided by UCL. In order to efficiently manage the backend server, I have set up
+                          a github webhook in our server, in order to automatically pull and deploy the latest github changes.
                           <br><br>
                           <h4>Flutter</h4>
                           <p>We have decided to use flutter in the mobile app frontend, as it's a cross-platform mobile framework backed by Google, which means we can easily design our UI and implement it across Android and iOS in the future. Flutter uses dart as its programming language, which is a client-optimised language for fast mobile development. Flutter uses the latest structural
                               design pattern MVVM that provide rapid mobile development and has many powerful packages. Additionally, we have also built a web front-end using Vue.js.</p>
                           <br><br>
+                          <carousel :perPage="3" :navigationEnabled="true" style="text-align: center">
+                              <slide v-for="n in 11" v-bind:key="n">
+                                  <img :src="'images/design/implementation/flutter'+n+'.jpeg'" class="img-responsive slideImg">
+                              </slide>
+                          </carousel>
+
+                          <ul>
+                              <li>
+                                  <p><strong>AR avatar</strong><br>
+                                      view and share business cards using AI-powered interactive 3D AR avatar, Used Vurforia engine which integrated by unity to render AR object.</p>
+                              </li>
+                              <li>
+                                  <p><strong>History and favourite</strong><br>
+                                      User can view scan history and list of favourite cards, and the data will be stored in the server.</p>
+                              </li>
+                              <li>
+                                  <p><strong>View or Update user profile</strong><br>
+                                      User can update personal details directly using app and website or view other detail.</p>
+                              </li>
+                              <li>
+                                  <p><strong>Watson Assistant</strong><br>
+                                      Users can use natural language to ask the avatar anything they want to know about the card owner.
+                                      Used Watson chat Assistant API which is able to understand user request and classify the request to different cases.</p>
+                              </li>
+                              <li>
+                                  <p><strong>Text to Speech and Speech to text</strong><br>
+                                      Used Google API achieves nature language recognition and text to voice to implement chat function.</p>
+                              </li>
+                              <li>
+                                  <p><strong>URL schemes launching</strong><br>
+                                      The mobile application can perform actions below:</p>
+                                  <ul>
+                                      <li>Open user website in the default browser</li>
+                                      <li>Write email to user define email address</li>
+                                      <li>Make a phone call to user define phone number</li>
+                                      <li>Send an SMS message to user define phone number</li>
+                                  </ul>
+                              </li>
+                          </ul>
+
+                          <br><br>
                           <h4>Vue.js</h4>
+                          <carousel :perPage="1" :navigationEnabled="true" style="text-align: center">
+                              <slide v-for="n in 13" v-bind:key="n">
+                                  <img :src="'images/design/implementation/web'+n+'.png'" class="img-responsive slideImg">
+                              </slide>
+                          </carousel>
                           <p>PLACEHOLDER</p>
                           <br><br>
-                          <h4>Database</h4>
-                          <p>PLACEHOLDER </p>
-                          <br><br>
+
                           <h4>IBM Watson</h4>
+                          <carousel :perPage="1" :navigationEnabled="true" style="text-align: center">
+                              <slide v-for="n in 8" v-bind:key="n">
+                                  <img :src="'images/design/implementation/watson'+n+'.png'" class="img-responsive slideImg">
+                              </slide>
+                          </carousel>
                           <p>We use Watson assistant that utilizes machine learning that can be trained to understand natural human language, we train the assistant instance with common questions our target users might ask, and the instance will be able to recognize any question in different expressions correctly, enables our
                               system to understand user’s intent and reply with correct answers. </p>
                       </div>
