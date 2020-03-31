@@ -121,7 +121,7 @@
                               mouth animation will also be played, which imitates speak, however, not all of the avatars is able to play the mouth animation, as they have different bone rigs, this should be improved in the future.
                               <br><br>
                               <carousel :perPage="1" :navigationEnabled="true" style="text-align: center">
-                                  <slide v-for="n in 5" v-bind:key="n">
+                                  <slide v-for="n in 9" v-bind:key="n">
                                       <img :src="'images/design/implementation/unity'+n+'.png'" class="img-responsive slideImg">
                                   </slide>
                               </carousel>
