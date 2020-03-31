@@ -449,6 +449,10 @@ textarea.form-control {
   border: 0;
 }
 
+.containerHeader{
+  transition: all 1.5s;
+}
+
 /*!* /card *!*/
 /*.navigation {*/
 /*  padding: 40px 130px;*/
