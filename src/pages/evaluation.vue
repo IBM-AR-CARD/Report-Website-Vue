@@ -252,25 +252,82 @@
                     <div class="col-lg-10 mx-auto text-left">
                         <h3 class="section-title">Critical<span>Evaluation</span>of the Project</h3>
                         <h4>UI / UX</h4>
-                            <p>PLACEHOLDER</p>
+                            <p>We take user experience the priority during development. To improve user experience, we take the feedback from many people such as our friends, family or even the people who are working on UI/UX design.
+
+                                Both of our web and mobile applications are using Material Design. Material design is a design language developed by Google. Since material design has support in flutter and Vue, this reduces the difficulty of UI implementation and develop responsibly web application.
+
+                                We also improve the feedback from interaction when using the applications, such as add progress bar when loading, customize empty state when nothing is displayed and add animation effect on transition with reasonable curves.</p>
 
                         <h4>Functionality</h4>
                             <p>PLACEHOLDER</p>
 
                         <h4>Stability</h4>
-                            <p>PLACEHOLDER</p>
+                            <p>The mobile and web application is fully tested under black box testing and white box testing. The application may issue problems under different OS or various Android version. We will do further testing in the future.</p>
 
                         <h4>Efficiency</h4>
-                            <p>PLACEHOLDER</p>
+                        <h6>Mobile application</h6>
+                            <p>
+                                The FPS(frames per second) varies in different page, but no page is lower than 70 FPS:
+                            </p>
+                        <div class="col-lg-10 mx-auto text-center">
+                            <div class="row">
+                                <div class="col-sm text-center">
+                                    <img src="images/evaluation/ar.jpg" class="img-responsive item-shadow">
+                                    <h6>Unity AR Page: 72FPS average</h6>
+                                </div>
+
+                                <div class="col-sm text-center">
+                                    <img src="images/evaluation/login.jpg" class="img-responsive item-shadow">
+                                    <h6>Login Page: 83 Fps average</h6>
+                                </div>
+
+                                <div class="col-sm text-center">
+                                    <img src="images/evaluation/mycards.jpg" class="img-responsive item-shadow">
+                                    <h6>MyCards Page: 110 Fps average</h6>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm text-center">
+                                    <img src="images/evaluation/userprofile.jpg" class="img-responsive item-shadow">
+                                    <h6>Profile Page: 100 Fps average</h6>
+                                </div>
+
+                                <div class="col-sm text-center">
+                                    <img src="images/evaluation/scanqr.jpg" class="img-responsive item-shadow">
+                                    <h6>Scan QR Code Page: 270 Fps average</h6>
+                                </div>
+
+                                <div class="col-sm text-center">
+                                </div>
+
+                            </div>
+                        </div><br><br>
+
+                        <h6>Web application</h6>
+                                <p>
+                                The Fps for web application is remain at 60 Fps, may reduce to about 40 Fps when refresh data:
+                                </p>
+                        <img src="images/evaluation/vue.png" class="img-responsive item-shadow">
 
                         <h4>Compatibility</h4>
-                            <p>PLACEHOLDER</p>
+                            <p>The web application is compatible in all browsers that are ES5-compliant (IE8 and below are not supported) either running on mobile or desktop.
+
+                                Since flutter can run both on IOS or Android, due to the Vuforia is supported on Android platform only with flutter, our mobile application is compatible with Android devices that has Jelly Bean, v16, 4.1.x or newer operating systems.
+
+                                When Vuforia is supported by flutter_unity_widget, we will update the mobile application that can run in IOS.</p>
 
                         <h4>Maintainability</h4>
-                            <p>PLACEHOLDER</p>
+                            <p>The mobile application use pubspec.yml(provide by flutter) to maintain the version of each packages required to build the project.</p>
 
                         <h4>Project Management</h4>
-                            <p>PLACEHOLDER</p>
+                            <p>We do team meeting once per week; during the meeting, we assign the task to each one. Any problem will be mentioned during the session, and we will solve the issue together.
+
+                                We used Trello to allocate work to each team member and used Github as the workflow during coding.
+
+                                For the git part, we used the dev branch for developing a new feature, and the dev branch will merge into master when a minimum of two members thoroughly tests the new function.</p>
+
                     </div>
                 </div>
             </div>
@@ -284,7 +341,9 @@
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-left">
                         <h3 class="section-title"><span>Future</span>Work</h3>
-                        <p>PLACEHOLDER</p>
+                        <p>We will try to rewrite the code to native language Since it is much stable and has better performance compare to flutter. But we still using flutter for developing desktop version including macOS, Linux and windows. At last, The mobile application will be released to Google store.
+
+                            For the unity side, we will use the model which create by our self, and the user can customize their models such as height, hair colour, gender, skin or even the emotion.</p>
                     </div>
                 </div>
             </div>
@@ -307,5 +366,9 @@
 <style scoped>
     h4{
         margin-top: 30px;
+    }
+    img{
+        margin: 30px 0;
+        width: 100%;
     }
 </style>
