@@ -107,7 +107,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-lg-10 mx-auto text-center">
-                      <h3 class="section-title">Feature Implantation</h3>
+                      <h3 class="section-title">Feature Implementation</h3>
 
                       <div class="text-left">
                           <br />
@@ -146,8 +146,10 @@
                               </slide>
                           </carousel>
                           <br>
+                          <p>
                           We have hosted our backend on Azure B1s virtual machine at a cost of £6.42 per month, provided by UCL. In order to efficiently manage the backend server, I have set up
                           a github webhook in our server, in order to automatically pull and deploy the latest github changes.
+                          </p>
                           <br><br>
                           <h4>Flutter</h4>
                           <p>We have decided to use flutter in the mobile app frontend, as it's a cross-platform mobile framework backed by Google, which means we can easily design our UI and implement it across Android and iOS in the future. Flutter uses dart as its programming language, which is a client-optimised language for fast mobile development. Flutter uses the latest structural
@@ -158,41 +160,9 @@
                                   <img :src="'images/design/implementation/flutter'+n+'.jpeg'" class="img-responsive slideImg">
                               </slide>
                           </carousel>
-
-                          <ul>
-                              <li>
-                                  <p><strong>AR avatar</strong><br>
-                                      view and share business cards using AI-powered interactive 3D AR avatar, Used Vurforia engine which integrated by unity to render AR object.</p>
-                              </li>
-                              <li>
-                                  <p><strong>History and favourite</strong><br>
-                                      User can view scan history and list of favourite cards, and the data will be stored in the server.</p>
-                              </li>
-                              <li>
-                                  <p><strong>View or Update user profile</strong><br>
-                                      User can update personal details directly using app and website or view other detail.</p>
-                              </li>
-                              <li>
-                                  <p><strong>Watson Assistant</strong><br>
-                                      Users can use natural language to ask the avatar anything they want to know about the card owner.
-                                      Used Watson chat Assistant API which is able to understand user request and classify the request to different cases.</p>
-                              </li>
-                              <li>
-                                  <p><strong>Text to Speech and Speech to text</strong><br>
-                                      Used Google API achieves nature language recognition and text to voice to implement chat function.</p>
-                              </li>
-                              <li>
-                                  <p><strong>URL schemes launching</strong><br>
-                                      The mobile application can perform actions below:</p>
-                                  <ul>
-                                      <li>Open user website in the default browser</li>
-                                      <li>Write email to user define email address</li>
-                                      <li>Make a phone call to user define phone number</li>
-                                      <li>Send an SMS message to user define phone number</li>
-                                  </ul>
-                              </li>
-                          </ul>
-
+                            <p>
+                          Scan history and favourites is enabled when the user login, user can store the preferred card into the favourite list. User can modify their detail, including phone number, email, website, education, etc., and any changes will be store into the cloud. The app uses Used Google API achieves nature language recognition and text to voice to implement chat function. The Flutter application can perform URL schemes launching automatically such as open user website in the default browser, Write an email to user define email address, Make a phone call to user define phone number and send an SMS message to user define phone number if user fill in their detail.
+                            </p>
                           <br><br>
                           <h4>Vue.js</h4>
                           <carousel :perPage="1" :navigationEnabled="true" style="text-align: center">
@@ -200,7 +170,11 @@
                                   <img :src="'images/design/implementation/web'+n+'.png'" class="img-responsive slideImg">
                               </slide>
                           </carousel>
-                          <p>PLACEHOLDER</p>
+                          <p>We used Vue a progressive javascript framework for web application development together with the Material design which backed by Google. Vue using latest design structure MVVM to keep track of data, if the data changes the view will also update to the corresponding layout.
+
+                              The web application is responsive means it can optimize its layout in different size of the screen, and the design when running on mobile models tend to be like a native application rather than a web application.
+
+                              User can log in or register on the web application. Once login, user can modify their detail such as choosing AR model, upload image as profile and filling the detail. The history and favourite list are up to date with the mobile application. User can delete or view the detail of each item from the list.</p>
                           <br><br>
 
                           <h4>IBM Watson</h4>
