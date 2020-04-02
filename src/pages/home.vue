@@ -149,21 +149,21 @@
               </p>
               <ul class="features-list">
                 <li class="d-flex align-items-center">
-                  <i class="mdi mdi-desktop-mac"></i>
+                  <i class="mdi mdi-account-box-multiple"></i>
                   <div class="features-box">
                     <h6>Vivid AR Avatar, Wide Selection</h6>
                     <span>Using the latest Unity Vuforia engine, you can view a vivid 3D avatar, for a choice of up to 10 avatars to select.</span>
                   </div>
                 </li>
                 <li class="d-flex align-items-center">
-                  <i class="mdi mdi-ruler-square"></i>
+                  <i class="mdi mdi-translate"></i>
                   <div class="features-box">
                     <h6>AI-Powered NLP Conversations</h6>
                     <span>With IBM Watson powered Natural Language Processing, you can directly speak and ask any question to the 3D Avatar, and get a realistic reply instantly.</span>
                   </div>
                 </li>
                 <li class="d-flex align-items-center">
-                  <i class="mdi mdi-face-agent"></i>
+                  <i class="mdi mdi-email"></i>
                   <div class="features-box">
                     <h6>Automatic Contact Switcher</h6>
                     <span>Want to contact the card owner? That's what business cards are used for. Simply ask for email or phone number, the app will automatically open for you!</span>
@@ -204,21 +204,21 @@
                 </p>
                 <ul class="features-list">
                   <li class="d-flex align-items-center">
-                    <i class="mdi mdi-desktop-mac"></i>
+                    <i class="mdi mdi-account-lock"></i>
                     <div class="features-box">
                       <h6>Open Registration, Secure Authentications</h6>
                       <span>Anyone can register and create their own profile, we uses JWT token authentication, ensures data safety. User can even choose to logout all to disable all current logins.</span>
                     </div>
                   </li>
                   <li class="d-flex align-items-center">
-                    <i class="mdi mdi-ruler-square"></i>
+                    <i class="mdi mdi-qrcode-scan"></i>
                     <div class="features-box">
                       <h6>QR Code Generator</h6>
                       <span>User can easily export their unique QR code linked to their AR card profile from the app, to share it with friend or print it on their physical business card.</span>
                     </div>
                   </li>
                   <li class="d-flex align-items-center">
-                    <i class="mdi mdi-face-agent"></i>
+                    <i class="mdi mdi-format-list-bulleted"></i>
                     <div class="features-box">
                       <h6>History and Favourite Card List</h6>
                       <span>The app will store every history card the user had viewed, and sync it safely in the cloud. Users can also set a card as favourite and view them as a list anytime anywhere.</span>
