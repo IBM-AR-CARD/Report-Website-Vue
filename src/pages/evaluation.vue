@@ -343,9 +343,9 @@
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-left">
                         <h3 class="section-title"><span>Future</span>Work</h3>
-                        <p>We will try to rewrite the code to native language Since it is much stable and has better performance compare to flutter. But we still using flutter for developing desktop version including macOS, Linux and windows. At last, The mobile application will be released to Google store.
+                        <p>We will try to add the voice function requested by many, which user can record their own voice instead of using TTS. We will also try to deploy our flutter app to iOS and web.
 
-                            For the unity side, we will use the model which create by our self, and the user can customize their models such as height, hair colour, gender, skin or even the emotion.</p>
+                            For the unity side, we will add more functions such as customisable models, user can customize their own models properties such as height, hair colour, gender, skin or even the emotion.</p>
                     </div>
                 </div>
             </div>
