@@ -259,7 +259,9 @@
                                 We also improve the feedback from interaction when using the applications, such as add progress bar when loading, customize empty state when nothing is displayed and add animation effect on transition with reasonable curves.</p>
 
                         <h4>Functionality</h4>
-                            <p>PLACEHOLDER</p>
+                            <p>Since the integrated Unity is not stable under the flutter framework, this could cause the programme crash irregularity. Apart from the Unity, all packages we used in the flutter is open-source and secure by the Dart team or Flutter team.
+
+                                To make sure the functionality of each package work as expected, we always choose the package published by the programmer verified by official and widely used by many developers.</p>
 
                         <h4>Stability</h4>
                             <p>The mobile and web application is fully tested under black box testing and white box testing. The application may issue problems under different OS or various Android version. We will do further testing in the future.</p>
