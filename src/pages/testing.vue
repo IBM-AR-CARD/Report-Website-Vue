@@ -103,7 +103,11 @@
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-left">
                         <h3 class="section-title">Performance &<span>Stress</span>Testing</h3>
-                        <p>PLACEHOLDER</p>
+                        <p>To determine how an application performs in terms of responsiveness
+                            and stability under a particular workload, we did the load testing which is the simplest
+                            form of performance testing to our API using a open source load testing tool https://k6.io/.
+                            All the API test passed and here is one of the screenshot when testing our API.</p>
+                        <img src="images/testing/perform.png" class="img-responsive item-shadow" style= "width: 100%;">
                     </div>
                 </div>
             </div>
@@ -115,7 +119,300 @@
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-left">
                         <h3 class="section-title">User Acceptance Testing</h3>
-                        <p>PLACEHOLDER</p>
+                        <p>For User Acceptance Testing, We have asked some people who fit our user persona to use our mobile application / website and gave us feedback. </p>
+                        <br>
+                        <table border="1" cellspacing="0" cellpadding="10" >
+                            <thead>
+                            <tr>
+                                <td  valign="top">
+                                    <p>
+                                        Tester ID
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Related UserCase ID
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Test result
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Feedback/suggestion
+                                    </p>
+                                </td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>1</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU1
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        N.A
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>2</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU1
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass, but has some suggestions
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        1.change the style of instruction to make this more clear
+                                        and easy to read
+                                    </p>
+                                    <p>
+                                        2. It is better if user can see the profile page of the
+                                        owner of the card by tapping the profile avatar directly
+                                    </p>
+                                    <p>
+                                        3. Add a button which user can switch AR mode or normal
+                                        mode by tapping
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>3</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU2
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>4</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU2
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>5</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU3
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass, but has some suggestions
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        1. lack of information about the people in the history list
+                                        or favorite list
+                                    </p>
+                                    <p>
+                                        2. Font size in the profile page for the one in the list
+                                        seems too big
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>6</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU3
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>7</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU4
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>8</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU4
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass, but has some suggestions
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        1. Instead of LinkedIn icon, @ seems more normal and easy
+                                        to identify
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>9</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU5
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>10</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU5
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass, but has some suggestions
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        1. Add some animation which can show the page is still
+                                        loading
+                                    </p>
+                                    <p>
+                                        2. When tapping logout button, it is better to ask again by
+                                        alert message.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>11</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU6
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <p align="right">
+                                        <strong>12</strong>
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        UCU6
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                    <p>
+                                        Pass
+                                    </p>
+                                </td>
+                                <td  valign="top">
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
             </div>
