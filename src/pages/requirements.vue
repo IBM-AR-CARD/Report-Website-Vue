@@ -107,8 +107,8 @@
                             <p>1. Unity Application that can track business card using only phone camera and display 3D model over it using AR.</p>
                             <p>2. Android application UI that can integrate the unity app using Flutter, and be able to exchange information between flutter and unity.</p>
                             <p>3. User can scan a QR code to determine the profile or information for a specific business card.</p>
-                            <p>4. 3D models need to have natural idle and talking animations, models needs to be varies for user to choose from.</p>
-                            <p>5. Users can register and login their account, creating their own profile, including details like work experience, education etc.</p>
+                            <p>4. 3D models need to have natural idle and talking animations, models needs to be various for user to choose from.</p>
+                            <p>5. Users can register or login their account, creating their own profile, including details like work experience, education etc.</p>
                             <p>6. The user can interact with the avatar via microphone using natural language, asking for their details from the card profile.</p>
                             <p>7. The message should be converted to text via voice recognition, send to Watson Assistant for processing, and determine the desired reply in the backend, and sent back into the front-end, speak out using corresponding gender's TTS of the user's choice.</p>
                             <p>8. Users can view a list of business cards that has already scanned, e.g. scan history.</p>
