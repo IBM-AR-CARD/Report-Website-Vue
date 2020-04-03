@@ -1,7 +1,7 @@
 <template>
     <div>
     <div style="height: 9vh; background: #7e57c2"></div>
-        <iframe class="embed-responsive-item" src="https://ibm-ar-card.github.io/API-Documentation/" style="border:none;width: 100%;height: 91vh;"></iframe>
+        <iframe class="embed-responsive-item" src="appendices/" style="border:none;width: 100%;height: 91vh;"></iframe>
     </div>
 </template>
 
