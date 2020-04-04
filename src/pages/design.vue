@@ -56,7 +56,7 @@
                           <br><br>
                           <carousel :perPage="3" :navigationEnabled="true" style="text-align: center">
                               <slide v-for="n in 11" v-bind:key="n">
-                                  <img :src="'images/design/implementation/flutter'+n+'.jpeg'" class="img-responsive slideImg">
+                                  <img :src="'images/design/implementation/flutter/new'+n+'.jpeg'" class="img-responsive slideImg">
                               </slide>
                           </carousel>
                           <p>

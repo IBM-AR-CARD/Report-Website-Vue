@@ -15,7 +15,7 @@
         name: "appendices",
         data: function () {
             return {
-                src:"appendices/",
+                src:"appendices/index.html",
                 lastSrc: "appendices/",
                 showWarning:false
             }

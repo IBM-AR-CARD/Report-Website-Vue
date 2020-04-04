@@ -176,7 +176,7 @@
           <div class="col-md-5 col-lg-5 text-center features-image-order features-image-resp wow slideInRight">
             <div class="features-circle"></div>
             <div class="feature-image-wrap wow zoomIn" data-wow-delay="0.8s">
-              <PhoneFrame imgSrc="images/screenshots/WechatIMG530.jpeg" class="img-fluid img-jump"></PhoneFrame>
+              <PhoneFrame imgSrc='images/design/implementation/flutter/new10.jpeg' class="img-fluid img-jump"></PhoneFrame>
             </div>
           </div>
           <!--// .col //-->
@@ -191,7 +191,7 @@
             <div class="col-md-5 col-lg-5 text-center features-image-order features-image-resp wow slideInLeft">
               <div class="features-circle"></div>
               <div class="feature-image-wrap wow zoomIn" data-wow-delay="0.8s">
-                <PhoneFrame imgSrc="images/screenshots/WechatIMG930.jpeg" class="img-fluid img-jump"></PhoneFrame>
+                <PhoneFrame imgSrc='images/design/implementation/flutter/new13.jpeg' class="img-fluid img-jump"></PhoneFrame>
               </div>
             </div>
             <!--// .col //-->
