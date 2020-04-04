@@ -14,101 +14,266 @@
                             <th scope="col">Requirement</th>
                             <th scope="col">Priority</th>
                             <th scope="col">State</th>
+                            <th scope="col">Delivery date</th>
                             <th scope="col">Contributors</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>Android application that can scan QR code on the business card and 'projects' an AR avatar onto a business card.</td>
+                            <td>Requirement modelling</td>
                             <td>Must</td>
                             <td>✅</td>
-                            <td>Henry, John</td>
+                            <td>October</td>
+                            <td>Henry, John, Jiayi</td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>The AR avatar can announce itself using Watson Speech to Text and give a 10-second overview of the owner of the card.</td>
+                            <td>Research</td>
                             <td>Must</td>
                             <td>✅</td>
-                            <td>John</td>
+                            <td>October</td>
+                            <td>Henry, John, Jiayi</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td>Search feature in the history page and favorite page</td>
-                           <td>Must</td>
-                            <td>❌</td>
-                            <td>John, Jiayi</td>
+                            <td>Choose the technologies and languages for each part of the project</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>October</td>
+                            <td>Henry, John, Jiayi</td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
-                            <td>User(the one who scan the QR code) can start a conversion with the user(the owner of the card) directly using android phone.</td>
+                            <td>Mobile & web UI and prototype designs</td>
                             <td>Must</td>
                             <td>✅</td>
-                            <td>John</td>
+                            <td>November</td>
+                            <td>Henry, John, Jiayi</td>
                         </tr>
                         <tr>
                             <th scope="row">5</th>
-                            <td>The AR avatar can respond to different questions the user asks</td>
+                            <td>Building the UI in flutter and web console</td>
                             <td>Must</td>
                             <td>✅</td>
-                            <td>Henry, John</td>
+                            <td>November</td>
+                            <td>John</td>
                         </tr>
                         <tr>
                             <th scope="row">6</th>
-                            <td>The AR avatar can offer the user the option of setting the card as favorite.</td>
+                            <td>Start building the Unity AR Application with 3D avatars using Vuforia</td>
                             <td>Must</td>
-                            <td>❌</td>
-                            <td>Henry, John</td>
+                            <td>✅</td>
+                            <td>November</td>
+                            <td>Henry</td>
                         </tr>
                         <tr>
                             <th scope="row">7</th>
-                            <td>The Android application and web can see the list of business cards that users set it as favorite.</td>
+                            <td>Integrate the 3D unity interface with the flutter front-end app</td>
                             <td>Must</td>
-                            <td>❌</td>
-                            <td>Jiayi, John</td>
+                            <td>✅</td>
+                            <td>November</td>
+                            <td>Henry, John</td>
                         </tr>
                         <tr>
                             <th scope="row">8</th>
-                            <td>The Android application and web can see the list of business cards that the user has already scanned</td>
-                            <td>Should</td>
+                            <td>Building voice recognition and QR scanning function in the app</td>
+                            <td>Must</td>
                             <td>✅</td>
+                            <td>November</td>
                             <td>Henry, John</td>
                         </tr>
                         <tr>
                             <th scope="row">9</th>
-                            <td>Web service that allows app users to update their card details add additional information such as avatar information and set schedules for the card details to change.</td>
+                            <td>Add a selection of 3D avatar for users to choose from</td>
                             <td>Should</td>
-                            <td>❌</td>
-                            <td>Henry, John</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">10</th>
-                            <td>Cloud service that enables generated cards and to have cards that can evolve as a person's CV does over time</td>
-                            <td>Should</td>
-                            <td>❌</td>
+                            <td>✅</td>
+                            <td>December</td>
                             <td>Henry</td>
                         </tr>
                         <tr>
+                            <th scope="row">10</th>
+                            <td>User can choose which voice they would AR avatar user</td>
+                            <td>Should</td>
+                            <td>✅</td>
+                            <td>December</td>
+                            <td>John</td>
+                        </tr>
+                        <tr>
                             <th scope="row">11</th>
-                            <td>User(the one who is viewing the AR) can see the personal information about the owner of card directly in the app and website.</td>
-                            <td>Could</td>
-                            <td>❌</td>
-                            <td>Jiayi, John</td>
+                            <td>Adjust and improve UI designs for app</td>
+                            <td>Should</td>
+                            <td>✅</td>
+                            <td>December</td>
+                            <td>Henry, John, Jiayi</td>
                         </tr>
                         <tr>
                             <th scope="row">12</th>
-                            <td>The 10-second overview of the owner of the card can be recorded by the user on the website. User can set which voice they want AR avatar use(Watson Speech to text or user’s voice)</td>
+                            <td>Start the backend server development using Node.js and express</td>
+                            <td>Could</td>
+                            <td>✅</td>
+                            <td>December</td>
+                            <td>Henry</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">13</th>
+                            <td>Conversation Chat bubble to visualize chat histories</td>
+                            <td>Could</td>
+                            <td>✅</td>
+                            <td>December</td>
+                            <td>John</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">14</th>
+                            <td>Achieve simple conversation replies from the avatar in flutter app</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>December</td>
+                            <td>John</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">15</th>
+                            <td>User can see a history list of cards they have viewed</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>January</td>
+                            <td>Henry, John</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">16</th>
+                            <td>User can set cards as favourites and view them in a list</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>January</td>
+                            <td>Henry, John</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">17</th>
+                            <td>Search feature in the history page and favourite page</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>January</td>
+                            <td>John, Jiayi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">18</th>
+                            <td>Add documentations to the node.js backend to help frontend development</td>
+                            <td>Should</td>
+                            <td>✅</td>
+                            <td>January</td>
+                            <td>Henry</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">19</th>
+                            <td>Set up backend database using MongoDB, user profile and login credential storage</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>January</td>
+                            <td>Henry</td>
+                        </tr>
+                         <tr>
+                            <th scope="row">20</th>
+                            <td>Add user authentication and JWT in the backend</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>January</td>
+                            <td>Henry</td>
+                        </tr>
+                         <tr>
+                            <th scope="row">21</th>
+                            <td>User can edit their profile in the flutter app and sync to the backend database</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>January</td>
+                            <td>John, Henry</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">22</th>
+                            <td>User can upload their profile picture and store them in the backend</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>January</td>
+                            <td>John, Henry</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">23</th>
+                            <td>Training and integrate IBM Watson Assistant AI into the backend</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>February</td>
+                            <td>Henry</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">24</th>
+                            <td>Vue.js front-end features development (card lists, user profile edits, login)</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>February</td>
+                            <td>Jiayi, John</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">25</th>
+                            <td>Profile edited in vue.js web front-end can be synced into the backend</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>February</td>
+                            <td>Jiayi</td>
+                        </tr>
+                         <tr>
+                            <th scope="row">26</th>
+                            <td>Finish the web front-end using Vue.js</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>March</td>
+                            <td>John, Jiayi</td>
+                        </tr>
+                         <tr>
+                            <th scope="row">27</th>
+                            <td>Handles user questions about email, mobile and website contact</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>March</td>
+                            <td>John, Henry</td>
+                        </tr>
+                         <tr>
+                            <th scope="row">28</th>
+                            <td>User profile card in Flutter, supports all the contact functions</td>
+                            <td>Must</td>
+                            <td>✅</td>
+                            <td>March</td>
+                            <td>John</td>
+                        </tr>
+                         <tr>
+                            <th scope="row">29</th>
+                            <td>User can record their own voice introduction instead of using TTS</td>
                             <td>Could</td>
                             <td>❌</td>
+                            <td>Future</td>
+                            <td>Henry, John</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">30</th>
+                            <td>User can link their LinkedIn account for both the login and profile gathering</td>
+                            <td>Could</td>
+                            <td>❌</td>
+                            <td>Future</td>
+                            <td>Jiayi, John</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">31</th>
+                            <td>Support any image target from any business cards</td>
+                            <td>Should</td>
+                            <td>❌</td>
+                            <td>Future</td>
                             <td>Henry</td>
                         </tr>
                         <tr>
                             <th scope="row" colspan="2">Key functionalities</th>
-                            <td colspan="3">70% completed</td>
+                            <td colspan="3">100% completed</td>
                         </tr>
                         <tr>
                             <th scope="row" colspan="2">Optional functionalities</th>
-                            <td colspan="3">60% completed</td>
+                            <td colspan="3">86% completed</td>
                         </tr>
                         </tbody>
                     </table>
@@ -259,16 +424,24 @@
                                 We also improve the feedback from interaction when using the applications, such as add progress bar when loading, customize empty state when nothing is displayed and add animation effect on transition with reasonable curves.</p>
 
                         <h4>Functionality</h4>
-                            <p>Since the integrated Unity is not stable under the flutter framework, this could cause the programme crash irregularity. Apart from the Unity, all packages we used in the flutter is open-source and secure by the Dart team or Flutter team.
-
-                                To make sure the functionality of each package work as expected, we always choose the package published by the programmer verified by official and widely used by many developers.</p>
+                            <p>We have achieved all of the requirements clients asked and most of the 'should' functionality has already mentioned. Our project has two front-end applications. The android application can scan the QR code on the business card and view AR avatar. Both of the web application and android application are able to view and edit user profile, scan history and favorite list after logging in. 
+                                
+                                Since the integrated Unity is not stable under the flutter framework, this could cause the programme crash irregularity. Apart from the Unity, all packages we used in the flutter is open-source and secure by the Dart team or Flutter team. To make sure the functionality of each package work as expected, we always choose the package published by the programmer verified by official and widely used by many developers.</p>
 
                         <h4>Stability</h4>
-                            <p>The mobile and web application is fully tested under black box testing and white box testing. The application may issue problems under different OS or various Android version. We will do further testing in the future.</p>
+                            <p>Our app has been relatively stable as no bug causes the application to crash, and all of the functionality works well during the testing stage.
+                                
+                                During the development of our project, we tested every individual function of the application to make sure our app carries out the expected functionalities.
+                                
+                                After finishing development stage, our project has been tested by lots of different kinds of testing. The API  passed stress testing. Meanwhile, the mobile and web application is fully tested under black box testing and white box testing. The application may issue problems under different OS or various Android versions. We will do further testing in the future.</p>
 
                         <h4>Efficiency</h4>
                         <h6>Mobile application</h6>
                             <p>
+                                Overall, the efficiency of the application is acceptable. 
+                                
+                                We have mainly focused on the FPS(frames per second) of each page in the mobile app and web application. 
+                                
                                 The FPS(frames per second) varies in different page, but no page is lower than 70 FPS:
                             </p>
                         <div class="col-lg-10 mx-auto text-center">
@@ -321,7 +494,11 @@
                                 When Vuforia is supported by flutter_unity_widget, we will update the mobile application that can run in IOS.</p>
 
                         <h4>Maintainability</h4>
-                            <p>The mobile application use pubspec.yml(provide by flutter) to maintain the version of each packages required to build the project.</p>
+                            <p>For making the developers that may work on it in the future more efficient, we have added comments to explain the code and wrote API documentation. 
+
+                                It would be helpful for maintainability work. Also, there are a wide range of explanations about our project, which can be found on the report website.
+                                
+                                The mobile application use pubspec.yml(provide by flutter) to maintain the version of each packages required to build the project.</p>
 
                         <h4>Project Management</h4>
                             <p>We do team meeting once per week; during the meeting, we assign the task to each one. Any problem will be mentioned during the session, and we will solve the issue together.
@@ -343,9 +520,15 @@
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-left">
                         <h3 class="section-title"><span>Future</span>Work</h3>
-                        <p>We will try to add the voice function requested by many, which user can record their own voice instead of using TTS. We will also try to deploy our flutter app to iOS and web.
-
-                            For the unity side, we will add more functions such as customisable models, user can customize their own models properties such as height, hair colour, gender, skin or even the emotion.</p>
+                        <p>If we had more time, the first thing we would like to do is to do further tests to make sure our application is stable enough. 
+                            
+                            In addition, we want to get more feedback from our testers and improve user experience. 
+                            
+                            Besides, there are some improvements we would like to do in the functionality. 
+                            
+                            First, we will try to add the voice function requested by the many, which users can record their own voice instead of using TTS. We will also try to deploy our flutter app to IOS and web.
+                            
+                            For the unity side, we will add more functions such as customisable models, users can customize their own model properties such as height, hair colour, gender, skin or even the emotion.</p>
                     </div>
                 </div>
             </div>
