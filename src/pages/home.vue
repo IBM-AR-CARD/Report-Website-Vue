@@ -392,7 +392,9 @@
           <div class="col-lg-6 col-md-12 col-sm-11 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
             <div class="download-section-inner">
               <h2>Download Now</h2>
-              <p>For user manual, test users and how to get started, click "Go to Download" below.</p>
+              <p>For user manual, login info for test users and how to get started, click "Go to Download" below.
+                <a href="https://ibm-ar-card.github.io/API-Documentation/" target="_blank">If the appendices isn't working, click here to open in a new tab.</a></p>
+
               <div class="download-buttons d-flex justify-content-start">
                 <a href="#/appendix" class="download-btn">
                   <i class="fa fa-external-link-alt"></i>
