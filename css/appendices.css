@@ -10,7 +10,20 @@ body{
     overflow: hidden;
 }
 
-.containerHeader {
-    max-width: 92% !important;
-    padding-right: 90px !important;
+@media only screen and (max-width: 1000px) {
+    .header{
+        padding: 0px 0 !important;
+    }
+    .header .main-menu{
+        background: rgb(126, 87, 194) !important;
+        margin-top: -20px;
+    }
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .containerHeader {
+        max-width: 92% !important;
+        padding-right: 90px !important;
+    }
 }
