@@ -381,7 +381,39 @@
     <!--// Our Team Section End //-->
 
 
-
+    <!--// Download Section Start //-->
+    <section class="testimonial-section-bg download-wrap section-padding">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6 download-image wow slideInLeft">
+            <img src="images/logo.png" style="max-width: 90%" class="img-fluid">
+          </div>
+          <!--// .col //-->
+          <div class="col-lg-6 col-md-12 col-sm-11 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="download-section-inner">
+              <h2>Download Now</h2>
+              <p>For user manual, test users and how to get started, click "Go to Download" below.</p>
+              <div class="download-buttons d-flex justify-content-start">
+                <a href="#/appendices" class="download-btn">
+                  <i class="fa fa-external-link-alt"></i>
+                  <span>Go to</span>
+                  <span>Download</span>
+                </a>
+                <a href="http://ar-card.henryz.cc/app" target="_blank" class="download-btn">
+                  <i class="fa fa-tachometer-alt"></i>
+                  <span>Launch</span>
+                  <span>Dashboard</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--// .col //-->
+        </div>
+        <!--// .row //-->
+      </div>
+      <!--// .container //-->
+    </section>
+    <!--// Download Section End //-->
 
 
   </div>
