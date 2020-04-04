@@ -299,28 +299,29 @@
                         <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>Screen will blink when change unity status</td>
+                            <td>In some devices, in very rare situation the application will crash at launch, and has to be force stopped to be able to open again</td>
                             <td>Medium</td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>Timeout function does not work as expect cause internet request loading forever</td>
-                            <td>High</td>
+                            <td>In some situation, at the first launch when given permissions, if the permission is not given in time, the application might need to relaunch to be able to use,
+                                and in extreme cases it has to be force stopped to be able to open again</td>
+                            <td>Medium</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td>Speech recognizer crash for no reason</td>
-                            <td>Very High</td>
+                            <td>Speech recognizer sometimes might be inaccurate</td>
+                            <td>Low</td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
-                            <td>When dialog pop to upper page it will pop multiple times</td>
+                            <td>Speech recognizer might cut off the user if the pause is too long</td>
                             <td>Low</td>
                         </tr>
                         <tr>
                             <th scope="row">5</th>
-                            <td>Unity cannot run in background</td>
-                            <td>Medium</td>
+                            <td>In some virtual keyboard input methods (such as Chinese), there will be glitches when entering username and password</td>
+                            <td>Low</td>
                         </tr>
                         </tbody>
                     </table>
@@ -364,9 +365,9 @@
                         </tr>
                         <tr>
                             <th scope="row">Research and Experiments</th>
-                            <td>33%</td>
-                            <td>33%</td>
-                            <td>33%</td>
+                            <td>40%</td>
+                            <td>30%</td>
+                            <td>30%</td>
                         </tr>
                         <tr>
                             <th scope="row">Programming</th>
@@ -382,8 +383,8 @@
                         </tr>
                         <tr>
                             <th scope="row">Report Website</th>
-                            <td>35%</td>
-                            <td>30%</td>
+                            <td>40%</td>
+                            <td>20%</td>
                             <td>35%</td>
                         </tr>
                         <tr>
@@ -421,19 +422,21 @@
 
                                 Both of our web and mobile applications are using Material Design. Material design is a design language developed by Google. Since material design has support in flutter and Vue, this reduces the difficulty of UI implementation and develop responsibly web application.
 
-                                We also improve the feedback from interaction when using the applications, such as add progress bar when loading, customize empty state when nothing is displayed and add animation effect on transition with reasonable curves.</p>
+                                We also improve the feedback from interaction when using the applications, such as add progress bar when loading, customize empty state when nothing is displayed and add animation effect on transition with curves for smooth transitions.</p>
 
                         <h4>Functionality</h4>
-                            <p>We have achieved all of the requirements clients asked and most of the 'should' functionality has already mentioned. Our project has two front-end applications. The android application can scan the QR code on the business card and view AR avatar. Both of the web application and android application are able to view and edit user profile, scan history and favorite list after logging in. 
+                            <p>We have achieved all of the requirements clients asked and most of the 'should' functionality has already mentioned. Our project has two front-end applications.
+                                We purposefully added the web application considering for those who doesn't want to use or install an app to view their history or update their profiles, to extend the system's usability.
+                                The android application can scan the QR code on the business card and view AR avatar. Both of the web application and android application are able to view and edit user profile, scan history and favorite list after logging in.
                                 
                                 Since the integrated Unity is not stable under the flutter framework, this could cause the programme crash irregularity. Apart from the Unity, all packages we used in the flutter is open-source and secure by the Dart team or Flutter team. To make sure the functionality of each package work as expected, we always choose the package published by the programmer verified by official and widely used by many developers.</p>
 
                         <h4>Stability</h4>
-                            <p>Our app has been relatively stable as no bug causes the application to crash, and all of the functionality works well during the testing stage.
+                            <p>Our app has been relatively stable as no major bug causes the application to crash during run time, and all of the functionality works well during the testing stage.
                                 
                                 During the development of our project, we tested every individual function of the application to make sure our app carries out the expected functionalities.
                                 
-                                After finishing development stage, our project has been tested by lots of different kinds of testing. The API  passed stress testing. Meanwhile, the mobile and web application is fully tested under black box testing and white box testing. The application may issue problems under different OS or various Android versions. We will do further testing in the future.</p>
+                                After finishing development stage, our project has been tested on different kinds of testing including the API  passed stress testing. Meanwhile, the mobile and web application is fully tested under black box testing and white box testing. The application may issue problems under different OS or various Android versions. We will do further testing in the future if we have time.</p>
 
                         <h4>Efficiency</h4>
                         <h6>Mobile application</h6>
@@ -471,7 +474,7 @@
 
                                 <div class="col-sm text-center">
                                     <img src="images/evaluation/scanqr.jpg" class="img-responsive item-shadow">
-                                    <h6>Scan QR Code Page: 270 Fps average</h6>
+                                    <h6>Scan QR Code Page: 90 Fps average</h6>
                                 </div>
 
                                 <div class="col-sm text-center">
@@ -501,12 +504,13 @@
                                 The mobile application use pubspec.yml(provide by flutter) to maintain the version of each packages required to build the project.</p>
 
                         <h4>Project Management</h4>
-                            <p>We do team meeting once per week; during the meeting, we assign the task to each one. Any problem will be mentioned during the session, and we will solve the issue together.
+                            <p>We do team meeting once per week; during the meeting, we assign the task to each one equally. Any problem will be mentioned during the session, and we will solve the issue together.
 
-                                We used Trello to allocate work to each team member and used Github as the workflow during coding.
+                                We have been actively building and testing our code. While also keeping track any bugs and problems, managing progress using varies tools like Trello and GitHub issues. We will revise our plan based on current progress and problems, and keep updating our client and also taking suggestions and feedbacks.
 
                                 For the git part, we used the dev branch for developing a new feature, and the dev branch will merge into master when a minimum of two members thoroughly tests the new function.</p>
 
+                        <p>Cost: the only cost to manage the project right now is our Azure backend server. We have hosted our backend on Azure B1s virtual machine at a cost of £6.42 per month, provided by UCL. </p>
                     </div>
                 </div>
             </div>
@@ -520,15 +524,21 @@
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-left">
                         <h3 class="section-title"><span>Future</span>Work</h3>
-                        <p>If we had more time, the first thing we would like to do is to do further tests to make sure our application is stable enough. 
+                        <p>If we had more time, we will try to add a voice function which is requested by the many, that users can record their own voice instead of using TTS.
+
+                            We will also try to add more fields where user can put in their profile. This might include adding the LinkedIn OAuth function, where users can login using their
+                            linkedIn account, and automatically fill their profile using LinkedIn data.
+
+                            We will also try to deploy our flutter app to IOS and web.
+
+                            For the IBM Watson Assistant, we might invest more time and writing another API for Watson to do this more programmatically, to make our AI more intelligent.
                             
-                            In addition, we want to get more feedback from our testers and improve user experience. 
-                            
-                            Besides, there are some improvements we would like to do in the functionality. 
-                            
-                            First, we will try to add the voice function requested by the many, which users can record their own voice instead of using TTS. We will also try to deploy our flutter app to IOS and web.
-                            
-                            For the unity side, we will add more functions such as customisable models, users can customize their own model properties such as height, hair colour, gender, skin or even the emotion.</p>
+                            For the unity side, we will add more functions such as customisable models, users can customize their own model properties such as height, hair colour, gender, skin or even the emotion. We will also try to better design our animations such as mouth and head follow.
+
+                            Most importantly, we will also add support for users to use any image target for tracking, as now we are limited to only one. This could be done easily if we decide to upgrade our Vuforia engine plan in the future.
+
+                            We would also like to do further tests to make sure our application is stable enough, to get more feedback from our testers and improve user experience.
+                        </p>
                     </div>
                 </div>
             </div>
