@@ -268,12 +268,12 @@
                             <td>Henry</td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">Key functionalities</th>
+                            <th scope="row" colspan="3">Key functionalities</th>
                             <td colspan="3">100% completed</td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">Optional functionalities</th>
-                            <td colspan="3">86% completed</td>
+                            <th scope="row" colspan="3">Optional functionalities</th>
+                            <td colspan="3">70% completed</td>
                         </tr>
                         </tbody>
                     </table>

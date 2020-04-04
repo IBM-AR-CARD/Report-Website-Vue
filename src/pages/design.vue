@@ -65,7 +65,7 @@
                           <br><br>
                           <h4>Vue.js</h4>
                           <carousel :perPage="1" :navigationEnabled="true" style="text-align: center">
-                              <slide v-for="n in 13" v-bind:key="n">
+                              <slide v-for="n in 15" v-bind:key="n">
                                   <img :src="'images/design/implementation/web'+n+'.png'" class="img-responsive slideImg">
                               </slide>
                           </carousel>
