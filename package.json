@@ -8,7 +8,9 @@
     "lint": "vue-cli-service lint",
     "buildDev": "vue-cli-service build --mode development",
     "deploy": "yarn build && git add . && git commit -m 'Update build' && git push",
-    "gh-pages": "git subtree push --prefix dist origin gh-pages"
+    "clean-pages": "git delete-branch gh-pages",
+    "gh-pages": "git subtree push --prefix dist origin gh-pages",
+    "gh-deploy": "yarn deploy && yarn clean-pages && yarn gh-pages"
   },
   "dependencies": {
     "babel-loader": "^8.0.6",
