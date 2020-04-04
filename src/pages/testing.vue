@@ -119,8 +119,18 @@
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-left">
                         <h3 class="section-title">User Acceptance Testing</h3>
-                        <p>For User Acceptance Testing, We have asked some people who fit our user persona to use our mobile application / website and gave us feedback. </p>
+
+                        <p>For User Acceptance Testing, We have asked some people who fit our user persona to use our mobile application / website and gave us feedback.
+
+                            We have also asked for internal UI/UX feedbacks with the screenshots for suggestions</p>
                         <br>
+
+                        <carousel :perPage="3" :navigationEnabled="true" style="text-align: center">
+                            <slide v-for="n in 5" v-bind:key="n">
+                                <img :src="'images/testing/test'+n+'.png'" class="img-responsive slideImg">
+                            </slide>
+                        </carousel>
+
                         <table border="1" cellspacing="0" cellpadding="10" >
                             <thead>
                             <tr>
@@ -422,17 +432,25 @@
 </template>
 
 <script>
-    import PageTitle from '../components/PageTitle.vue'
+    import PageTitle from "../components/PageTitle.vue";
+    import { Carousel, Slide } from 'vue-carousel';
     export default {
-        name: "plan",
+        name: "design",
         components: {
-            PageTitle
+            PageTitle,
+            Carousel,
+            Slide
         }
-    }
+    };
 </script>
 
 <style scoped>
     img{
         margin: 30px 0;
+    }
+
+    .slideImg{
+        max-height: 500px;
+        max-width: 100%;
     }
 </style>

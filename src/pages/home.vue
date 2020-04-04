@@ -17,7 +17,7 @@
           </div>
           <!--// .col //-->
           <div class="col-lg-5 hero-image text-right wow fadeInRight">
-            <PhoneFrame imgSrc="images/design/functionality.gif" class="img-fluid img-jump"></PhoneFrame>
+            <PhoneFrame imgSrc="images/main.gif" class="img-fluid img-jump"></PhoneFrame>
           </div>
           <!--// .col //-->
         </div>
@@ -344,12 +344,12 @@
               <div class="team-img">
                 <img src="images/bg/zzw.jpeg" alt="Team image" class="img-fluid">
                 <ul class="team-social">
-                  <li><a href="#"><i class="fab fa-github"></i></a></li>
+                  <li><a href="https://github.com/KZHIWEI"><i class="fab fa-github"></i></a></li>
                 </ul>
               </div>
               <div class="team-card-content">
                 <h5 class="title">John Zhang</h5>
-                <div class="email"><a href="mailto:henry.zhang.18@ucl.ac.uk">henry.zhang.18@ucl.ac.uk</a></div>
+                <div class="email"><a href="mailto:1010482029@qq.com">1010482029@qq.com</a></div>
                 <span class="desc">UI designer</span>&nbsp;
                 <span class="desc">Developer</span>
               </div>
@@ -394,7 +394,7 @@
               <h2>Download Now</h2>
               <p>For user manual, test users and how to get started, click "Go to Download" below.</p>
               <div class="download-buttons d-flex justify-content-start">
-                <a href="#/appendices" class="download-btn">
+                <a href="#/appendix" class="download-btn">
                   <i class="fa fa-external-link-alt"></i>
                   <span>Go to</span>
                   <span>Download</span>

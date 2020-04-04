@@ -61,7 +61,7 @@ export default new Router({
             name:"evaluation"
         },
         {
-            path: "/appendices",
+            path: "/appendix",
             component: appendices,
             name:"appendices"
         },

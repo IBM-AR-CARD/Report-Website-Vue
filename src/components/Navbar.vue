@@ -38,7 +38,7 @@
               <router-link class="nav-link" to="/evaluation" >Evaluation</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/appendices" >Appendices</router-link>
+              <router-link class="nav-link" to="/appendix" >Appendices</router-link>
             </li>
           </ul>
         </div>
