@@ -26,8 +26,10 @@
         transform: translateX(-327px);
         height: 555px;
         width: 312px;
+        background: white;
     }
     .rotate{
         transform: rotate(10deg);
     }
+
 </style>
