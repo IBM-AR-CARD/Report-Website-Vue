@@ -13,7 +13,7 @@
               Henry Zhang · Zhiwei Zhang · Jiayi Chen
             </p>
             <a href="#" class="default-outline-btn wow fadeInUp" data-scroll-nav="1" data-wow-delay="0.5s" id="downloadBtn">Start Exploring<i class="fa fa-angle-right ml-2"></i></a>
-            <a href="https://www.youtube.com/watch?v=yTHTo28hwTQ" class="default-video-btn popup-youtube wow fadeInUp" data-wow-delay="0.5s"><i class="fa fa-play"></i></a>
+            <a href="https://www.youtube.com/watch?v=AxcMxWpBTVA" class="default-video-btn popup-youtube wow fadeInUp" data-wow-delay="0.5s"><i class="fa fa-play"></i></a>
           </div>
           <!--// .col //-->
           <div class="col-lg-5 hero-image text-right wow fadeInRight">
@@ -248,8 +248,7 @@
                 Vue.js Web Console, IBM Watson Assistant, MongoDB database, would like to learn more? Wonder how it work in action? Watch our video below.
               </p>
               <div class="how-it-work-video">
-                <img src="images/bg/how-it-work-image.png" alt="How it work image" class="img-fluid">
-                <a href="https://www.youtube.com/watch?v=yTHTo28hwTQ" class="how-it-works-video-btn popup-youtube"><i class="mdi mdi-play"></i></a>
+                <iframe width="622" height="350" src="https://www.youtube.com/embed/AxcMxWpBTVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>
